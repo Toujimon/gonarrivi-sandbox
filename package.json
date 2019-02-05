@@ -1,5 +1,5 @@
 {
-  "name": "main-sandbox",
+  "name": "gonarrivi-sandbox",
   "version": "1.0.0",
   "description": "My main sandbox to test web based technology using React framework.",
   "keywords": [],
@@ -11,8 +11,8 @@
     "classnames": "2.2.6",
     "polished": "2.1.1",
     "prop-types": "15.6.2",
-    "react": "16.7.0-alpha.2 - next",
-    "react-dom": "16.7.0-alpha.2 - next",
+    "react": "16.8.0-alpha.1",
+    "react-dom": "16.8.0-alpha.1",
     "react-flatpickr": "3.6.4",
     "react-overlays": "0.8.3",
     "react-reformed": "2.0.0",
