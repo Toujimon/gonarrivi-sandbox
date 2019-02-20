@@ -41,7 +41,7 @@ class TypeAhead extends React.Component {
     if (!this.state.haveFocus) {
       this.setState(
         { haveFocus: true },
-        () => this.props.onFocus && this.props.onFocus(...args)
+        () => this.props.onFocus && this.props.onFocus(e)
       );
     } else if (this._blurTimeout) {
       clearTimeout(this._blurTimeout);
@@ -54,7 +54,7 @@ class TypeAhead extends React.Component {
       this._blurTimeout = setTimeout(() => {
         this.setState({ haveFocus: false }, () => {
           this._blurTimeout = null;
-          this.props.onBlur && this.props.onBlur(...args);
+          this.props.onBlur && this.props.onBlur(e);
         });
       });
     }
