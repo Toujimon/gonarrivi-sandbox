@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import styled, { injectGlobal, ThemeProvider } from "styled-components";
 import { transparentize } from "polished";
-import { StyledBox, theme } from "./components/design-system";
+import { StyledBox, theme, RESPONSIVE_SIZES, createResponsiveRule } from "./components/design-system";
 import Menu, { MenuGroup, MenuItem, asActionElement } from "./components/menu";
 import Lab from "./lab";
 import AdventOfCode from "./advent-of-code";
@@ -32,6 +32,8 @@ const StyledApp = styled.div`
   overflow: auto;
   box-sizing: border-box;
   font-family: ${({ theme }) => theme.fontFamily};
+  ${createResponsiveRule(RESPONSIVE_SIZES.MEDIUM)`padding: 0 10%`}
+  ${createResponsiveRule(RESPONSIVE_SIZES.LARGE)`padding: 0 20%`}
 `;
 StyledApp.defaultProps = { theme };
 
@@ -114,7 +116,7 @@ function Home() {
 function App() {
   return (
     <ThemeProvider theme={appTheme}>
-      <StyledApp className="App">
+      <StyledApp>
         <StyledHeader>
           <span>
             <h1>
