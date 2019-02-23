@@ -141,12 +141,6 @@ function App() {
                 <RouterLinkMenuItem path="/fate-project" to="/fate-project">
                   Fate Project
                 </RouterLinkMenuItem>
-                <RouterLinkMenuItem
-                  path="/some-other-thing"
-                  to="/some-other-thing/other-place"
-                >
-                  404 Error :-P
-                </RouterLinkMenuItem>
               </MenuGroup>
             </Menu>
           </StyledBox>
