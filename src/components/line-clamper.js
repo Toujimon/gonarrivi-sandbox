@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { StyledButton } from "./design-system";
@@ -21,10 +20,13 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledContainer = styled.div`
-  ${({ lineHeight }) =>
+${
+  ({ lineHeight }) =>
     lineHeight &&
-    "line-height: " + lineHeight.value + lineHeight.unit + ";"}
-${({
+    "line-height: " + lineHeight.value + lineHeight.unit + ";"
+}
+${
+  ({
     lineHeight,
     isExpanded,
     maxLines
@@ -32,10 +34,11 @@ ${({
     lineHeight &&
     !isExpanded &&
     "max-height: " +
-      maxLines * lineHeight.value +
-      lineHeight.unit +
-      ";" +
-      "overflow: hidden;"}
+    maxLines * lineHeight.value +
+    lineHeight.unit +
+    ";" +
+    "overflow: hidden;"
+}
 `;
 
 export default class StyledLineClamper extends React.Component {
