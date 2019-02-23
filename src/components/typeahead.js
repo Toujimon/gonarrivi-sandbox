@@ -112,27 +112,4 @@ class TypeAhead extends React.Component {
   }
 }
 
-const TEST_SUGGESTIONS = [
-  "algo",
-  "otro algo",
-  "ese",
-  "ese de ahi",
-  "ese otro",
-  "vamos"
-];
-function Tester(props) {
-  const [value, setState] = useState(props.value);
-  function handleChange(e) {
-    setState(e.target.value);
-  }
-  return (
-    <TypeAhead
-      {...props}
-      suggestions={TEST_SUGGESTIONS}
-      value={value}
-      onChange={handleChange}
-    />
-  );
-}
-
-export default Tester;
+export default TypeAhead;

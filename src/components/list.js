@@ -1,17 +1,43 @@
 import * as React from "react";
 import { TransitionGroup, Transition } from "react-transition-group";
-import styled, { keyframes } from "styled-components";
-import * as CommonStyles from "./common-styles";
+import styled, { keyframes, css } from "styled-components";
 import { StyledButton, StyledBox } from "./design-system";
 
-const ListIem = styled.li`
+// keyframes
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(56px);
+    margin-bottom: -24px;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    margin-bottom: 0;
+  }
+`;
+
+const fadeOut = keyframes`
+  from {
+    opacity: 1;
+    transform: translateX(0);
+    margin-bottom: 0;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-56px);
+    margin-bottom: -24px;
+  }
+`;
+
+const fadeAnimation = entering => css`animation: ${entering ? fadeIn : fadeOut} 500ms ease-${entering ? 'in' : 'out'}`
+
+const ListItem = styled.li`
   list-style: none;
   ${props =>
-    props.entering
-      ? `animation: ${CommonStyles.fadeIn} 500ms ease-in;`
+    (props.entering || props.exiting)
+      ? fadeAnimation(props.entering)
       : ""}
-  ${props =>
-    props.exiting ? `animation: ${CommonStyles.fadeOut} 500ms ease-out;` : ""}
 `;
 
 export default class List extends React.Component {
@@ -51,7 +77,7 @@ export default class List extends React.Component {
           {items.map((x, i) => (
             <Transition key={x.key} classNames="transition" timeout={500}>
               {state => (
-                <ListIem
+                <ListItem
                   entering={state === "entering"}
                   exiting={state === "exiting"}
                 >
@@ -61,7 +87,7 @@ export default class List extends React.Component {
                     </StyledButton>{" "}
                     {x.value}
                   </StyledBox>
-                </ListIem>
+                </ListItem>
               )}
             </Transition>
           ))}

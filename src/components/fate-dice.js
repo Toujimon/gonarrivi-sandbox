@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as PropTypes from "prop-types";
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 import { lighten } from "polished";
 import { TransitionGroup, Transition } from "react-transition-group";
 import { theme } from "./design-system";
@@ -36,7 +36,7 @@ const hoveringKeyFrames = keyframes`
 const StyledSelectableFateDie = styled(FateDie)`
   ${({ onClick }) =>
     onClick
-      ? `
+      ? css`
   cursor: pointer;
   &:hover {
     animation: ${hoveringKeyFrames} 0.8s linear infinite; 
@@ -51,8 +51,8 @@ StyledSelectableFateDie.defaultProps = {
 };
 
 const StyledRollingFateDie = styled(StyledSelectableFateDie)`
-  animation: ${rollingKeyframes} ${({ speed = 0 }) =>
-  Math.abs(1 / (1 + speed))}s ease-out;
+  animation: ${css`${rollingKeyframes}`} ${({ speed = 0 }) =>
+    Math.abs(1 / (1 + speed))}s ease-out;
 `;
 
 const clickedKeyFrames = keyframes`
@@ -68,7 +68,7 @@ const clickedKeyFrames = keyframes`
 `;
 
 const StyledSelectionChangedFateDice = styled(StyledSelectableFateDie)`
-  animation: ${clickedKeyFrames} ${CLICK_ANIMATION_MILLISECONDS}ms linear;
+  animation: ${css`${clickedKeyFrames} ${CLICK_ANIMATION_MILLISECONDS}ms linear`};
 `;
 
 class FateDice extends React.Component {
@@ -120,18 +120,18 @@ class FateDice extends React.Component {
                     selected={x.selected}
                   />
                 ) : transitionState ===
-                "exiting" ? null : selectionChangedIndex !== i ? (
-                  <StyledSelectableFateDie
-                    value={x.value}
-                    selected={x.selected}
-                    onClick={this._getMemoizedHandler(i, onDieSelect)}
-                  />
-                ) : (
-                  <StyledSelectionChangedFateDice
-                    value={x.value}
-                    selected={x.selected}
-                  />
-                );
+                  "exiting" ? null : selectionChangedIndex !== i ? (
+                    <StyledSelectableFateDie
+                      value={x.value}
+                      selected={x.selected}
+                      onClick={this._getMemoizedHandler(i, onDieSelect)}
+                    />
+                  ) : (
+                        <StyledSelectionChangedFateDice
+                          value={x.value}
+                          selected={x.selected}
+                        />
+                      );
               }}
             </Transition>
           ))}

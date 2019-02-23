@@ -27,8 +27,8 @@ class FateCharacterSheet extends React.Component {
   };
   state = {
     id: {
-      name: null,
-      description: null
+      name: "",
+      description: ""
     },
     aspects: {
       highConcept: null,
