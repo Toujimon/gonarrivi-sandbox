@@ -13,48 +13,20 @@ import TypeAhead from "./components/typeahead";
 const timeout = 4000;
 const BackdropTransition = props => <Transition timeout={timeout} {...props} />;
 
-function HooksTest(props) {
-  const [name, setName] = useState(props.defaultName);
-  const [surname, setSurname] = useState(props.defaultSurname);
-  const handlers = { setName, setSurname };
-  function handleChange(e) {
-    handlers["set" + e.target.name](e.target.value);
-  }
-
-  return (
-    <StyledBox>
-      <label>
-        Name:
-        <input name="Name" type="text" value={name} onChange={handleChange} />
-      </label>
-      <br />
-      <label>
-        Surname:
-        <input
-          name="Surname"
-          type="text"
-          value={surname}
-          onChange={handleChange}
-        />
-      </label>
-    </StyledBox>
-  );
-}
-
 function Lab() {
   return (
     <React.Fragment>
-      <h3>Components Laboratory</h3>
+      <h2>Components Laboratory</h2>
       <p>
         Some components to play around with solutions to different problems I've
         been dealing in the past (or just to have fun trying libraries)
       </p>
-      <h4>TypeAhead input</h4>
+      <h3>TypeAhead input</h3>
       <p>Custom implementation for a TypeAhead component</p>
       <Mounter>
         <TypeAhead />
       </Mounter>
-      <h4>Responsive Grid layout component</h4>
+      <h3>Responsive Grid layout component</h3>
       <p>
         A very very VERY simple implementation of grid layouts using components.
       </p>
@@ -85,7 +57,7 @@ function Lab() {
           </StyledCell>
         </StyledGrid>
       </Mounter>
-      <h4>Line Clamper</h4>
+      <h3>Line Clamper</h3>
       <p>
         This component takes care of the line clamping for those elements where
         only a maximum number of lines of text must show.
@@ -97,14 +69,14 @@ function Lab() {
       <Mounter name="LineClamper">
         <LineClamperTester />
       </Mounter>
-      <h4>Transitions with "react-transition-group" library</h4>
+      <h3>Transitions with "react-transition-group" library</h3>
       <p>
         Just some tests using this library to work with css transitions easily.
       </p>
       <Mounter name="List with transitions">
         <List />
       </Mounter>
-      <h4>Radial progress component (SVG + CSS)</h4>
+      <h3>Radial progress component (SVG + CSS)</h3>
       <p>
         Made use of CSS attributes for SVG components to create a simple radial
         progress animation. It doesn't work on every browser (sadly).
@@ -112,7 +84,7 @@ function Lab() {
       <Mounter name="Radial progress">
         <RadialProgress />
       </Mounter>
-      <h4>Tests with "react-overlays" library</h4>
+      <h3>Tests with "react-overlays" library</h3>
       <p>
         A neat library that leverages the need of creating these kind of
         components. There goes some tests and examples making use of it.
@@ -142,7 +114,7 @@ function Lab() {
           </div>
         </MyModalWindow>
       </Mounter>
-      <h4>Hooks proposal test</h4>
+      <h3>Hooks proposal test</h3>
       <p>
         It's a couple of functional components making use of React Hooks to
         handle the state of the inputs they hold (hooks proposal for React v16.7
@@ -159,3 +131,32 @@ function Lab() {
 }
 
 export default Lab;
+
+/*==== Tester wrapper for components in the lab ====*/
+function HooksTest(props) {
+  const [name, setName] = useState(props.defaultName);
+  const [surname, setSurname] = useState(props.defaultSurname);
+  const handlers = { setName, setSurname };
+  function handleChange(e) {
+    handlers["set" + e.target.name](e.target.value);
+  }
+
+  return (
+    <StyledBox>
+      <label>
+        Name:
+        <input name="Name" type="text" value={name} onChange={handleChange} />
+      </label>
+      <br />
+      <label>
+        Surname:
+        <input
+          name="Surname"
+          type="text"
+          value={surname}
+          onChange={handleChange}
+        />
+      </label>
+    </StyledBox>
+  );
+}

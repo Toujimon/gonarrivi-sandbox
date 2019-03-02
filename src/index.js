@@ -3,8 +3,14 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import styled, { injectGlobal, ThemeProvider } from "styled-components";
 import { transparentize } from "polished";
-import { StyledBox, theme, RESPONSIVE_SIZES, createResponsiveRule } from "./components/design-system";
+import {
+  StyledBox,
+  theme,
+  RESPONSIVE_SIZES,
+  createResponsiveRule
+} from "./components/design-system";
 import Menu, { MenuGroup, MenuItem, asActionElement } from "./components/menu";
+import Home from "./home";
 import Lab from "./lab";
 import AdventOfCode from "./advent-of-code";
 import FateProject from "./fate-project";
@@ -102,28 +108,14 @@ function MainHeader() {
 
 const appTheme = { ...theme, primary: "#199e57" };
 
-function Home() {
-  return (
-    <p>
-      My own sandbox to test different web related things. In this case using
-      React as the main frontend framework (because I just love making
-      components) and the amazing <b>styled-components</b> library to provide
-      the styling (no CSS files around here, folks!).
-    </p>
-  );
-}
-
 function App() {
   return (
     <ThemeProvider theme={appTheme}>
       <StyledApp>
         <StyledHeader>
-          <span>
-            <h1>
-              <span>GonArrivi's Sandbox</span>
-            </h1>
-          </span>
-          <Route exact path="/" component={MainHeader} />
+          <h1>
+            <span>Gonzalo Arrivi's Sandbox</span>
+          </h1>
         </StyledHeader>
         <StyledAppBody>
           <StyledBox compact>
@@ -135,9 +127,9 @@ function App() {
                 <RouterLinkMenuItem path="/lab" to="/lab">
                   Lab
                 </RouterLinkMenuItem>
-                <RouterLinkMenuItem path="/advent-of-code" to="/advent-of-code">
+                {/* <RouterLinkMenuItem path="/advent-of-code" to="/advent-of-code">
                   Advent of Code
-                </RouterLinkMenuItem>
+                </RouterLinkMenuItem> */}
                 <RouterLinkMenuItem path="/fate-project" to="/fate-project">
                   Fate Project
                 </RouterLinkMenuItem>
