@@ -48,28 +48,22 @@ const StyledHeader = styled.header`
   border-radius: 10px;
   text-align: center;
   color: ${({ theme }) => theme.textOverPrimary};
-  > span {
-    display: inline-flex;
-    align-items: center;
-    > h1 {
-      color: ${({ theme }) => theme.textOverPrimary};
-    }
-    > img {
-      height: 40px;
-    }
-    *:not(:first-child) {
-      margin-left: 8px;
-    }
-  }
-  > h2 {
-    font-size: 20px;
-  }
-  img {
-    height: 100px;
-  }
   background-color: ${({ theme }) => theme.primary};
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  > *:not(:first-child) {
+    margin-left: 8px;
+  }
 `;
 StyledHeader.defaultProps = { theme };
+
+StyledHeader.ImageLink = styled.a`
+  height: 48px;
+  > img {
+    height: 100%;
+  }
+`;
 
 const StyledAppBody = styled.div`
   margin: 0 8px 8px;
@@ -78,9 +72,9 @@ const StyledAppBody = styled.div`
 
 function MainHeader() {
   return (
-    <React.Fragment>
-      <h2>My place to test web related things</h2>
-      <a
+    <StyledHeader>
+      <h1>Gonzalo Arrivi's Sandbox</h1>
+      <StyledHeader.ImageLink
         title="By Chris Williams [Public domain], via Wikimedia Commons"
         href="https://commons.wikimedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg"
         target="_blank"
@@ -89,8 +83,8 @@ function MainHeader() {
           alt="Unofficial JavaScript logo 2"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
         />
-      </a>
-      <a
+      </StyledHeader.ImageLink>
+      <StyledHeader.ImageLink
         target="_blank"
         title="Facebook [Public domain or CC BY-SA 1.0 
  (https://creativecommons.org/licenses/by-sa/1.0
@@ -101,8 +95,8 @@ function MainHeader() {
           alt="React-icon"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
         />
-      </a>
-    </React.Fragment>
+      </StyledHeader.ImageLink>
+    </StyledHeader>
   );
 }
 
@@ -112,11 +106,7 @@ function App() {
   return (
     <ThemeProvider theme={appTheme}>
       <StyledApp>
-        <StyledHeader>
-          <h1>
-            <span>Gonzalo Arrivi's Sandbox</span>
-          </h1>
-        </StyledHeader>
+        <MainHeader />
         <StyledAppBody>
           <StyledBox compact>
             <Menu>
