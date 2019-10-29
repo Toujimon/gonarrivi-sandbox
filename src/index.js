@@ -1,21 +1,23 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import styled, { injectGlobal, ThemeProvider } from "styled-components";
-import { transparentize } from "polished";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
+import styled, { injectGlobal, ThemeProvider } from 'styled-components'
+import { transparentize } from 'polished'
 import {
   StyledBox,
   theme,
   RESPONSIVE_SIZES,
-  createResponsiveRule
-} from "./components/design-system";
-import Menu, { MenuGroup, MenuItem, asActionElement } from "./components/menu";
-import Home from "./home";
-import Lab from "./lab";
-import AdventOfCode from "./advent-of-code";
-import FateProject from "./fate-project";
+  createResponsiveRule,
+} from './components/design-system'
+import Menu, { MenuGroup, MenuItem, asActionElement } from './components/menu'
+import Home from './home'
+import Lab from './lab'
+import AdventOfCode from './advent-of-code'
+import FateProject from './fate-project'
 
-const ActionRouterLink = asActionElement(Link);
+const appTheme = { ...theme, primary: '#199e57' }
+
+const ActionRouterLink = asActionElement(Link)
 function RouterLinkMenuItem({ exact, path, to, children }) {
   return (
     <Route exact={exact} path={path}>
@@ -29,23 +31,22 @@ function RouterLinkMenuItem({ exact, path, to, children }) {
         </MenuItem>
       )}
     </Route>
-  );
+  )
 }
 
 const StyledApp = styled.div`
   background-color: ${({ theme }) => transparentize(0.9, theme.primary)};
   min-height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   box-sizing: border-box;
   font-family: ${({ theme }) => theme.fontFamily};
-  ${createResponsiveRule(RESPONSIVE_SIZES.MEDIUM)`padding: 0 10%`}
-  ${createResponsiveRule(RESPONSIVE_SIZES.LARGE)`padding: 0 20%`}
-`;
-StyledApp.defaultProps = { theme };
+  display: flex;
+  flex-direction: column;
+`
+StyledApp.defaultProps = { theme }
 
 const StyledHeader = styled.header`
-  margin: 8px;
-  border-radius: 10px;
+  flex: 0 0 auto;
   text-align: center;
   color: ${({ theme }) => theme.textOverPrimary};
   background-color: ${({ theme }) => theme.primary};
@@ -55,20 +56,23 @@ const StyledHeader = styled.header`
   > *:not(:first-child) {
     margin-left: 8px;
   }
-`;
-StyledHeader.defaultProps = { theme };
+`
+StyledHeader.defaultProps = { theme }
 
 StyledHeader.ImageLink = styled.a`
   height: 48px;
   > img {
     height: 100%;
   }
-`;
+`
 
 const StyledAppBody = styled.div`
-  margin: 0 8px 8px;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 0 16px;
   background-color: #fff;
-`;
+  ${createResponsiveRule(RESPONSIVE_SIZES.MEDIUM)`margin: 0 64px 8px`}
+`
 
 function MainHeader() {
   return (
@@ -96,11 +100,27 @@ function MainHeader() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"
         />
       </StyledHeader.ImageLink>
+      <ThemeProvider theme={{ ...appTheme, primary: '#b0b584' }}>
+        <Menu>
+          <MenuGroup>
+            <RouterLinkMenuItem exact path="/" to="/">
+              Home
+            </RouterLinkMenuItem>
+            <RouterLinkMenuItem path="/lab" to="/lab">
+              Lab
+            </RouterLinkMenuItem>
+            {/* <RouterLinkMenuItem path="/advent-of-code" to="/advent-of-code">
+                  Advent of Code
+                </RouterLinkMenuItem> */}
+            <RouterLinkMenuItem path="/fate-project" to="/fate-project">
+              Fate Project
+            </RouterLinkMenuItem>
+          </MenuGroup>
+        </Menu>
+      </ThemeProvider>
     </StyledHeader>
-  );
+  )
 }
-
-const appTheme = { ...theme, primary: "#199e57" };
 
 function App() {
   return (
@@ -108,63 +128,43 @@ function App() {
       <StyledApp>
         <MainHeader />
         <StyledAppBody>
-          <StyledBox compact>
-            <Menu>
-              <MenuGroup>
-                <RouterLinkMenuItem exact path="/" to="/">
-                  Home
-                </RouterLinkMenuItem>
-                <RouterLinkMenuItem path="/lab" to="/lab">
-                  Lab
-                </RouterLinkMenuItem>
-                {/* <RouterLinkMenuItem path="/advent-of-code" to="/advent-of-code">
-                  Advent of Code
-                </RouterLinkMenuItem> */}
-                <RouterLinkMenuItem path="/fate-project" to="/fate-project">
-                  Fate Project
-                </RouterLinkMenuItem>
-              </MenuGroup>
-            </Menu>
-          </StyledBox>
-          <StyledBox layout="column">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/lab" component={Lab} />
-              <Route path="/advent-of-code" component={AdventOfCode} />
-              <Route path="/fate-project" component={FateProject} />
-              <Route
-                render={({ match, location }) => (
-                  <React.Fragment>
-                    <p>404 page not found: {location.pathname}</p>
-                    <Route
-                      path="/some-other-thing"
-                      render={() => (
-                        <p>
-                          If this message is being displayed, you got here
-                          probably by clicking on the "Some other thing" main
-                          menu item. That's okay, that's basically a test to
-                          show a <b>404</b> page. You can see a "normal" case,
-                          for example, by following this{" "}
-                          <Link to="/nowhere-to-be-found">link</Link>
-                        </p>
-                      )}
-                    />
-                  </React.Fragment>
-                )}
-              />
-            </Switch>
-          </StyledBox>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/lab" component={Lab} />
+            <Route path="/advent-of-code" component={AdventOfCode} />
+            <Route path="/fate-project" component={FateProject} />
+            <Route
+              render={({ match, location }) => (
+                <React.Fragment>
+                  <p>404 page not found: {location.pathname}</p>
+                  <Route
+                    path="/some-other-thing"
+                    render={() => (
+                      <p>
+                        If this message is being displayed, you got here
+                        probably by clicking on the "Some other thing" main menu
+                        item. That's okay, that's basically a test to show a{' '}
+                        <b>404</b> page. You can see a "normal" case, for
+                        example, by following this{' '}
+                        <Link to="/nowhere-to-be-found">link</Link>
+                      </p>
+                    )}
+                  />
+                </React.Fragment>
+              )}
+            />
+          </Switch>
         </StyledAppBody>
       </StyledApp>
     </ThemeProvider>
-  );
+  )
 }
 
 const RoutedApp = () => (
   <BrowserRouter>
     <App />
   </BrowserRouter>
-);
+)
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<RoutedApp />, rootElement);
+const rootElement = document.getElementById('root')
+ReactDOM.render(<RoutedApp />, rootElement)

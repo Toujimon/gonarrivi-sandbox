@@ -21,15 +21,15 @@ function Home() {
         application. And yeah, I know it's not a framework, it's a library. And
         yeah, I'd say that's the very reason I love it.
       </p>
-      <p>
-          If you want to know more about me, you may look at any of the next resources:
+      <section>
+          <p>If you want to know more about me, you may look at any of the next resources:</p>
           <ul>
               <li><a href="https://www.linkedin.com/in/gonzalo-arrivi-duarte-19645724/">LinkedIn</a></li>
               <li><a href="https://codepen.io/Toujimon/">Codepen.io</a></li>
               <li><a href="https://github.com/Toujimon">GitHub</a></li>
               <li><a href="https://stackoverflow.com/users/859825/gonarrivi">StackOverflow</a></li>
           </ul>
-      </p>
+      </section>
       <h2>About this site</h2>
       <p>
         This site was created as my own sandbox to test different web related
