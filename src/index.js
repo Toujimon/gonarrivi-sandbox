@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import styled, { injectGlobal, ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import { transparentize } from "polished";
 import {
-  StyledBox,
   theme,
   RESPONSIVE_SIZES,
   createResponsiveRule

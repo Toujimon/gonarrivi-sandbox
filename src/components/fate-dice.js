@@ -90,7 +90,7 @@ class FateDice extends React.Component {
   };
 
   render() {
-    const { rollId, dice, onDieSelect } = this.props;
+    const { dice, onDieSelect } = this.props;
     const { selectionChangedIndex } = this.state;
     return (
       <StyledWrapper>

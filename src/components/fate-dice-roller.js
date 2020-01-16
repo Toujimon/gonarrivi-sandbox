@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { StyledBox, StyledButton, theme } from "./design-system";
+import { StyledBox } from "./design-system";
 import Widget from "./widget";
 import * as Helpers from "../helpers";
 import { DEFAULT_SIZE } from "./fate-die";
@@ -73,7 +73,8 @@ function DiceRollerWidget(props) {
         <StyledBoard>
           <FateDice rollId={rollId} dice={dice} onDieSelect={onDieSelect} />
           <StyledText>
-            &nbsp;=&nbsp;{`${diceValue}${
+            &nbsp;=&nbsp;
+            {`${diceValue}${
               selectedSkill ? ` + ${selectedSkill.value} = ${finalValue}` : ""
             }`}
           </StyledText>
@@ -112,15 +113,14 @@ class FateDiceRoller extends React.Component {
   };
   _handleSelectedDiceReroll = e => {
     this.setState(prevState => ({
-      dice: prevState.dice.map(
-        x =>
-          x.selected
-            ? {
-                value: getRandomDieValue(),
-                rerollCount: x.rerollCount + 1,
-                selected: false
-              }
-            : x
+      dice: prevState.dice.map(x =>
+        x.selected
+          ? {
+              value: getRandomDieValue(),
+              rerollCount: x.rerollCount + 1,
+              selected: false
+            }
+          : x
       ),
       rerollCount: prevState.rerollCount + 1
     }));
@@ -147,13 +147,6 @@ class FateDiceRoller extends React.Component {
     const { skills } = this.props;
     const { dice, rollCount, rerollCount, selectedSkillIndex } = this.state;
     const selectedSkill = skills[selectedSkillIndex];
-    const diceValue = (dice || []).reduce(
-      (finalValue, { value }) =>
-        finalValue + (value < 3 ? -1 : value > 4 ? 1 : 0),
-      0
-    );
-    const finalValue = diceValue + (selectedSkill ? selectedSkill.value : 0);
-    const someSelectedDice = (dice || []).some(x => x.selected);
     return (
       <StyledBox {...this.props}>
         <DiceRollerWidget

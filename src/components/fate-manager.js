@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { StyledBox, StyledButton, theme } from "./design-system";
+import { StyledButton, theme } from "./design-system";
 import Widget from "./widget";
 import FateDiceRoller from "./fate-dice-roller";
 import FateCharacterSheet from "./fate-character-sheet";
@@ -20,7 +20,7 @@ const StyledOptions = styled.ul`
 
 StyledOptions.Item = styled.li`
   flex: 1 1 auto;
-  :not(:first-child){
+  :not(:first-child) {
     margin-top: 8px;
   }
 `;
@@ -112,8 +112,8 @@ class FateCharacterManager extends React.Component {
           {!selectionMethod
             ? "Want to play? first you'll need a character..."
             : selectionMethod === "new"
-              ? "Nice! Make it your own!"
-              : "Cool! Here they are for you to choose from"}
+            ? "Nice! Make it your own!"
+            : "Cool! Here they are for you to choose from"}
         </h2>
         {selectionMethod && (
           <React.Fragment>

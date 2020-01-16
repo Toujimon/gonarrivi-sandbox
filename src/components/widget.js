@@ -1,25 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  StyledBox,
   StyledRoundBorderedBlock,
   StyledButton,
   theme
 } from "./design-system";
-
-const StyledWidgetWrapper = styled(StyledBox)`
-  position: relative;
-  background-color: #fff;
-  overflow: auto;
-  ${({ stretch }) =>
-    stretch
-      ? `
-    height: 100%; 
-    width:100%;
-    box-sizing: border-box;
-    `
-      : ""}
-`;
 
 const StyledWrapper = styled(StyledRoundBorderedBlock)`
   display: flex;

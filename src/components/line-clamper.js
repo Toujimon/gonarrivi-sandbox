@@ -15,30 +15,22 @@ const StyledToggleButton = styled(StyledButton)`
 const StyledWrapper = styled.div`
   position: relative;
   ${({ lineHeight }) => !lineHeight && `overflow: hidden; height: 0;`}
-  paddingBottom: ${({ isExpanded, lineHeight }) =>
-    isExpanded && lineHeight && ("" + lineHeight.value + lineHeight.unit: "0")};
+  padding-bottom: ${({ isExpanded, lineHeight }) =>
+    (isExpanded && lineHeight && "" + lineHeight.value + lineHeight.unit) ||
+    "0"};
 `;
 
 const StyledContainer = styled.div`
-${
-  ({ lineHeight }) =>
-    lineHeight &&
-    "line-height: " + lineHeight.value + lineHeight.unit + ";"
-}
-${
-  ({
-    lineHeight,
-    isExpanded,
-    maxLines
-  }) =>
+  ${({ lineHeight }) =>
+    lineHeight && "line-height: " + lineHeight.value + lineHeight.unit + ";"}
+  ${({ lineHeight, isExpanded, maxLines }) =>
     lineHeight &&
     !isExpanded &&
     "max-height: " +
-    maxLines * lineHeight.value +
-    lineHeight.unit +
-    ";" +
-    "overflow: hidden;"
-}
+      maxLines * lineHeight.value +
+      lineHeight.unit +
+      ";" +
+      "overflow: hidden;"}
 `;
 
 export default class StyledLineClamper extends React.Component {

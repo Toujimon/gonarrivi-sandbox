@@ -2,18 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import { transparentize } from "polished";
-import { StyledRoundBorderedBlock, theme } from "./design-system";
-
-const contentPropTypes = [PropTypes.string, PropTypes.number, PropTypes.node];
-
-const menuItemPropType = PropTypes.oneOfType([
-  ...contentPropTypes,
-  PropTypes.shape({
-    key: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    content: PropTypes.oneOfType(contentPropTypes).isRequired,
-    active: PropTypes.bool
-  })
-]);
+import { theme } from "./design-system";
 
 const childrenHaveRightMargin = `
   > * :not(:first-child){

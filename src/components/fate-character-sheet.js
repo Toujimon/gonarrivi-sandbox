@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import {
   StyledBox,
-  StyledButton,
   StyledRoundBorderedBlock
 } from "./design-system";
 import Widget from "./widget";
@@ -72,12 +71,12 @@ class FateCharacterSheet extends React.Component {
     const { onSubmit, defaultValues, ...wrapperProps } = this.props;
     const {
       id,
-      aspects,
+      //aspects,
       skills,
-      stunts,
-      extras,
-      stressTracks,
-      consequences
+      //stunts,
+      //extras,
+      //stressTracks,
+      //consequences
     } = this.state;
     const groupedSkills = skills.reduce((acc, skill, i) => {
       if (!acc[skill.value]) {
