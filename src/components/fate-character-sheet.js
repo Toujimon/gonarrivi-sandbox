@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import TypeAhead from "./typeahead";
 import {
   StyledBox,
   StyledButton,
@@ -11,8 +10,6 @@ import Widget from "./widget";
 import { modifyArrayElement } from "../helpers";
 
 const SKILLS_PIRAMID_TOP = 4;
-
-const TEST_SUGGESTIONS = ["algo", "otroalgo", "ese"];
 
 const HiddenStyledBox = styled(StyledBox)`
   display: none;
@@ -121,8 +118,8 @@ class FateCharacterSheet extends React.Component {
                     <ul>
                       {groupedSkills[key].map(item => (
                         <li key={item.id}>
-                          <TypeAhead
-                            suggestions={TEST_SUGGESTIONS}
+                          <input
+                            type="text"
                             value={item.name}
                             onChange={ev =>
                               this._handleSkillNameChange(item.id, ev)

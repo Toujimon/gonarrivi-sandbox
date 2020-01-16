@@ -22,27 +22,37 @@ function Home() {
         yeah, I'd say that's the very reason I love it.
       </p>
       <section>
-          <p>If you want to know more about me, you may look at any of the next resources:</p>
-          <ul>
-              <li><a href="https://www.linkedin.com/in/gonzalo-arrivi-duarte-19645724/">LinkedIn</a></li>
-              <li><a href="https://codepen.io/Toujimon/">Codepen.io</a></li>
-              <li><a href="https://github.com/Toujimon">GitHub</a></li>
-              <li><a href="https://stackoverflow.com/users/859825/gonarrivi">StackOverflow</a></li>
-          </ul>
+        <p>
+          If you want to know more about me, you may look at any of the next
+          resources:
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/gonzalo-arrivi-duarte-19645724/">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/Toujimon/">Codepen.io</a>
+          </li>
+          <li>
+            <a href="https://github.com/Toujimon">GitHub</a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/859825/gonarrivi">
+              StackOverflow
+            </a>
+          </li>
+        </ul>
       </section>
       <h2>About this site</h2>
       <p>
         This site was created as my own sandbox to test different web related
-        things. In this case using
-        <b>React</b> as the main frontend framework (because I just love making
-        components) and the amazing <b>styled-components</b> library to provide
-        the styling (no CSS files around here, folks!).
-      </p>
-      <p>
-        So, everything around here it's pure React and mostly custom-made
-        components. Every time a new feature it's added to the library, I
-        usually come here and try it on my <a href="/lab">Lab</a>, so I can get
-        familiar with it before applying it to real-world situations.
+        things creating little apps for my enjoyment. 
+        In this case using <b>React</b> as the main frontend library
+        (because I just love making components) and the amazing
+        <b>styled-components</b> library to provide the styling (no CSS files
+        around here, folks!).
       </p>
     </React.Fragment>
   );

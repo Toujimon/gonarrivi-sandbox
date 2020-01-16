@@ -59,10 +59,11 @@ class FateProject extends React.Component {
     const { strSkills } = this.state;
     return (
       <React.Fragment>
-        <h2>Fate Project</h2>
+        <h2>FATE CORE Utils</h2>
         <p>
           A little project to test the different libraries and React related
-          technologies with a more specific target in mind.
+          technologies with a more specific target in mind, in this case, utility 
+          tools for the FATE CORE role-playing-game system.
         </p>
         <StyledBox>
           <h3>Some use cases to cover</h3>
