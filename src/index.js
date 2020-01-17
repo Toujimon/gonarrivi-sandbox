@@ -153,7 +153,7 @@ function App() {
 }
 
 const RoutedApp = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/gonarrivi-sandbox">
     <App />
   </BrowserRouter>
 );
