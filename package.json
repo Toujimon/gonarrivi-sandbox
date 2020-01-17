@@ -1,7 +1,8 @@
 {
   "name": "gonarrivi-sandbox",
   "version": "1.0.0",
-  "description": "My main sandbox to test web based technology using React framework.",
+  "description": "My main sandbox to test web based technology using React library.",
+  "homepage": "https://github.com/Toujimon/gonarrivi-sandbox",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -9,6 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "classnames": "2.2.6",
+    "gh-pages": "^2.2.0",
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -21,6 +23,8 @@
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
