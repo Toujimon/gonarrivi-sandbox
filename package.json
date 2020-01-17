@@ -2,7 +2,7 @@
   "name": "gonarrivi-sandbox",
   "version": "1.0.0",
   "description": "My main sandbox to test web based technology using React library.",
-  "homepage": "https://github.com/Toujimon/gonarrivi-sandbox",
+  "homepage": "https://toujimon.github.io/gonarrivi-sandbox",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
