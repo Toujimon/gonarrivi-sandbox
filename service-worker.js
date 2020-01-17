@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gonarrivi-sandbox/precache-manifest.2ccf75047194643cd5800d8ac1c673a3.js"
+  "/gonarrivi-sandbox/precache-manifest.e379596289d0d7e97f37f245253dc4ec.js"
 );
 
 self.addEventListener('message', (event) => {
