@@ -1,3 +1,5 @@
 node_modules
 build
+nodeApps/input
+nodeApps/output
 .vscode
