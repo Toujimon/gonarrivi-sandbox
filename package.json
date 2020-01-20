@@ -21,7 +21,9 @@
     "styled-components": "^5.0.0",
     "worker-loader": "2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "zombie": "^6.1.4"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
