@@ -45,10 +45,22 @@ function fetchAndProcess(version) {
   );
 }
 
-async function checkProcessedCatalog(version) {
-  const catalogFilePath = getProcessedCatalogFilePath(version);
-  const data = await fileUtils.readJsonFromFile(catalogFilePath);
-  console.log(`The processed catalog has ${data.length} entries`);
+async function checkProcessedCatalog() {
+  const indexedCatalogFilePath = path.resolve(
+    outputDirectoryPath,
+    `indexedCatalog.json`
+  );
+
+  if (!fileUtils.exists(indexedCatalogFilePath)) {
+    await fileUtils.writeJsonToFile({}, indexedCatalogFilePath);
+  }
+
+  const indexedCatalog = await fileUtils.readJsonFromFile(
+    indexedCatalogFilePath
+  );
+  console.log(
+    `The processed catalog has ${Object.keys(indexedCatalog).length} entries`
+  );
 }
 
 async function searchWithBggApi(searchTerm) {
@@ -57,14 +69,14 @@ async function searchWithBggApi(searchTerm) {
   console.log("results:", JSON.stringify(results, null, 2));
 }
 
-const [, , command, version = 1, ...args] = process.argv;
+const [, , command, version, ...args] = process.argv;
 switch (command) {
   case "process": {
-    fetchAndProcess(Number(version));
+    fetchAndProcess(Number(version || 1));
     break;
   }
   case "check": {
-    checkProcessedCatalog(Number(version));
+    checkProcessedCatalog();
     break;
   }
   case "search": {
