@@ -37,15 +37,19 @@ function fetchEpicCafeCatalog(outputFilePath) {
   });
 }
 
-function parseEpicCafeCatalog(inputFilePath, outputDirectoryPath) {
+function processEpicCafeCatalog(
+  inputFilePath,
+  outputDirectoryPath,
+  filesSuffix = ""
+) {
   const gameEntryKeys = ["name", "coordinates", "quantity", "players", "age"];
   const catalog = [];
   const keyValuesSets = gameEntryKeys.reduce(
     (acc, key) => ({ ...acc, [key]: new Set() }),
     {}
   );
-  let readLine = () => {
-    readLine = gameEntryLine => {
+  let processLine = () => {
+    processLine = gameEntryLine => {
       const gameEntryValues = [];
       let currentEntry = [];
       let isEscapingSeparators = false;
@@ -61,7 +65,7 @@ function parseEpicCafeCatalog(inputFilePath, outputDirectoryPath) {
           currentEntry.push(character);
         }
       }
-      gameEntryValues.push(currentEntry);
+      gameEntryValues.push(currentEntry.join(""));
       let gameEntry = { raw: gameEntryLine };
       gameEntryKeys.forEach((key, index) => {
         const value = gameEntryValues[index];
@@ -91,29 +95,58 @@ function parseEpicCafeCatalog(inputFilePath, outputDirectoryPath) {
           }
         })();
       });
+      gameEntry.id = gameEntry.name
+      gameEntry.idType = "epic"
       catalog.push(gameEntry);
     };
   };
-  readline
-    .createInterface(fs.createReadStream(inputFilePath))
-    .on("line", line => readLine(line))
-    .on("close", () => {
-      fs.writeFile(
-        path.resolve(outputDirectoryPath, "catalog.json"),
-        JSON.stringify(catalog, null, 2),
-        () => null
-      );
-      gameEntryKeys.forEach(key =>
-        fs.writeFile(
-          path.resolve(outputDirectoryPath, `set_${key}.txt`),
-          [...keyValuesSets[key]].join("\n"),
-          () => null
-        )
-      );
+  return new Promise((resolve, reject) => {
+    readline
+      .createInterface(fs.createReadStream(inputFilePath))
+      .on("line", line => processLine(line))
+      .on("close", () => {
+        resolve(
+          Promise.all([
+            new Promise(resolve =>
+              fs.writeFile(
+                path.resolve(outputDirectoryPath, `catalog${filesSuffix}.json`),
+                JSON.stringify(catalog, null, 2),
+                resolve
+              )
+            ),
+            ...gameEntryKeys.map(
+              key =>
+                new Promise(resolve =>
+                  fs.writeFile(
+                    path.resolve(
+                      outputDirectoryPath,
+                      `set_${key}${filesSuffix}.txt`
+                    ),
+                    [...keyValuesSets[key]].join("\n"),
+                    resolve
+                  )
+                )
+            )
+          ])
+        );
+      });
+  });
+}
+
+function parseProcessedCatalog(inputFilePath) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(inputFilePath, "utf-8", (err, data) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(JSON.parse(data));
+      }
     });
+  });
 }
 
 module.exports = {
   fetchEpicCafeCatalog,
-  parseEpicCafeCatalog
+  processEpicCafeCatalog,
+  parseProcessedCatalog
 };
