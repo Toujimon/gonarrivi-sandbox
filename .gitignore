@@ -3,3 +3,4 @@ build
 nodeApps/input
 nodeApps/output
 .vscode
+.DS_Store

@@ -48,9 +48,9 @@ function Home() {
       <h2>About this site</h2>
       <p>
         This site was created as my own sandbox to test different web related
-        things creating little apps for my enjoyment. 
-        In this case using <b>React</b> as the main frontend library
-        (because I just love making components) and the amazing
+        things creating little apps for my enjoyment. In this case using{" "}
+        <b>React</b> as the main frontend library (because I just love making
+        components) and the amazing
         <b>styled-components</b> library to provide the styling (no CSS files
         around here, folks!).
       </p>
