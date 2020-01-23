@@ -15,6 +15,10 @@ const getProcessedCatalogFilePath = version =>
     outputDirectoryPath,
     `catalog_${version < 10 ? "0" : ""}${version}.json`
   );
+const indexedCatalogFilePath = path.resolve(
+  outputDirectoryPath,
+  `indexedCatalog.json`
+);
 
 function fetchAndProcess(version) {
   var rawCatalogFilePath = getRawCatalogFilePath(version);
@@ -45,12 +49,7 @@ function fetchAndProcess(version) {
   );
 }
 
-async function checkProcessedCatalog() {
-  const indexedCatalogFilePath = path.resolve(
-    outputDirectoryPath,
-    `indexedCatalog.json`
-  );
-
+async function checkIndexedMetadata() {
   if (!fileUtils.exists(indexedCatalogFilePath)) {
     await fileUtils.writeJsonToFile({}, indexedCatalogFilePath);
   }
@@ -69,6 +68,45 @@ async function searchWithBggApi(searchTerm) {
   console.log("results:", JSON.stringify(results, null, 2));
 }
 
+async function getIndexedMetadata(version, amount) {
+  const processedCatalogFilePath = getProcessedCatalogFilePath(version);
+  if (!fileUtils.exists(processedCatalogFilePath)) {
+    console.log(
+      `No processed catalog for version "${version}" exists. Be sure to retrieve it first with "process ${version}"`
+    );
+  } else if (!fileUtils.exists(indexedCatalogFilePath)) {
+    console.log(
+      `No indexed catalog file exists. Be sure to generate it first with "check"`
+    );
+  } else {
+    const catalog = await fileUtils.readJsonFromFile(processedCatalogFilePath);
+    const indexedCatalog = await fileUtils.readJsonFromFile(indexedCatalogFilePath);
+    let searchedElements = 0;
+    for (const entry of catalog) {
+      if (!indexedCatalog[entry.id]) {
+        searchedElements++;
+        const searchTerm = entry.name
+          .replace(/\W+/g, " ")
+          .trim()
+          .split(" ")
+          .filter(x => x.length >= 3)
+          .join(" ");
+        console.log(`Searching for "${searchTerm}"`);
+        const metadata = await bggApi
+          .search(searchTerm)
+          .then(
+            response =>
+              new Promise(res => setTimeout(() => res(response), 5000))
+          );
+        indexedCatalog[entry.id] = metadata;
+      }
+      if (searchedElements >= amount) break;
+    }
+    await fileUtils.writeJsonToFile(indexedCatalog, indexedCatalogFilePath);
+    console.log(`finished searching ${searchedElements} elements`);
+  }
+}
+
 const [, , command, version, ...args] = process.argv;
 switch (command) {
   case "process": {
@@ -76,11 +114,24 @@ switch (command) {
     break;
   }
   case "check": {
-    checkProcessedCatalog();
+    checkIndexedMetadata();
+    break;
+  }
+  case "get-metadata": {
+    if (version && args.length > 0) {
+      const amount = Number(args[0]);
+      if (!isNaN(amount)) {
+        getIndexedMetadata(version, amount);
+      }
+    } else {
+      console.log(
+        "A version and amount of registers to check have to be specified"
+      );
+    }
     break;
   }
   case "search": {
-    if (args.length) {
+    if (version) {
       const searchTerm = [version, ...args].join(" ");
       searchWithBggApi(searchTerm);
     } else {
