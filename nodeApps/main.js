@@ -15,10 +15,7 @@ const getProcessedCatalogFilePath = version =>
     outputDirectoryPath,
     `catalog_${version < 10 ? "0" : ""}${version}.json`
   );
-const indexedCatalogFilePath = path.resolve(
-  outputDirectoryPath,
-  `indexedCatalog.json`
-);
+const bggMatchesFilePath = path.resolve(outputDirectoryPath, `bggMatches.json`);
 
 function fetchAndProcess(version) {
   var rawCatalogFilePath = getRawCatalogFilePath(version);
@@ -49,61 +46,50 @@ function fetchAndProcess(version) {
   );
 }
 
-async function checkIndexedMetadata() {
-  if (!fileUtils.exists(indexedCatalogFilePath)) {
-    await fileUtils.writeJsonToFile({}, indexedCatalogFilePath);
-  }
-
-  const indexedCatalog = await fileUtils.readJsonFromFile(
-    indexedCatalogFilePath
-  );
-  console.log(
-    `The processed catalog has ${Object.keys(indexedCatalog).length} entries`
-  );
-}
-
 async function searchWithBggApi(searchTerm) {
   console.log(`searching "${searchTerm}"`);
   const results = await bggApi.search(searchTerm);
   console.log("results:", JSON.stringify(results, null, 2));
 }
 
-async function getIndexedMetadata(version, amount) {
+async function getBggMatches(version, amount) {
   const processedCatalogFilePath = getProcessedCatalogFilePath(version);
   if (!fileUtils.exists(processedCatalogFilePath)) {
     console.log(
       `No processed catalog for version "${version}" exists. Be sure to retrieve it first with "process ${version}"`
     );
-  } else if (!fileUtils.exists(indexedCatalogFilePath)) {
-    console.log(
-      `No indexed catalog file exists. Be sure to generate it first with "check"`
-    );
   } else {
     const catalog = await fileUtils.readJsonFromFile(processedCatalogFilePath);
-    const indexedCatalog = await fileUtils.readJsonFromFile(indexedCatalogFilePath);
+    if (!fileUtils.exists(bggMatchesFilePath)) {
+      await fileUtils.writeJsonToFile({}, bggMatchesFilePath);
+    }
+    const bggMatches = await fileUtils.readJsonFromFile(bggMatchesFilePath);
     let searchedElements = 0;
     for (const entry of catalog) {
-      if (!indexedCatalog[entry.id]) {
+      if (!bggMatches[entry.id]) {
         searchedElements++;
         const searchTerm = entry.name
-          .replace(/\W+/g, " ")
-          .trim()
+          .replace(/¡|!|,|¿|\?|'|:|\(|\)|\+|´|-|&|\.º|…|\*|\/|`/g, " ")
           .split(" ")
+          .map(x => x.trim())
           .filter(x => x.length >= 3)
           .join(" ");
-        console.log(`Searching for "${searchTerm}"`);
-        const metadata = await bggApi
-          .search(searchTerm)
-          .then(
-            response =>
-              new Promise(res => setTimeout(() => res(response), 5000))
-          );
-        indexedCatalog[entry.id] = metadata;
+        console.log(`[${searchedElements}] Searching for "${searchTerm}"`);
+        await bggApi.search(searchTerm).then(matches =>
+          Promise.all([
+            new Promise(res => {
+              /* The bggMatches object gets updated and saved while waiting some 
+              seconds before the next request */
+              bggMatches[entry.id] = matches;
+              res(fileUtils.writeJsonToFile(bggMatches, bggMatchesFilePath));
+            }),
+            new Promise(res => setTimeout(res, 5000))
+          ])
+        );
       }
       if (searchedElements >= amount) break;
     }
-    await fileUtils.writeJsonToFile(indexedCatalog, indexedCatalogFilePath);
-    console.log(`finished searching ${searchedElements} elements`);
+    console.log(`Finished ${searchedElements} elements`);
   }
 }
 
@@ -113,15 +99,33 @@ switch (command) {
     fetchAndProcess(Number(version || 1));
     break;
   }
-  case "check": {
-    checkIndexedMetadata();
+  case "special-chars": {
+    fileUtils
+      .readJsonFromFile(getProcessedCatalogFilePath(version))
+      .then(catalog => {
+        const specialCharactersSet = new Set();
+        for (const entry of catalog) {
+          console.log(entry.name);
+          const specialCharacters = [...(entry.name.match(/\W/g) || [])];
+          for (const character of specialCharacters) {
+            specialCharactersSet.add(character);
+          }
+        }
+        fileUtils
+          .writeTextToFile(
+            [...specialCharactersSet].join(""),
+            path.resolve(outputDirectoryPath, "special.txt")
+          )
+          .then(() => console.log("Finished"));
+      });
+
     break;
   }
-  case "get-metadata": {
+  case "get-bgg-matches": {
     if (version && args.length > 0) {
       const amount = Number(args[0]);
       if (!isNaN(amount)) {
-        getIndexedMetadata(version, amount);
+        getBggMatches(version, amount);
       }
     } else {
       console.log(

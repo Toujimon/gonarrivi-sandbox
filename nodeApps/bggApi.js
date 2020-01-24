@@ -23,9 +23,8 @@ function search(name) {
                 parsedData.boardgames &&
                 parsedData.boardgames.boardgame &&
                 parsedData.boardgames.boardgame.map(boardgame => ({
-                  id: boardgame["$"].objectid,
-                  name: boardgame.name[0],
-                  yearpublished: boardgame.yearpublished[0]
+                  ...boardgame,
+                  id: boardgame["$"].objectid
                 }))) ||
               []
           )
