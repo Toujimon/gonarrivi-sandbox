@@ -69,7 +69,7 @@ async function getBggMatches(version, amount) {
       if (!bggMatches[entry.id]) {
         searchedElements++;
         const searchTerm = entry.name
-          .replace(/¡|!|,|¿|\?|'|:|\(|\)|\+|´|-|&|\.º|…|\*|\/|`/g, " ")
+          .replace(/¡|!|,|¿|\?|'|:|\(|\)|\+|´|-|&|\.|º|…|\*|\/|`/g, " ")
           .split(" ")
           .map(x => x.trim())
           .filter(x => x.length >= 3)
