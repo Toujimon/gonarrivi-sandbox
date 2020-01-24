@@ -72,7 +72,7 @@ async function getBggMatches(version, amount) {
           .replace(/¡|!|,|¿|\?|'|:|\(|\)|\+|´|-|&|\.|º|…|\*|\/|`/g, " ")
           .split(" ")
           .map(x => x.trim())
-          .filter(x => x.length >= 3)
+          .filter(x => x.length >= 2)
           .join(" ");
         console.log(`[${searchedElements}] Searching for "${searchTerm}"`);
         await bggApi.search(searchTerm).then(matches =>
