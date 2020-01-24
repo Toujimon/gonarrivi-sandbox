@@ -93,6 +93,38 @@ async function getBggMatches(version, amount) {
   }
 }
 
+async function checkBggMatches() {
+  if (fileUtils.exists(bggMatchesFilePath)) {
+    const bggMatches = await fileUtils.readJsonFromFile(bggMatchesFilePath);
+    let oneMatch = 0,
+      zeroMatches = 0,
+      multipleMatches = 0;
+    const allMatchesCollection = Object.values(bggMatches);
+    if (allMatchesCollection.length) {
+      for (const matches of allMatchesCollection) {
+        if (!matches.length) zeroMatches++;
+        else if (matches.length === 1) oneMatch++;
+        else multipleMatches++;
+      }
+      const allMatches = allMatchesCollection.length;
+      console.log(`Game entries (${allMatches}):
+- Zero matches: ${zeroMatches}/${allMatches} (${Math.round(
+        (zeroMatches / allMatches) * 100
+      )}%)
+- One match: ${oneMatch}/${allMatches} (${Math.round(
+        (oneMatch / allMatches) * 100
+      )}%)
+- Multiple matches: ${multipleMatches}/${allMatches} (${Math.round(
+        (multipleMatches / allMatches) * 100
+      )}%)`);
+    } else {
+      console.log("No game entries found on the BGG Matches files");
+    }
+  } else {
+    console.log("No BGG matches file found");
+  }
+}
+
 const [, , command, version, ...args] = process.argv;
 switch (command) {
   case "process": {
@@ -132,6 +164,10 @@ switch (command) {
         "A version and amount of registers to check have to be specified"
       );
     }
+    break;
+  }
+  case "check-bgg-matches": {
+    checkBggMatches();
     break;
   }
   case "search": {
