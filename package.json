@@ -4,7 +4,7 @@
   "description": "My main sandbox to test web based technology using React library.",
   "homepage": "https://toujimon.github.io/gonarrivi-sandbox",
   "keywords": [],
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:4000",
   "main": "src/index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",

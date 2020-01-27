@@ -16,7 +16,7 @@ const getProcessedCatalogFilePath = version =>
   );
 const bggMatchesFilePath = path.resolve(outputDirectoryPath, `bggMatches.json`);
 
-const port = 3001;
+const port = 4000;
 const app = express();
 
 app.get("/api/catalog/:version", (req, res) => {

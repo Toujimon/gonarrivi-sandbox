@@ -24,6 +24,8 @@ const StyledAppBarTabs = styled(Tabs)`
   margin-left: auto;
 `;
 
+const isApiAllowed = window.location.hostname === "localhost";
+
 function App() {
   return (
     <BrowserRouter basename="/gonarrivi-sandbox">
@@ -31,13 +33,16 @@ function App() {
         <CssBaseline>
           <StyledAppBar position="sticky">
             <Route path="/:subPath?">
-              {({ match, history }) => (
+              {({ match, history, location }) => (
                 <StyledAppBarTabs
                   value={match.params.subPath || ""}
                   onChange={(e, newValue) => history.push(`/${newValue}`)}
                 >
                   <Tab value="" label="Home" />
                   <Tab value="fate-core-utils" label="FATE CORE Utils" />
+                  {isApiAllowed && (
+                    <Tab value="epic-cafe-manager" label="Epic Cafe Manager" />
+                  )}
                 </StyledAppBarTabs>
               )}
             </Route>
