@@ -5,12 +5,15 @@ import styled, { ThemeProvider } from "styled-components";
 import { theme } from "./components/design-system";
 import {
   AppBar,
+  Avatar,
   Container,
   CssBaseline,
   Tabs,
   Tab,
   Typography
 } from "@material-ui/core";
+import homeBannerImage from "./assets/images/home-banner.jpg";
+import homeAvatarImage from "./assets/images/home-avatar.jpeg";
 import Home from "./home";
 import FateProject from "./fate-project";
 
@@ -24,6 +27,28 @@ const StyledAppBarTabs = styled(Tabs)`
   margin-left: auto;
 `;
 
+const StyledTopBanner = styled.div`
+  ${props =>
+    props.background
+      ? `background-image: url(${props.background});
+      background-size: cover;`
+      : "background-color: transparent;"}
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+  ${({ textColor }) => (textColor ? `color: ${textColor};` : "")}
+`;
+
+const StyledAvatar = styled(Avatar)`
+  width: 120px;
+  height: 120px;
+`;
+
+/* TODO: Add async process to detect if its allowed */
 const isApiAllowed = window.location.hostname === "localhost";
 
 function App() {
@@ -33,7 +58,7 @@ function App() {
         <CssBaseline>
           <StyledAppBar position="sticky">
             <Route path="/:subPath?">
-              {({ match, history, location }) => (
+              {({ match, history }) => (
                 <StyledAppBarTabs
                   value={match.params.subPath || ""}
                   onChange={(e, newValue) => history.push(`/${newValue}`)}
@@ -47,21 +72,26 @@ function App() {
               )}
             </Route>
           </StyledAppBar>
+          <Route
+            exact
+            path="/"
+            render={() => (
+              <StyledTopBanner background={homeBannerImage} textColor="white">
+                <Typography gutterBottom variant="h3">Gonzalo Arrivi's Sandbox</Typography>
+                <StyledAvatar src={homeAvatarImage} />
+              </StyledTopBanner>
+            )}
+          />
           <Container>
             <Switch>
-              <Route
-                exact
-                path="/"
-                component={routeProps => (
-                  <React.Fragment>
-                    <Typography variant="h3">
-                      Gonzalo Arrivi's Sandbox
-                    </Typography>
-                    <Home {...routeProps} />
-                  </React.Fragment>
-                )}
-              />
+              <Route exact path="/" component={Home} />
               <Route path="/fate-core-utils" component={FateProject} />
+              {!!isApiAllowed && (
+                <Route
+                  path="/epic-cafe-manager"
+                  render={() => <div>Epic Cafe Manager</div>}
+                />
+              )}
               <Route
                 render={({ match, location }) => (
                   <React.Fragment>
