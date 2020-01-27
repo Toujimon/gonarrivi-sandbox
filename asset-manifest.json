@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.js": "/gonarrivi-sandbox/static/js/main.af08a4c3.chunk.js",
-    "main.js.map": "/gonarrivi-sandbox/static/js/main.af08a4c3.chunk.js.map",
+    "main.js": "/gonarrivi-sandbox/static/js/main.dec92771.chunk.js",
+    "main.js.map": "/gonarrivi-sandbox/static/js/main.dec92771.chunk.js.map",
     "runtime-main.js": "/gonarrivi-sandbox/static/js/runtime-main.4a6d0eed.js",
     "runtime-main.js.map": "/gonarrivi-sandbox/static/js/runtime-main.4a6d0eed.js.map",
-    "static/js/2.51fae1a3.chunk.js": "/gonarrivi-sandbox/static/js/2.51fae1a3.chunk.js",
-    "static/js/2.51fae1a3.chunk.js.map": "/gonarrivi-sandbox/static/js/2.51fae1a3.chunk.js.map",
+    "static/js/2.2806159b.chunk.js": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js",
+    "static/js/2.2806159b.chunk.js.map": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js.map",
     "index.html": "/gonarrivi-sandbox/index.html",
-    "precache-manifest.e379596289d0d7e97f37f245253dc4ec.js": "/gonarrivi-sandbox/precache-manifest.e379596289d0d7e97f37f245253dc4ec.js",
+    "precache-manifest.6103abc0100ed8bcbd6c913ddfa94d4b.js": "/gonarrivi-sandbox/precache-manifest.6103abc0100ed8bcbd6c913ddfa94d4b.js",
     "service-worker.js": "/gonarrivi-sandbox/service-worker.js",
-    "static/js/2.51fae1a3.chunk.js.LICENSE": "/gonarrivi-sandbox/static/js/2.51fae1a3.chunk.js.LICENSE"
+    "static/js/2.2806159b.chunk.js.LICENSE": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js.LICENSE",
+    "static/media/home-avatar.jpeg": "/gonarrivi-sandbox/static/media/home-avatar.6bd34b32.jpeg",
+    "static/media/home-banner.jpg": "/gonarrivi-sandbox/static/media/home-banner.562d3555.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4a6d0eed.js",
-    "static/js/2.51fae1a3.chunk.js",
-    "static/js/main.af08a4c3.chunk.js"
+    "static/js/2.2806159b.chunk.js",
+    "static/js/main.dec92771.chunk.js"
   ]
 }
