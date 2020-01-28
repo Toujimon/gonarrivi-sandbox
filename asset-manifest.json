@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/gonarrivi-sandbox/static/js/main.dec92771.chunk.js",
-    "main.js.map": "/gonarrivi-sandbox/static/js/main.dec92771.chunk.js.map",
+    "main.js": "/gonarrivi-sandbox/static/js/main.d2f9538b.chunk.js",
+    "main.js.map": "/gonarrivi-sandbox/static/js/main.d2f9538b.chunk.js.map",
     "runtime-main.js": "/gonarrivi-sandbox/static/js/runtime-main.4a6d0eed.js",
     "runtime-main.js.map": "/gonarrivi-sandbox/static/js/runtime-main.4a6d0eed.js.map",
     "static/js/2.2806159b.chunk.js": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js",
     "static/js/2.2806159b.chunk.js.map": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js.map",
     "index.html": "/gonarrivi-sandbox/index.html",
-    "precache-manifest.6103abc0100ed8bcbd6c913ddfa94d4b.js": "/gonarrivi-sandbox/precache-manifest.6103abc0100ed8bcbd6c913ddfa94d4b.js",
+    "precache-manifest.af8bd82b0055b83a63de213ceb89fccb.js": "/gonarrivi-sandbox/precache-manifest.af8bd82b0055b83a63de213ceb89fccb.js",
     "service-worker.js": "/gonarrivi-sandbox/service-worker.js",
     "static/js/2.2806159b.chunk.js.LICENSE": "/gonarrivi-sandbox/static/js/2.2806159b.chunk.js.LICENSE",
     "static/media/home-avatar.jpeg": "/gonarrivi-sandbox/static/media/home-avatar.6bd34b32.jpeg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.4a6d0eed.js",
     "static/js/2.2806159b.chunk.js",
-    "static/js/main.dec92771.chunk.js"
+    "static/js/main.d2f9538b.chunk.js"
   ]
 }
