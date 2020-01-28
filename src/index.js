@@ -33,7 +33,6 @@ const StyledTopBanner = styled.div`
       ? `background-image: url(${props.background});
       background-size: cover;`
       : "background-color: transparent;"}
-  height: 256px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,7 +76,9 @@ function App() {
             path="/"
             render={() => (
               <StyledTopBanner background={homeBannerImage} textColor="white">
-                <Typography gutterBottom variant="h3">Gonzalo Arrivi's Sandbox</Typography>
+                <Typography gutterBottom variant="h3">
+                  Gonzalo Arrivi's Sandbox
+                </Typography>
                 <StyledAvatar src={homeAvatarImage} />
               </StyledTopBanner>
             )}
