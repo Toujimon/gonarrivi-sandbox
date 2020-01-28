@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 import { theme } from "./components/design-system";
 import {
@@ -16,6 +16,7 @@ import homeBannerImage from "./assets/images/home-banner.jpg";
 import homeAvatarImage from "./assets/images/home-avatar.jpeg";
 import Home from "./home";
 import FateProject from "./fate-project";
+import EpicCafeManager from "./epic-cafe-manager";
 
 const appTheme = { ...theme, primary: "#199e57" };
 
@@ -88,29 +89,11 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route path="/fate-core-utils" component={FateProject} />
               {!!isApiAllowed && (
-                <Route
-                  path="/epic-cafe-manager"
-                  render={() => <div>Epic Cafe Manager</div>}
-                />
+                <Route path="/epic-cafe-manager" component={EpicCafeManager} />
               )}
               <Route
-                render={({ match, location }) => (
-                  <React.Fragment>
-                    <p>404 page not found: {location.pathname}</p>
-                    <Route
-                      path="/some-other-thing"
-                      render={() => (
-                        <p>
-                          If this message is being displayed, you got here
-                          probably by clicking on the "Some other thing" main
-                          menu item. That's okay, that's basically a test to
-                          show a <b>404</b> page. You can see a "normal" case,
-                          for example, by following this{" "}
-                          <Link to="/nowhere-to-be-found">link</Link>
-                        </p>
-                      )}
-                    />
-                  </React.Fragment>
+                render={({ location }) => (
+                  <p>404 page not found: {location.pathname}</p>
                 )}
               />
             </Switch>

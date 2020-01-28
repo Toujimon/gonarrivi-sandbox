@@ -1,10 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import {
-  StyledBox,
-  StyledRoundBorderedBlock
-} from "./design-system";
+import { Paper } from "@material-ui/core";
+import { StyledBox } from "./design-system";
 import Widget from "./widget";
 import { modifyArrayElement } from "../helpers";
 
@@ -14,7 +12,7 @@ const HiddenStyledBox = styled(StyledBox)`
   display: none;
 `;
 
-const StyledFieldSet = props => <StyledRoundBorderedBlock {...props} />;
+const StyledFieldSet = props => <Paper {...props} />;
 
 class FateCharacterSheet extends React.Component {
   static propTypes = {
@@ -72,7 +70,7 @@ class FateCharacterSheet extends React.Component {
     const {
       id,
       //aspects,
-      skills,
+      skills
       //stunts,
       //extras,
       //stressTracks,

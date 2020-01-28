@@ -1,8 +1,9 @@
 import * as React from "react";
+import { StyledBox } from "./components/design-system";
 
 function Home() {
   return (
-    <React.Fragment>
+    <StyledBox>
       <h2>About me</h2>
       <p>
         I'm just a really passionate programmer that is currently delving on the
@@ -54,7 +55,7 @@ function Home() {
         <b>styled-components</b> library to provide the styling (no CSS files
         around here, folks!).
       </p>
-    </React.Fragment>
+    </StyledBox>
   );
 }
 

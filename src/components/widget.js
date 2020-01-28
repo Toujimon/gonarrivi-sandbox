@@ -1,12 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  StyledRoundBorderedBlock,
-  StyledButton,
-  theme
-} from "./design-system";
+import { Paper } from "@material-ui/core";
+import { StyledButton, theme } from "./design-system";
 
-const StyledWrapper = styled(StyledRoundBorderedBlock)`
+const StyledWrapper = styled(Paper)`
   display: flex;
   flex-direction: column;
   overflow: auto;
@@ -27,7 +24,7 @@ const StyledHeader = styled.header`
   `}
   padding: 0 8px;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 `;
 StyledHeader.defaultProps = { theme };
 const StyledContent = styled.div`
@@ -46,7 +43,7 @@ const StyledCommand = styled(StyledButton)`
   border-radius: 0;
   align-self: stretch;
   border: 0;
-  border-left: 1px solid rgba(0,0,0,0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
 `;
 
 function Widget(props) {
@@ -55,21 +52,20 @@ function Widget(props) {
     <StyledWrapper {...wrapperProps}>
       {!!title && <StyledHeader>{title}</StyledHeader>}
       <StyledContent>{children}</StyledContent>
-      {!!commands &&
-        !!commands.length && (
-          <StyledFooter>
-            {commands.map(({ title, onInvoke, key, ...otherProps }, i) => (
-              <StyledCommand
-                key={key || i}
-                title={title}
-                onClick={onInvoke}
-                {...otherProps}
-              >
-                {title}
-              </StyledCommand>
-            ))}
-          </StyledFooter>
-        )}
+      {!!commands && !!commands.length && (
+        <StyledFooter>
+          {commands.map(({ title, onInvoke, key, ...otherProps }, i) => (
+            <StyledCommand
+              key={key || i}
+              title={title}
+              onClick={onInvoke}
+              {...otherProps}
+            >
+              {title}
+            </StyledCommand>
+          ))}
+        </StyledFooter>
+      )}
     </StyledWrapper>
   );
 }
