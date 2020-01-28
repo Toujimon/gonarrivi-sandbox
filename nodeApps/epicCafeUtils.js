@@ -89,7 +89,7 @@ function processEpicCafeCatalog(catalogText) {
           }
         })();
       });
-      gameEntry.id = gameEntry.name;
+      gameEntry.id = gameEntry.raw;
       gameEntry.idType = "epic";
       catalog.push(gameEntry);
     });
