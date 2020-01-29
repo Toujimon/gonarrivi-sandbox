@@ -1,23 +1,28 @@
 const path = require("path");
 
-const outputDirectoryPath = path.resolve(__dirname, "output");
+const outputDirectoryPath = path.resolve(__dirname, "assets");
 
-const getRawCatalogFilePath = version =>
-  path.resolve(
-    outputDirectoryPath,
-    `raw_${version < 10 ? "0" : ""}${version}.txt`
-  );
-const getProcessedCatalogFilePath = version =>
-  path.resolve(
-    outputDirectoryPath,
-    `catalog_${version < 10 ? "0" : ""}${version}.json`
-  );
+const rawCatalogFilePath = path.resolve(outputDirectoryPath, `raw.txt`);
+
+const processedCatalogFilePath = path.resolve(
+  outputDirectoryPath,
+  `catalog.json`
+);
 
 const bggMatchesFilePath = path.resolve(outputDirectoryPath, `bggMatches.json`);
 
+const indexedBggCatalogPath = path.resolve(
+  outputDirectoryPath,
+  `indexedBggCatalog.json`
+);
+
+const epicBggJoinPath = path.resolve(outputDirectoryPath, `epicBggJoined.json`);
+
 module.exports = {
   outputDirectoryPath,
-  getRawCatalogFilePath,
-  getProcessedCatalogFilePath,
-  bggMatchesFilePath
+  rawCatalogFilePath,
+  processedCatalogFilePath,
+  bggMatchesFilePath,
+  indexedBggCatalogPath,
+  epicBggJoinPath
 };

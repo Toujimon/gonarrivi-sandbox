@@ -1,6 +1,18 @@
 import React from "react";
 import { StyledBox } from "./components/design-system";
-import { Typography, List, ListItem, ListItemText } from "@material-ui/core";
+import {
+  Typography,
+  List,
+  ListItem,
+  ListItemText,
+  TableContainer,
+  Table,
+  TableBody,
+  TableRow,
+  TableCell,
+  ListItemSecondaryAction,
+  Button
+} from "@material-ui/core";
 
 export default function EpicCafeManager() {
   return (
@@ -21,34 +33,86 @@ export default function EpicCafeManager() {
 /* To be refactored out if it seems like it may be useful on other modules */
 function GamesCatalog({ games }) {
   return (
-    <StyledBox>
-      <List>
-        {games.map(game => (
-          <ListItem key={game.id} divider>
-            <ListItemText primary={game.name} />
-          </ListItem>
-        ))}
-      </List>
-    </StyledBox>
+    <TableContainer component={StyledBox}>
+      <Table>
+        <TableBody>
+          {games.map(game => (
+            <TableRow key={game.id}>
+              <TableCell vertical-align="top">{game.name}</TableCell>
+              <TableCell vertical-align="top">
+                {game.bggMatchId || "None"}
+              </TableCell>
+              <TableCell>
+                {!!game.foundBggMatches.length && (
+                  <List>
+                    {game.foundBggMatches.map(match => {
+                      const { id, name, yearpublished } = match;
+                      return (
+                        <ListItem key={id}>
+                          <ListItemText
+                            primary={
+                              typeof name[0] === "string"
+                                ? name[0]
+                                : name[0]["_"]
+                            }
+                            secondary={
+                              yearpublished
+                                ? yearpublished[0]
+                                : "Unknown release year"
+                            }
+                          />
+                          <ListItemSecondaryAction>
+                            <Button
+                              onClick={() =>
+                                window.open(
+                                  `https://boardgamegeek.com/boardgame/${id}`
+                                )
+                              }
+                            >
+                              See BGG Entry
+                            </Button>
+                          </ListItemSecondaryAction>
+                        </ListItem>
+                      );
+                    })}
+                  </List>
+                )}
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
   );
 }
 
 function GamesCatalogContainer() {
   const [catalog, setCatalog] = React.useState(null);
   React.useEffect(() => {
-    fetch("/api/catalog/1")
+    fetch("/api/catalog")
       .then(response => response.json().then(jsonData => jsonData))
       .catch(error => {
         console.log(error);
         return error;
       })
-      .then(data => {
-        setCatalog(data);
+      .then(({ epicCatalog, bggCatalog, epicBggJoin }) => {
+        setCatalog(
+          epicCatalog.map(({ id, name }) => {
+            return {
+              id,
+              name,
+              bggMatchId: epicBggJoin[id].bggMatchId,
+              foundBggMatches: epicBggJoin[id].foundBggMatches.map(
+                matchId => bggCatalog[matchId]
+              )
+            };
+          })
+        );
       });
   }, []);
 
   return catalog === null ? (
-    "Loading catalog..."
+    "Loading catalog information, may take a while..."
   ) : (
     <GamesCatalog games={catalog} />
   );

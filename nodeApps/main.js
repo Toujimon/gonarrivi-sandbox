@@ -5,13 +5,14 @@ const path = require("path");
 
 const {
   outputDirectoryPath,
-  getProcessedCatalogFilePath,
-  getRawCatalogFilePath,
-  bggMatchesFilePath
+  processedCatalogFilePath,
+  rawCatalogFilePath,
+  bggMatchesFilePath,
+  epicBggJoinPath,
+  indexedBggCatalogPath
 } = require("./shared");
 
-function fetchAndProcess(version) {
-  var rawCatalogFilePath = getRawCatalogFilePath(version);
+function fetchAndProcess() {
   // epicCafeUtils.fetchEpicCafeCatalog(epicGamesFile);
   (!fileUtils.exists(rawCatalogFilePath)
     ? epicCafeUtils
@@ -21,19 +22,18 @@ function fetchAndProcess(version) {
             .writeTextToFile(text, rawCatalogFilePath)
             .then(
               () =>
-                console.log(
-                  `New file for version "${version}" created with the fetched data`
-                ) || text
+                console.log(`New raw file created with the fetched data`) ||
+                text
             )
         )
     : console.log(
-        `File for version "${version}" already exists, so the process is done using it`
+        `A raw file already exists, so the process is done using it`
       ) || fileUtils.readTextFromFile(rawCatalogFilePath)
   ).then(text =>
     epicCafeUtils
       .processEpicCafeCatalog(text)
       .then(([catalog]) =>
-        fileUtils.writeJsonToFile(catalog, getProcessedCatalogFilePath(version))
+        fileUtils.writeJsonToFile(catalog, processedCatalogFilePath)
       )
       .then(() => console.log("Finished"))
   );
@@ -45,11 +45,10 @@ async function searchWithBggApi(searchTerm) {
   console.log("results:", JSON.stringify(results, null, 2));
 }
 
-async function getBggMatches(version, amount) {
-  const processedCatalogFilePath = getProcessedCatalogFilePath(version);
+async function getBggMatches(amount = 2000) {
   if (!fileUtils.exists(processedCatalogFilePath)) {
     console.log(
-      `No processed catalog for version "${version}" exists. Be sure to retrieve it first with "process ${version}"`
+      `No processed catalog exists. Be sure to retrieve it first with "process"`
     );
   } else {
     const catalog = await fileUtils.readJsonFromFile(processedCatalogFilePath);
@@ -118,39 +117,61 @@ async function checkBggMatches() {
   }
 }
 
-const [, , command, version, ...args] = process.argv;
+async function generateIndexes() {
+  const indexedBggCatalog = {};
+  const epicBggJoin = {};
+  const epicCatalog = await fileUtils.readJsonFromFile(
+    processedCatalogFilePath
+  );
+  const bggMatches = await fileUtils.readJsonFromFile(bggMatchesFilePath);
+  for (const gameEntry of epicCatalog) {
+    const entryBggMatches = bggMatches[gameEntry.id] || [];
+    epicBggJoin[gameEntry.id] = {
+      bggMatchId: null,
+      foundBggMatches: entryBggMatches.map(x => x.id)
+    };
+    for (const bggMatch of entryBggMatches) {
+      if (!indexedBggCatalog[bggMatch.id]) {
+        indexedBggCatalog[bggMatch.id] = bggMatch;
+      }
+    }
+  }
+  await fileUtils.writeJsonToFile(indexedBggCatalog, indexedBggCatalogPath);
+  await fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath);
+  console.log("Finished");
+}
+
+const [, , command, ...args] = process.argv;
 switch (command) {
   case "process": {
-    fetchAndProcess(Number(version || 1));
+    fetchAndProcess();
     break;
   }
   case "special-chars": {
-    fileUtils
-      .readJsonFromFile(getProcessedCatalogFilePath(version))
-      .then(catalog => {
-        const specialCharactersSet = new Set();
-        for (const entry of catalog) {
-          console.log(entry.name);
-          const specialCharacters = [...(entry.name.match(/\W/g) || [])];
-          for (const character of specialCharacters) {
-            specialCharactersSet.add(character);
-          }
+    fileUtils.readJsonFromFile(processedCatalogFilePath).then(catalog => {
+      const specialCharactersSet = new Set();
+      for (const entry of catalog) {
+        console.log(entry.name);
+        const specialCharacters = [...(entry.name.match(/\W/g) || [])];
+        for (const character of specialCharacters) {
+          specialCharactersSet.add(character);
         }
-        fileUtils
-          .writeTextToFile(
-            [...specialCharactersSet].join(""),
-            path.resolve(outputDirectoryPath, "special.txt")
-          )
-          .then(() => console.log("Finished"));
-      });
+      }
+      fileUtils
+        .writeTextToFile(
+          [...specialCharactersSet].join(""),
+          path.resolve(outputDirectoryPath, "special.txt")
+        )
+        .then(() => console.log("Finished"));
+    });
 
     break;
   }
   case "get-bgg-matches": {
-    if (version && args.length > 0) {
+    if (args.length > 0) {
       const amount = Number(args[0]);
       if (!isNaN(amount)) {
-        getBggMatches(version, amount);
+        getBggMatches(amount);
       }
     } else {
       console.log(
@@ -163,13 +184,13 @@ switch (command) {
     checkBggMatches();
     break;
   }
+  case "generate-indexes": {
+    generateIndexes();
+    break;
+  }
   case "search": {
-    if (version) {
-      const searchTerm = [version, ...args].join(" ");
-      searchWithBggApi(searchTerm);
-    } else {
-      console.log("should input some search words");
-    }
+    const searchTerm = args.join(" ");
+    searchWithBggApi(searchTerm);
     break;
   }
   default:

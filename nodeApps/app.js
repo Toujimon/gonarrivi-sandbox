@@ -1,11 +1,22 @@
 const express = require("express");
-const { getProcessedCatalogFilePath } = require("./shared");
+const fileUtils = require("./fileUtils");
+const {
+  processedCatalogFilePath,
+  indexedBggCatalogPath,
+  epicBggJoinPath
+} = require("./shared");
 
 const port = 4000;
 const app = express();
 
-app.get("/api/catalog/:version", (req, res) => {
-  res.sendFile(getProcessedCatalogFilePath(req.params.version));
+app.get("/api/catalog", (req, res) => {
+  Promise.all([
+    fileUtils.readJsonFromFile(processedCatalogFilePath),
+    fileUtils.readJsonFromFile(indexedBggCatalogPath),
+    fileUtils.readJsonFromFile(epicBggJoinPath)
+  ]).then(([epicCatalog, bggCatalog, epicBggJoin]) => {
+    res.send({ epicCatalog, bggCatalog, epicBggJoin });
+  });
 });
 // app.get("/*", (req, res) => {
 //   console.log("request received", req.url);
