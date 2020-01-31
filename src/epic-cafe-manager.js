@@ -284,7 +284,9 @@ function BggMatchSelector({
   onMatchConfirm,
   onMatchesClean
 }) {
-  const [selected, setSelected] = React.useState(currentMatch);
+  const [selected, setSelected] = React.useState(
+    currentMatch || (matches.length && matches[0].id) || null
+  );
   // const currentlySelected = matches.find(x => x.id === selected);
   return (
     <Toolbar>
@@ -301,24 +303,22 @@ function BggMatchSelector({
           </option>
         ))}
       </Select>
-      {!!selected && (
-        <React.Fragment>
-          <IconButton
-            onClick={() =>
-              window.open(`https://boardgamegeek.com/boardgame/${selected}`)
-            }
-          >
-            <FontAwesomeIcon icon={faEye} />
-          </IconButton>
-          {selected !== currentMatch ? (
-            <Button onClick={() => onMatchConfirm(selected)}>
-              Confirm match
-            </Button>
-          ) : (
-            <Button onClick={() => onMatchesClean()}>Clean matches</Button>
-          )}
-        </React.Fragment>
-      )}
+      <React.Fragment>
+        <IconButton
+          onClick={() =>
+            window.open(`https://boardgamegeek.com/boardgame/${selected}`)
+          }
+        >
+          <FontAwesomeIcon icon={faEye} />
+        </IconButton>
+        {selected !== currentMatch ? (
+          <Button onClick={() => onMatchConfirm(selected)}>
+            {selected ? "Confirm match" : "Remove current match"}
+          </Button>
+        ) : (
+          <Button onClick={() => onMatchesClean()}>Clean matches</Button>
+        )}
+      </React.Fragment>
     </Toolbar>
   );
 }

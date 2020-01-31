@@ -19,9 +19,10 @@ app.get("/api/catalog", (req, res) => {
 app.put("/api/catalog", (req, res) => {
   console.log(`PUT catalog entry match`, req.body);
   const { id, bggMatchId } = req.body;
-  if (id && bggMatchId) {
+  if (id) {
     getAllData().then(([, bggCatalog, epicBggJoin]) => {
-      if (epicBggJoin[id] && bggCatalog[bggMatchId]) {
+      const epicBggJoinEntry = epicBggJoin[id];
+      if (epicBggJoinEntry && (!bggMatchId || bggCatalog[bggMatchId])) {
         epicBggJoin[id].bggMatchId = bggMatchId;
         fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath).then(() => {
           res.sendStatus(200);
@@ -42,14 +43,10 @@ app.delete("/api/catalog", (req, res) => {
     getAllData().then(([, , epicBggJoin]) => {
       const epicBggJoinEntry = epicBggJoin[id];
       if (epicBggJoinEntry) {
-        if (epicBggJoinEntry.bggMatchId) {
-          epicBggJoin[id].foundBggMatches = [];
-          fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath).then(() => {
-            res.sendStatus(200);
-          });
-        } else {
-          res.sendStatus(500);
-        }
+        epicBggJoin[id].foundBggMatches = [];
+        fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath).then(() => {
+          res.sendStatus(200);
+        });
       } else {
         res.sendStatus(404);
       }

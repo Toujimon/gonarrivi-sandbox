@@ -141,6 +141,64 @@ async function generateIndexes() {
   console.log("Finished");
 }
 
+async function confirmThosewithJustOneMatch(max = 1) {
+  const [catalog, epicBggJoin] = await Promise.all([
+    fileUtils.readJsonFromFile(processedCatalogFilePath),
+    fileUtils.readJsonFromFile(epicBggJoinPath)
+  ]);
+
+  let count = 0;
+  for (const entry of catalog) {
+    const epicBggJoinEntry = epicBggJoin[entry.id];
+    if (
+      !epicBggJoinEntry.bggMatchId &&
+      epicBggJoinEntry.foundBggMatches.length === 1
+    ) {
+      epicBggJoinEntry.bggMatchId = epicBggJoinEntry.foundBggMatches[0].id;
+      epicBggJoinEntry.foundBggMatches = [];
+      count++;
+      if (count >= max) {
+        break;
+      }
+    }
+  }
+  if (count) {
+    await fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath);
+    console.log(`Finished confirming ${count} entries`);
+  } else {
+    console.log("No entries to confirm found");
+  }
+}
+
+async function cleanArleadyConfirmedFoundMatches() {
+  const epicBggJoin = await fileUtils.readJsonFromFile(epicBggJoinPath);
+  const [alreadyConfirmedIds, multipleMatchesEntries] = Object.values(
+    epicBggJoin
+  ).reduce(
+    ([alreadyConfirmedIds, multipleMatchesEntries], epicBggJoinEntry) => {
+      if (
+        epicBggJoinEntry.bggMatchId &&
+        !epicBggJoinEntry.foundBggMatches.length
+      ) {
+        alreadyConfirmedIds.add(epicBggJoinEntry.bggMatchId);
+      } else if (epicBggJoinEntry.foundBggMatches.length > 1) {
+        multipleMatchesEntries.push(epicBggJoinEntry);
+      }
+      return [alreadyConfirmedIds, multipleMatchesEntries];
+    },
+    [new Set(), []]
+  );
+
+  multipleMatchesEntries.forEach(epicBggJoinEntry => {
+    epicBggJoinEntry.foundBggMatches = epicBggJoinEntry.foundBggMatches.filter(
+      x => !alreadyConfirmedIds.has(x)
+    );
+  });
+
+  await fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath);
+  console.log("Finished");
+}
+
 const [, , command, ...args] = process.argv;
 switch (command) {
   case "process": {
@@ -186,6 +244,14 @@ switch (command) {
   }
   case "generate-indexes": {
     generateIndexes();
+    break;
+  }
+  case "batch-confirm": {
+    confirmThosewithJustOneMatch(Number(args[0] || 1));
+    break;
+  }
+  case "clear-confirmed": {
+    cleanArleadyConfirmedFoundMatches();
     break;
   }
   case "search": {
