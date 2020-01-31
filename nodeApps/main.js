@@ -233,7 +233,7 @@ switch (command) {
       }
     } else {
       console.log(
-        "A version and amount of registers to check have to be specified"
+        "An amount of registers to check have to be specified"
       );
     }
     break;
