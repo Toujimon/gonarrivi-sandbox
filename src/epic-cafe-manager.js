@@ -64,9 +64,11 @@ function EpicBggMatcherContainer() {
                     age,
                     coordinates,
                     bggMatchId: epicBggJoin[id].bggMatchId,
-                    foundBggMatches: epicBggJoin[id].foundBggMatches.map(
-                      matchId => bggCatalog[matchId]
-                    )
+                    foundBggMatches:
+                      epicBggJoin[id].foundBggMatches &&
+                      epicBggJoin[id].foundBggMatches.map(
+                        matchId => bggCatalog[matchId]
+                      )
                   };
                 }
               );
