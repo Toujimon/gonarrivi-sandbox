@@ -152,10 +152,12 @@ async function confirmThosewithJustOneMatch(max = 1) {
     const epicBggJoinEntry = epicBggJoin[entry.id];
     if (
       !epicBggJoinEntry.bggMatchId &&
+      epicBggJoinEntry.foundBggMatches &&
       epicBggJoinEntry.foundBggMatches.length === 1
     ) {
-      epicBggJoinEntry.bggMatchId = epicBggJoinEntry.foundBggMatches[0].id;
-      epicBggJoinEntry.foundBggMatches = [];
+      const bggMatchId = epicBggJoinEntry.foundBggMatches[0];
+      epicBggJoinEntry.bggMatchId = bggMatchId;
+      epicBggJoinEntry.foundBggMatches = null;
       count++;
       if (count >= max) {
         break;
@@ -232,9 +234,7 @@ switch (command) {
         getBggMatches(amount);
       }
     } else {
-      console.log(
-        "An amount of registers to check have to be specified"
-      );
+      console.log("An amount of registers to check have to be specified");
     }
     break;
   }
