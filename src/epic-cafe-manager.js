@@ -128,7 +128,7 @@ function EpicBggMatcherContainer() {
 const PAGE_SIZE = 50;
 const MATCHES_FILTERS = [
   ["All", null],
-  ["No matches", x => !x.foundBggMatches || x.foundBggMatches.length],
+  ["No matches", x => !x.foundBggMatches || !x.foundBggMatches.length],
   ["Just one match", x => x.foundBggMatches && x.foundBggMatches.length === 1],
   ["Multiple matches", x => x.foundBggMatches && x.foundBggMatches.length > 1]
 ];
