@@ -1,20 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 import { StyledBox } from "./components/design-system";
 import {
   Typography,
-  TableContainer,
-  Table,
-  TableBody,
-  TableRow,
-  TableCell,
   Grid,
   Toolbar,
   Select,
   Button,
   IconButton,
-  TablePagination,
-  Checkbox,
-  FormControlLabel
+  TablePagination
 } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faSadTear, faSmile } from "@fortawesome/free-solid-svg-icons";
@@ -53,31 +47,37 @@ function EpicBggMatcherContainer() {
   React.useEffect(() => {
     if (mustFetch) {
       fetch("/api/catalog")
-        .then(response => response.json().then(jsonData => jsonData))
+        .then(response =>
+          response
+            .json()
+            .then(jsonData => jsonData)
+            .then(({ epicCatalog, bggCatalog, epicBggJoin }) => {
+              return epicCatalog.map(
+                ({ id, name, players, age, coordinates }) => {
+                  return {
+                    id,
+                    name,
+                    players:
+                      players.type === "range" || players.type === "min"
+                        ? `${players.min} - ${players.max || ""}`
+                        : players.type,
+                    age,
+                    coordinates,
+                    bggMatchId: epicBggJoin[id].bggMatchId,
+                    foundBggMatches: epicBggJoin[id].foundBggMatches.map(
+                      matchId => bggCatalog[matchId]
+                    )
+                  };
+                }
+              );
+            })
+        )
         .catch(error => {
           console.log(error);
-          return error;
+          return [];
         })
-        .then(({ epicCatalog, bggCatalog, epicBggJoin }) => {
-          const catalog = epicCatalog.map(
-            ({ id, name, players, age, coordinates }) => {
-              return {
-                id,
-                name,
-                players:
-                  players.type === "range" || players.type === "min"
-                    ? `${players.min} - ${players.max || ""}`
-                    : players.type,
-                age,
-                coordinates,
-                bggMatchId: epicBggJoin[id].bggMatchId,
-                foundBggMatches: epicBggJoin[id].foundBggMatches.map(
-                  matchId => bggCatalog[matchId]
-                )
-              };
-            }
-          );
-          setCatalog(catalog);
+        .then(processedCatalog => {
+          setCatalog(processedCatalog);
         });
     }
   }, [mustFetch]);
@@ -125,13 +125,30 @@ function EpicBggMatcherContainer() {
   );
 }
 
-const PAGE_SIZE = 25;
-const FILTERS = [
+const PAGE_SIZE = 50;
+const MATCHES_FILTERS = [
   ["All", null],
-  ["No matches", x => !x.foundBggMatches.length],
-  ["Just one match", x => x.foundBggMatches.length === 1],
-  ["Multiple matches", x => x.foundBggMatches.length > 1]
+  ["No matches", x => !x.foundBggMatches || x.foundBggMatches.length],
+  ["Just one match", x => x.foundBggMatches && x.foundBggMatches.length === 1],
+  ["Multiple matches", x => x.foundBggMatches && x.foundBggMatches.length > 1]
 ];
+
+const CONFIRMED_FILTERS = [
+  ["All", null],
+  ["Not confirmed", x => !x.bggMatchId],
+  ["Confirmed", x => !!x.bggMatchId]
+];
+
+const FILTERS = MATCHES_FILTERS.map(([, matchesFilter]) =>
+  CONFIRMED_FILTERS.map(([, confirmedFilter]) => x =>
+    (!matchesFilter || matchesFilter(x)) &&
+    (!confirmedFilter || confirmedFilter(x))
+  )
+);
+
+const StyledGrid = styled(Grid)`
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+`;
 
 function EpicBggMatcher({
   games,
@@ -139,31 +156,28 @@ function EpicBggMatcher({
   onEpicBggMatchesClean
 }) {
   const [
-    [page, appliedFilterIndex, hideConfirmedMatches],
+    [page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex],
     setState
-  ] = React.useState([0, 0, true]);
+  ] = React.useState([0, 0, 0]);
   const setPage = page =>
-    setState([page, appliedFilterIndex, hideConfirmedMatches]);
-  const setAppliedFilterIndex = appliedFilterIndex =>
-    setState([0, appliedFilterIndex, hideConfirmedMatches]);
+    setState([page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
+  const setAppliedMatchedFilterIndex = appliedMatchesFilterIndex =>
+    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
+  const setAppliedConfirmedFilterIndex = appliedConfirmedFilterIndex =>
+    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
 
-  const [, appliedFilter = null] = FILTERS[appliedFilterIndex] || [];
+  const appliedFilter =
+    (FILTERS[appliedMatchesFilterIndex] || [])[appliedConfirmedFilterIndex] ||
+    null;
 
   const [displayedGames, filteredGamesCount] = React.useMemo(() => {
-    const filteredGames = (!appliedFilter
-      ? games
-      : games.filter(appliedFilter)
-    ).filter(
-      !hideConfirmedMatches
-        ? x => x
-        : x => !x.bggMatchId || x.foundBggMatches.length
-    );
+    const filteredGames = !appliedFilter ? games : games.filter(appliedFilter);
     const displayedGames = filteredGames.slice(
       page * PAGE_SIZE,
       (page + 1) * PAGE_SIZE
     );
     return [displayedGames, filteredGames.length];
-  }, [games, page, appliedFilter, hideConfirmedMatches]);
+  }, [games, page, appliedFilter]);
 
   React.useEffect(() => {
     if (page > 0 && !displayedGames.length) {
@@ -173,38 +187,38 @@ function EpicBggMatcher({
   }, [displayedGames, page]);
 
   return (
-    <TableContainer component={StyledBox}>
+    <StyledBox>
       <Grid container>
         <Grid item md={8}>
           <Toolbar>
             <Select
-              value={appliedFilterIndex}
+              value={appliedMatchesFilterIndex}
               native
               onChange={event =>
-                setAppliedFilterIndex(Number(event.currentTarget.value))
+                setAppliedMatchedFilterIndex(Number(event.currentTarget.value))
               }
             >
-              {FILTERS.map(([text], index) => (
+              {MATCHES_FILTERS.map(([text], index) => (
                 <option key={index} value={index}>
                   {text}
                 </option>
               ))}
             </Select>
-            <FormControlLabel
-              control={
-                <Checkbox
-                  checked={hideConfirmedMatches}
-                  onChange={event =>
-                    setState(([, , prevValue]) => [
-                      page,
-                      appliedFilterIndex,
-                      !prevValue
-                    ])
-                  }
-                />
+            <Select
+              value={appliedConfirmedFilterIndex}
+              native
+              onChange={event =>
+                setAppliedConfirmedFilterIndex(
+                  Number(event.currentTarget.value)
+                )
               }
-              label="Hide confirmed matches"
-            />
+            >
+              {CONFIRMED_FILTERS.map(([text], index) => (
+                <option key={index} value={index}>
+                  {text}
+                </option>
+              ))}
+            </Select>
           </Toolbar>
         </Grid>
         <Grid item md={4} xs={12}>
@@ -219,64 +233,58 @@ function EpicBggMatcher({
         </Grid>
       </Grid>
 
-      <Table>
-        <TableBody>
-          {displayedGames.map(
-            ({ id, name, players, age, bggMatchId, foundBggMatches }) => (
-              <TableRow key={id}>
-                <TableCell align="left">
+      <ul>
+        {displayedGames.map(
+          ({ id, name, players, age, bggMatchId, foundBggMatches }) => (
+            <StyledGrid container component="li" key={id}>
+              <Grid component={Toolbar} item xs={12} md={5}>
+                <div>
                   <Typography>{name}</Typography>
                   <Typography variant="caption">
                     Players: {players}, Age: {age}
                   </Typography>
-                </TableCell>
-                <TableCell align="right">
-                  {bggMatchId ? (
-                    <IconButton
-                      onClick={() =>
-                        window.open(
-                          `https://boardgamegeek.com/boardgame/${bggMatchId}`
-                        )
-                      }
-                    >
-                      <FontAwesomeIcon icon={faEye} />
-                    </IconButton>
-                  ) : (
-                    <Typography>None</Typography>
-                  )}
-                </TableCell>
-                <TableCell>
-                  {/* {JSON.stringify(game.foundBggMatches)} */}
-                  {foundBggMatches.length ? (
-                    <BggMatchSelector
-                      matches={foundBggMatches}
-                      currentMatch={bggMatchId}
-                      onMatchConfirm={matchId =>
-                        onEpicBggMatchConfirm(id, matchId)
-                      }
-                      onMatchesClean={() => onEpicBggMatchesClean(id)}
-                    />
-                  ) : (
-                    <React.Fragment>
-                      <Typography component="span">
-                        {!bggMatchId
-                          ? "No matches found"
-                          : "Match already confirmed"}{" "}
-                        <FontAwesomeIcon
-                          icon={!bggMatchId ? faSadTear : faSmile}
-                        />
-                      </Typography>
-                    </React.Fragment>
-                  )}
-                </TableCell>
-              </TableRow>
-            )
-          )}
-        </TableBody>
-      </Table>
-    </TableContainer>
+                </div>
+              </Grid>
+              <Grid component={Toolbar} item xs={12} md={1}>
+                {bggMatchId ? (
+                  <IconButton
+                    onClick={() =>
+                      window.open(
+                        `https://boardgamegeek.com/boardgame/${bggMatchId}`
+                      )
+                    }
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </IconButton>
+                ) : (
+                  <Typography>None</Typography>
+                )}
+              </Grid>
+              <Grid item xs={12} md={6}>
+                {/* {JSON.stringify(game.foundBggMatches)} */}
+
+                <BggMatchSelector
+                  matches={foundBggMatches || []}
+                  currentMatch={bggMatchId}
+                  onMatchConfirm={matchId => onEpicBggMatchConfirm(id, matchId)}
+                  onMatchesClean={() => onEpicBggMatchesClean(id)}
+                />
+              </Grid>
+            </StyledGrid>
+          )
+        )}
+      </ul>
+    </StyledBox>
   );
 }
+
+const StyledSelect = styled(Select)`
+  flex: 1 1 auto;
+`;
+
+const StyledButton = styled(Button)`
+  white-space: nowrap;
+`;
 
 function BggMatchSelector({
   matches,
@@ -290,35 +298,42 @@ function BggMatchSelector({
   // const currentlySelected = matches.find(x => x.id === selected);
   return (
     <Toolbar>
-      <Select
-        value={selected || ""}
-        native
-        onChange={event => setSelected(event.currentTarget.value || null)}
-      >
-        <option value=""></option>
-        {matches.map(({ id, name, yearpublished }) => (
-          <option key={id} value={id}>
-            {typeof name[0] === "string" ? name[0] : name[0]["_"]} (
-            {yearpublished ? yearpublished[0] : "???"})
-          </option>
-        ))}
-      </Select>
-      <React.Fragment>
-        <IconButton
-          onClick={() =>
-            window.open(`https://boardgamegeek.com/boardgame/${selected}`)
-          }
-        >
-          <FontAwesomeIcon icon={faEye} />
-        </IconButton>
-        {selected !== currentMatch ? (
-          <Button onClick={() => onMatchConfirm(selected)}>
-            {selected ? "Confirm match" : "Remove current match"}
-          </Button>
-        ) : (
-          <Button onClick={() => onMatchesClean()}>Clean matches</Button>
-        )}
-      </React.Fragment>
+      {matches.length ? (
+        <React.Fragment>
+          <StyledSelect
+            value={selected || ""}
+            native
+            onChange={event => setSelected(event.currentTarget.value || null)}
+          >
+            <option value=""></option>
+            {matches.map(({ id, name, yearpublished }) => (
+              <option key={id} value={id}>
+                {typeof name[0] === "string" ? name[0] : name[0]["_"]} (
+                {yearpublished ? yearpublished[0] : "???"})
+              </option>
+            ))}
+          </StyledSelect>
+          <IconButton
+            onClick={() =>
+              window.open(`https://boardgamegeek.com/boardgame/${selected}`)
+            }
+          >
+            <FontAwesomeIcon icon={faEye} />
+          </IconButton>
+          {selected !== currentMatch ? (
+            <StyledButton onClick={() => onMatchConfirm(selected)}>
+              {selected ? "Confirm match" : "Remove current match"}
+            </StyledButton>
+          ) : (
+            <Button onClick={() => onMatchesClean()}>Clean matches</Button>
+          )}
+        </React.Fragment>
+      ) : (
+        <Typography>
+          {!currentMatch ? "No matches found" : "Match already confirmed"}{" "}
+          <FontAwesomeIcon icon={!currentMatch ? faSadTear : faSmile} />
+        </Typography>
+      )}
     </Toolbar>
   );
 }
