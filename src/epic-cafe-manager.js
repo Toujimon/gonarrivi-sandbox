@@ -11,7 +11,12 @@ import {
   TablePagination
 } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faSadTear, faSmile } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEye,
+  faSadTear,
+  faSmile,
+  faPlus
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EpicCafeManager() {
   return (
@@ -116,6 +121,22 @@ function EpicBggMatcherContainer() {
     });
   }
 
+  function handleEpicBggMatchAdd(id, bggMatchId) {
+    fetch("/api/catalog", {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ id, bggMatchId })
+    }).then(res => {
+      if (res.status === 200) {
+        refetchCatalog();
+      } else {
+        console.error("Error while trying to update data:", res.statusText);
+      }
+    });
+  }
+
   return catalog === null ? (
     "Loading catalog information, may take a while..."
   ) : (
@@ -123,6 +144,7 @@ function EpicBggMatcherContainer() {
       games={catalog}
       onEpicBggMatchConfirm={handleEpicBggMatchConfirm}
       onEpicBggMatchesClean={handleEpicBggMatchesClean}
+      onEpicBggMatchAdd={handleEpicBggMatchAdd}
     />
   );
 }
@@ -132,7 +154,38 @@ const MATCHES_FILTERS = [
   ["All", null],
   ["No matches", x => !x.foundBggMatches || !x.foundBggMatches.length],
   ["Just one match", x => x.foundBggMatches && x.foundBggMatches.length === 1],
-  ["Multiple matches", x => x.foundBggMatches && x.foundBggMatches.length > 1]
+  [
+    "Multiple matches (2 .. 5)",
+    x =>
+      x.foundBggMatches &&
+      x.foundBggMatches.length > 1 &&
+      x.foundBggMatches.length < 6
+  ],
+  [
+    "Multiple matches (6 ... 10)",
+    x =>
+      x.foundBggMatches &&
+      x.foundBggMatches.length > 5 &&
+      x.foundBggMatches.length < 11
+  ],
+  [
+    "Multiple matches (11 ... 20)",
+    x =>
+      x.foundBggMatches &&
+      x.foundBggMatches.length > 10 &&
+      x.foundBggMatches.length < 21
+  ],
+  [
+    "Multiple matches (21 ... 50)",
+    x =>
+      x.foundBggMatches &&
+      x.foundBggMatches.length > 20 &&
+      x.foundBggMatches.length < 51
+  ],
+  [
+    "Multiple matches (51 ... )",
+    x => x.foundBggMatches && x.foundBggMatches.length > 51
+  ]
 ];
 
 const CONFIRMED_FILTERS = [
@@ -155,7 +208,8 @@ const StyledGrid = styled(Grid)`
 function EpicBggMatcher({
   games,
   onEpicBggMatchConfirm,
-  onEpicBggMatchesClean
+  onEpicBggMatchesClean,
+  onEpicBggMatchAdd
 }) {
   const [
     [page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex],
@@ -252,7 +306,9 @@ function EpicBggMatcher({
                   <IconButton
                     onClick={() =>
                       window.open(
-                        `https://boardgamegeek.com/boardgame/${bggMatchId}`
+                        `https://boardgamegeek.com/boardgame/${bggMatchId}`,
+                        "epicBggMatchViewer",
+                        "titlebar=no"
                       )
                     }
                   >
@@ -270,6 +326,7 @@ function EpicBggMatcher({
                   currentMatch={bggMatchId}
                   onMatchConfirm={matchId => onEpicBggMatchConfirm(id, matchId)}
                   onMatchesClean={() => onEpicBggMatchesClean(id)}
+                  onMatchAdd={matchId => onEpicBggMatchAdd(id, matchId)}
                 />
               </Grid>
             </StyledGrid>
@@ -292,7 +349,8 @@ function BggMatchSelector({
   matches,
   currentMatch = null,
   onMatchConfirm,
-  onMatchesClean
+  onMatchesClean,
+  onMatchAdd
 }) {
   const [selected, setSelected] = React.useState(
     currentMatch || (matches.length && matches[0].id) || null
@@ -317,7 +375,11 @@ function BggMatchSelector({
           </StyledSelect>
           <IconButton
             onClick={() =>
-              window.open(`https://boardgamegeek.com/boardgame/${selected}`)
+              window.open(
+                `https://boardgamegeek.com/boardgame/${selected}`,
+                "bggMatchViewer",
+                "titlebar=no"
+              )
             }
           >
             <FontAwesomeIcon icon={faEye} />
@@ -336,6 +398,16 @@ function BggMatchSelector({
           <FontAwesomeIcon icon={!currentMatch ? faSadTear : faSmile} />
         </Typography>
       )}
+      <IconButton
+        onClick={event => {
+          const newBggMatchId = prompt("Add a new game match");
+          if (newBggMatchId) {
+            onMatchAdd(newBggMatchId);
+          }
+        }}
+      >
+        <FontAwesomeIcon icon={faPlus} />
+      </IconButton>
     </Toolbar>
   );
 }

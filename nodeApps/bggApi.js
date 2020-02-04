@@ -46,18 +46,17 @@ function get(id) {
       res.on("error", err => reject(err));
       res.on("end", () =>
         resolve(
-          xmlParser.parseStringPromise(responseData)
-          // .then(
-          //   parsedData =>
-          //     (parsedData &&
-          //       parsedData.boardgames &&
-          //       parsedData.boardgames.boardgame &&
-          //       parsedData.boardgames.boardgame.map(boardgame => ({
-          //         ...boardgame,
-          //         id: boardgame["$"].objectid
-          //       }))) ||
-          //     []
-          // )
+          xmlParser.parseStringPromise(responseData).then(
+            parsedData =>
+              (parsedData &&
+                parsedData.boardgames &&
+                parsedData.boardgames.boardgame &&
+                parsedData.boardgames.boardgame.length > 0 && {
+                  ...parsedData.boardgames.boardgame[0],
+                  id: parsedData.boardgames.boardgame[0]["$"].objectid
+                }) ||
+              null
+          )
         )
       );
     });

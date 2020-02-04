@@ -1,5 +1,6 @@
 const express = require("express");
 const fileUtils = require("./fileUtils");
+const bggApi = require("./bggApi");
 const {
   processedCatalogFilePath,
   indexedBggCatalogPath,
@@ -47,6 +48,70 @@ app.delete("/api/catalog", (req, res) => {
         fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath).then(() => {
           res.sendStatus(200);
         });
+      } else {
+        res.sendStatus(404);
+      }
+    });
+  } else {
+    res.sendStatus(500);
+  }
+});
+
+app.post("/api/catalog", (req, res) => {
+  console.log(`POST new catalog entry match`, req.body);
+  const { id, bggMatchId } = req.body;
+  if (id && bggMatchId) {
+    getAllData().then(([, indexedBggCatalog, epicBggJoin]) => {
+      const epicBggJoinEntry = epicBggJoin[id];
+      if (epicBggJoinEntry) {
+        new Promise(resolve => {
+          if (
+            epicBggJoinEntry.bggMatchId !== bggMatchId &&
+            (!epicBggJoinEntry.foundBggMatches ||
+              !epicBggJoinEntry.foundBggMatches.includes(bggMatchId))
+          ) {
+            resolve(
+              new Promise(resolve => {
+                if (indexedBggCatalog[bggMatchId]) {
+                  epicBggJoinEntry.foundBggMatches = (
+                    epicBggJoinEntry.foundBggMatches || []
+                  ).concat(bggMatchId);
+                  resolve();
+                } else {
+                  resolve(
+                    bggApi.get(bggMatchId).then(newBggGame => {
+                      if (newBggGame) {
+                        indexedBggCatalog[bggMatchId] = newBggGame;
+                        epicBggJoinEntry.foundBggMatches = (
+                          epicBggJoinEntry.foundBggMatches || []
+                        ).concat(bggMatchId);
+                      } else {
+                        throw new Error(
+                          `Game with id "${bggMatchId}" not found`
+                        );
+                      }
+                    })
+                  );
+                }
+              }).then(() =>
+                Promise.all([
+                  fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath),
+                  fileUtils.writeJsonToFile(
+                    indexedBggCatalog,
+                    indexedBggCatalogPath
+                  )
+                ])
+              )
+            );
+          } else {
+            resolve();
+          }
+        })
+          .then(() => res.sendStatus(200))
+          .catch(error => {
+            res.status(500);
+            res.send(error.message);
+          });
       } else {
         res.sendStatus(404);
       }

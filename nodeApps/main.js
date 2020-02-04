@@ -48,7 +48,7 @@ async function searchWithBggApi(searchTerm) {
 async function findWithBggApi(id) {
   console.log(`searching "${id}"`);
   const results = await bggApi.get(id);
-  console.log("results:", JSON.stringify(results, null, 2));
+  console.log("results:", JSON.stringify(results).substr(0, 50) + "...");
 }
 
 async function getBggMatches(amount = 2000) {
