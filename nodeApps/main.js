@@ -45,6 +45,12 @@ async function searchWithBggApi(searchTerm) {
   console.log("results:", JSON.stringify(results, null, 2));
 }
 
+async function findWithBggApi(id) {
+  console.log(`searching "${id}"`);
+  const results = await bggApi.get(id);
+  console.log("results:", JSON.stringify(results, null, 2));
+}
+
 async function getBggMatches(amount = 2000) {
   if (!fileUtils.exists(processedCatalogFilePath)) {
     console.log(
@@ -94,7 +100,7 @@ async function checkBggMatches() {
     const allMatchesCollection = Object.values(bggMatches);
     if (allMatchesCollection.length) {
       for (const matches of allMatchesCollection) {
-        if (!matches.length) zeroMatches++;
+        if (!matches || !matches.length) zeroMatches++;
         else if (matches.length === 1) oneMatch++;
         else multipleMatches++;
       }
@@ -172,18 +178,19 @@ async function confirmThosewithJustOneMatch(max = 1) {
   }
 }
 
-async function cleanArleadyConfirmedFoundMatches() {
+async function cleanAlreadyConfirmedFoundMatches() {
   const epicBggJoin = await fileUtils.readJsonFromFile(epicBggJoinPath);
   const [alreadyConfirmedIds, multipleMatchesEntries] = Object.values(
     epicBggJoin
   ).reduce(
     ([alreadyConfirmedIds, multipleMatchesEntries], epicBggJoinEntry) => {
-      if (
-        epicBggJoinEntry.bggMatchId &&
-        !epicBggJoinEntry.foundBggMatches.length
-      ) {
+      if (epicBggJoinEntry.bggMatchId) {
         alreadyConfirmedIds.add(epicBggJoinEntry.bggMatchId);
-      } else if (epicBggJoinEntry.foundBggMatches.length > 1) {
+        epicBggJoinEntry.foundBggMatches = null;
+      } else if (
+        epicBggJoinEntry.foundBggMatches &&
+        epicBggJoinEntry.foundBggMatches.length > 1
+      ) {
         multipleMatchesEntries.push(epicBggJoinEntry);
       }
       return [alreadyConfirmedIds, multipleMatchesEntries];
@@ -191,14 +198,62 @@ async function cleanArleadyConfirmedFoundMatches() {
     [new Set(), []]
   );
 
+  let modified = 0;
   multipleMatchesEntries.forEach(epicBggJoinEntry => {
+    const prevLength = epicBggJoinEntry.foundBggMatches.length;
     epicBggJoinEntry.foundBggMatches = epicBggJoinEntry.foundBggMatches.filter(
       x => !alreadyConfirmedIds.has(x)
     );
+    if (prevLength > epicBggJoinEntry.foundBggMatches.length) {
+      modified++;
+    }
+    if (!epicBggJoinEntry.foundBggMatches.length) {
+      epicBggJoinEntry.foundBggMatches = null;
+    }
   });
 
   await fileUtils.writeJsonToFile(epicBggJoin, epicBggJoinPath);
-  console.log("Finished");
+  console.log(
+    `Finished, with ${modified} entries having modified their matches`
+  );
+}
+
+async function cleanUnreferencedBggGames() {
+  const epicBggJoin = await fileUtils.readJsonFromFile(epicBggJoinPath);
+  const indexedBggCatalog = await fileUtils.readJsonFromFile(
+    indexedBggCatalogPath
+  );
+  const referencedBggGamesIds = new Set();
+  for (const epicBggJoinEntry of Object.values(epicBggJoin)) {
+    if (epicBggJoinEntry.bggMatchId) {
+      referencedBggGamesIds.add(epicBggJoinEntry.bggMatchId);
+    }
+    if (epicBggJoinEntry.foundBggMatches) {
+      for (const bggMatchId of epicBggJoinEntry.foundBggMatches) {
+        referencedBggGamesIds.add(bggMatchId);
+      }
+    }
+  }
+  console.log(
+    `Found ${referencedBggGamesIds.size} different references on the catalog`
+  );
+  const indexedBggCatalogEntries = Object.entries(indexedBggCatalog);
+  let newIndexedBggCatalogLength = 0;
+  const newIndexedBggCatalog = indexedBggCatalogEntries.reduce(
+    (acc, [key, value]) => {
+      if (referencedBggGamesIds.has(key)) {
+        acc[key] = value;
+        newIndexedBggCatalogLength++;
+      }
+      return acc;
+    },
+    {}
+  );
+  await fileUtils.writeJsonToFile(newIndexedBggCatalog, indexedBggCatalogPath);
+  console.log(
+    `Removed ${indexedBggCatalogEntries.length -
+      newIndexedBggCatalogLength} elements from the BGG catalog that weren't referenced anymore`
+  );
 }
 
 const [, , command, ...args] = process.argv;
@@ -251,12 +306,23 @@ switch (command) {
     break;
   }
   case "clear-confirmed": {
-    cleanArleadyConfirmedFoundMatches();
+    cleanAlreadyConfirmedFoundMatches();
+    break;
+  }
+  case "clear-unreferenced": {
+    cleanUnreferencedBggGames();
     break;
   }
   case "search": {
     const searchTerm = args.join(" ");
     searchWithBggApi(searchTerm);
+    break;
+  }
+  case "find": {
+    const id = args[0];
+    if (id) {
+      findWithBggApi(id);
+    }
     break;
   }
   default:

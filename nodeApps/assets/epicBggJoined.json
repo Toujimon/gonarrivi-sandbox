@@ -1,11 +1,11 @@
 {
   "504,G1,1,2--4,12+": {
     "bggMatchId": "175878",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¡ALZAD VUESTRAS COPAS!,G1,1,2--12,8+": {
     "bggMatchId": "202732",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¡ATRAPA LA CACA!,V5,1,2--4,5+": {
     "bggMatchId": null,
@@ -24,15 +24,15 @@
   },
   "¡DE MUDANZAS!,Q9,2,3--6,10+": {
     "bggMatchId": "37120",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¡MÍA!,Q7,1,1--6,6+": {
     "bggMatchId": "235513",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¡PASA EL MARRÓN!,R7,1,2--9,8+": {
     "bggMatchId": "267971",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¡PINGÜINOS!,Q2,1,2--4,8+": {
     "bggMatchId": null,
@@ -75,7 +75,7 @@
   },
   "¿POR QUÉ NO TE CALLAS?,Q7,2,2--4,16+": {
     "bggMatchId": "123991",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "¿QUIÉN ES QUIÉN?,X7,1,2,6+": {
     "bggMatchId": null,
@@ -187,7 +187,7 @@
   },
   "7 WONDERS,O1,2,2--7,10+": {
     "bggMatchId": "68448",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "7 WONDERS BABEL,O1,1,2--7,10+": {
     "bggMatchId": null,
@@ -197,7 +197,7 @@
   },
   "7 WONDERS CITIES,EPR,1,2--8,13+": {
     "bggMatchId": "111661",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "7 WONDERS DUEL PANTHEON,EPR,1,2,10+": {
     "bggMatchId": null,
@@ -217,7 +217,7 @@
   },
   "7 WONDERS: DUEL,L4,2,2,10+": {
     "bggMatchId": "173346",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "A LO LOCO,EPR,1,2--5,8+": {
     "bggMatchId": null,
@@ -277,7 +277,7 @@
   },
   "ABALONE,I4,1,2,8+": {
     "bggMatchId": "526",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ABRACADABRA: PARA BRUJAS Y MAGOS PROFESIONALES,W8,1,2--4,5+": {
     "bggMatchId": null,
@@ -409,7 +409,7 @@
   },
   "AGRICOLA,E2,2,1--5,12+": {
     "bggMatchId": "31260",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "AIR SHOW,F4,1,2--5,14+": {
     "bggMatchId": null,
@@ -463,11 +463,11 @@
   },
   "ALCHEMICAL QUEST,B2/B0,2,1--4,8+": {
     "bggMatchId": "170131",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ALHAMBRA,H4,1,2--6,8+": {
     "bggMatchId": "6249",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ALICE,S8,1,2--4,10+": {
     "bggMatchId": null,
@@ -526,11 +526,11 @@
   },
   "ALQUIMISTAS,C2,1,2--4,10+": {
     "bggMatchId": "161970",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ALTA TENSION,G1,1,2--6,12+": {
     "bggMatchId": "2651",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ALTA TENSIÓN EL JUEGO DE CARTAS,M3,1,2--6,12+": {
     "bggMatchId": null,
@@ -674,7 +674,7 @@
   },
   "ARCANA,B2,1,2--4,13+": {
     "bggMatchId": "45134",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ARCANYA,N4,1,3--10,6+": {
     "bggMatchId": null,
@@ -684,7 +684,7 @@
   },
   "ARKHAM HORROR,C2,1,1--8,12+": {
     "bggMatchId": "15987",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "ARKHAM HORROR CARTAS,C2,1,1--2,14+": {
     "bggMatchId": null,
@@ -805,11 +805,11 @@
   },
   "AVALON,R9,1,5--10,13+": {
     "bggMatchId": "128882",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN,K3,1,2--5,8+": {
     "bggMatchId": "9209",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN- EL JUEGO DE CARTAS,S8,1,2--4,8+": {
     "bggMatchId": null,
@@ -825,7 +825,7 @@
   },
   "AVENTUREROS AL TREN: EUROPA,K3,2,2--5,8+": {
     "bggMatchId": "14996",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN: LA VUELTA AL MUNDO,K3,1,2--5,10+": {
     "bggMatchId": null,
@@ -841,7 +841,7 @@
   },
   "AZUL,J2,1,2--4,8+": {
     "bggMatchId": "230802",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BABY & MOTHER,W9,1,1,1+": {
     "bggMatchId": null,
@@ -870,7 +870,7 @@
   },
   "BACKGAMMON,CLASICOS 4,3,2,15+": {
     "bggMatchId": "2397",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BACKGAMMON RESINA,CLASICOS 0,1,2,14+": {
     "bggMatchId": null,
@@ -893,7 +893,7 @@
   },
   "BANG! DODGE CITY,Q6,1,3--8,10+": {
     "bggMatchId": "9653",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BANG! EL DUELO,T8,1,2,8+": {
     "bggMatchId": null,
@@ -903,7 +903,7 @@
   },
   "BANG! EL JUEGO DE DADOS,N3,1,3--8,8+": {
     "bggMatchId": "143741",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BANG! EL VALLE DE LAS SOMBRAS,R6,1,4--7,8+": {
     "bggMatchId": null,
@@ -961,7 +961,7 @@
   },
   "BATTLESTAR GALACTICA,A5,1,3--6,14+": {
     "bggMatchId": "37111",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BELLAFLOR,W7,2,2--4,6+": {
     "bggMatchId": null,
@@ -971,7 +971,7 @@
   },
   "BINGO,CLASICOS 1,1,1--99,5+": {
     "bggMatchId": "7316",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "BLACK HILLS,Q8,2,2--4,10+": {
     "bggMatchId": null,
@@ -1619,7 +1619,7 @@
   },
   "CARCASSONNE,H3,1,2--5,7+": {
     "bggMatchId": "822",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CARCASSONNE + RÍO Y ABAD,H3,1,2 -- 5,7+": {
     "bggMatchId": null,
@@ -1679,7 +1679,7 @@
   },
   "CARDS AGAINST HUMANITY,R2,1,3--99,18+": {
     "bggMatchId": "50381",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CARDS AGAINST HUMANITY (ENGLISH VERSION),R2,1,3--99,18+": {
     "bggMatchId": null,
@@ -1697,11 +1697,11 @@
   },
   "CARTAGENA,F3,1,2--5,8+": {
     "bggMatchId": "224031",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CASH'N GUNS SECOND EDITION,L1,1,4--8,1+": {
     "bggMatchId": "155362",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CASH'N GUNS: EXPANSION MORE GUNS,L1,1,4--8,10+": {
     "bggMatchId": null,
@@ -1809,11 +1809,11 @@
   },
   "CATAN: EL JUEGO,H2,2,3--4,10+": {
     "bggMatchId": "13",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CATAN: EL JUEGO DE CARTAS,M4,2,2--4,8+": {
     "bggMatchId": "91534",
-    "foundBggMatches": []
+    "foundBggMatches": null
   },
   "CATAN: EXPANSIÓN CIUDADES Y CABALLEROS (6 JUGADORES),H1,1,3--6,12+": {
     "bggMatchId": null,
@@ -5929,7 +5929,6 @@
       "62588",
       "34588",
       "28924",
-      "7316",
       "20205",
       "68083",
       "283800",
@@ -7115,7 +7114,6 @@
       "297803",
       "21108",
       "14651",
-      "202732",
       "286383",
       "245343",
       "258561",
@@ -9166,7 +9164,6 @@
     "bggMatchId": null,
     "foundBggMatches": [
       "41114",
-      "128882",
       "237391",
       "199451",
       "146757",
@@ -12917,7 +12914,6 @@
       "213980",
       "106318",
       "239441",
-      "9209",
       "225244",
       "120034",
       "258140",
@@ -12928,7 +12924,6 @@
       "89848",
       "106637",
       "131188",
-      "14996",
       "233891",
       "38454",
       "34127",
@@ -14211,7 +14206,6 @@
       "127517",
       "240738",
       "150098",
-      "7316",
       "127947",
       "239075",
       "186085",
@@ -14989,7 +14983,6 @@
       "39510",
       "240425",
       "5282",
-      "202732",
       "21226",
       "297350",
       "179352",
@@ -19079,7 +19072,6 @@
       "187452",
       "220018",
       "130398",
-      "9209",
       "244525",
       "106637",
       "106645",
@@ -19091,7 +19083,6 @@
       "160069",
       "89848",
       "53383",
-      "14996",
       "243684",
       "218208",
       "205125",
