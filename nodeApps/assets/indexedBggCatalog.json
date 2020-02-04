@@ -23352,6 +23352,667 @@
     ],
     "id": "157526"
   },
+  "157723": {
+    "$": {
+      "objectid": "157723"
+    },
+    "yearpublished": [
+      "2012"
+    ],
+    "minplayers": [
+      "2"
+    ],
+    "maxplayers": [
+      "10"
+    ],
+    "playingtime": [
+      "10"
+    ],
+    "minplaytime": [
+      "10"
+    ],
+    "maxplaytime": [
+      "10"
+    ],
+    "age": [
+      "12"
+    ],
+    "name": [
+      {
+        "_": "¿Alguien Ha Probado Este Juego?",
+        "$": {
+          "sortindex": "2"
+        }
+      },
+      {
+        "_": "Nie Testowaliśmy Tego Wcale",
+        "$": {
+          "sortindex": "1"
+        }
+      },
+      {
+        "_": "No Lo Testeamos Ni Un Poco",
+        "$": {
+          "sortindex": "1"
+        }
+      },
+      {
+        "_": "We Didn't Playtest This at All with Chaos Pack Expansion",
+        "$": {
+          "primary": "true",
+          "sortindex": "1"
+        }
+      },
+      {
+        "_": "試個好遊戲（内附絕對混亂擴充）",
+        "$": {
+          "sortindex": "1"
+        }
+      }
+    ],
+    "description": [
+      "This version of We Didn't Playtest This at All includes the Chaos Pack Expansion and comes in a sturdy 2-deck-playing-card-type box with a lift top.<br/><br/>The Chaos Pack Expansion contains a side deck of 15 cards you can use alongside We Didn't Playtest This at All. Every game, you randomly draw one Chaos card, and it becomes a rule that must be followed for the entire game.<br/><br/>From the publisher's website:<br/><br/>&quot;The most aptly named game ever!<br/><br/>In this exceptionally silly and awesome game, your objective is to win! Simple enough. Sadly, all of your opponents have the same simple goal, and they're trying to make you lose. Between Rock Paper Scissors battles, being eaten by a random Dragon, or saved by a Kitten Ambush, there are many hazards to avoid.&quot;<br/><br/>Play Summary<br/><br/>Everyone starts with 2 cards. On your turn, draw one card from the deck, and then play one from your hand following the instructions on the card. There are many hazards to avoid, including: bombs, dragons, arrows, laser pointers, black holes, Rock Paper Scissors battles, number battles, zombies, etc. Luckily items abound that can save you, too: spaceships, science, shields, dinosaurs and a kitten ambush!<br/><br/>There are Star Cards: they are clearly superior to normal cards. Every player has an equal chance of drawing a Star Card from the deck.<br/><br/>Integrates with:<br/><br/>    We Didn't Playtest This Either<br/><br/><br/><br/><br/>"
+    ],
+    "thumbnail": [
+      "https://cf.geekdo-images.com/thumb/img/PsOrrU4dC7JGkqjPhn_y8Eq1wNU=/fit-in/200x150/pic1955488.png"
+    ],
+    "image": [
+      "https://cf.geekdo-images.com/original/img/iHx3GZ5_vmEhgt7_xdf5EwPu40I=/0x0/pic1955488.png"
+    ],
+    "boardgamepublisher": [
+      {
+        "_": "Asmadi Games",
+        "$": {
+          "objectid": "5407"
+        }
+      },
+      {
+        "_": "Board Game Leisure",
+        "$": {
+          "objectid": "41488"
+        }
+      },
+      {
+        "_": "Bureau De Juegos",
+        "$": {
+          "objectid": "26638"
+        }
+      },
+      {
+        "_": "Czacha Games",
+        "$": {
+          "objectid": "31815"
+        }
+      },
+      {
+        "_": "Nosolorol Ediciones",
+        "$": {
+          "objectid": "7306"
+        }
+      }
+    ],
+    "boardgamecategory": [
+      {
+        "_": "Card Game",
+        "$": {
+          "objectid": "1002"
+        }
+      },
+      {
+        "_": "Humor",
+        "$": {
+          "objectid": "1079"
+        }
+      },
+      {
+        "_": "Party Game",
+        "$": {
+          "objectid": "1030"
+        }
+      }
+    ],
+    "boardgameversion": [
+      {
+        "_": "Chinese edition",
+        "$": {
+          "objectid": "447624"
+        }
+      },
+      {
+        "_": "English edition",
+        "$": {
+          "objectid": "428988"
+        }
+      },
+      {
+        "_": "English edition 2012",
+        "$": {
+          "objectid": "237506"
+        }
+      },
+      {
+        "_": "Polish edition",
+        "$": {
+          "objectid": "302221"
+        }
+      },
+      {
+        "_": "Spanish edition 2013",
+        "$": {
+          "objectid": "237507"
+        }
+      },
+      {
+        "_": "Spanish edition 2017",
+        "$": {
+          "objectid": "373245"
+        }
+      }
+    ],
+    "boardgamedesigner": [
+      {
+        "_": "Chris Cieslik",
+        "$": {
+          "objectid": "7011"
+        }
+      }
+    ],
+    "boardgamemechanic": [
+      {
+        "_": "Hand Management",
+        "$": {
+          "objectid": "2040"
+        }
+      },
+      {
+        "_": "Rock-Paper-Scissors",
+        "$": {
+          "objectid": "2003"
+        }
+      },
+      {
+        "_": "Simultaneous Action Selection",
+        "$": {
+          "objectid": "2020"
+        }
+      }
+    ],
+    "boardgameartist": [
+      {
+        "_": "Cecilia Jos",
+        "$": {
+          "objectid": "95326"
+        }
+      }
+    ],
+    "boardgameexpansion": [
+      {
+        "_": "No Lo Testeamos Ni Un Poco: El Musical",
+        "$": {
+          "objectid": "256217"
+        }
+      }
+    ],
+    "boardgamefamily": [
+      {
+        "_": "We Didn't Playtest This At All",
+        "$": {
+          "objectid": "8012"
+        }
+      }
+    ],
+    "boardgameintegration": [
+      {
+        "_": "We Didn't Playtest This Either with Blue Deck and Dice Are Fun Expansions",
+        "$": {
+          "objectid": "159500"
+        }
+      },
+      {
+        "_": "We Didn't Playtest This Either with Blue Deck and Dice Are Fun Expansions",
+        "$": {
+          "objectid": "159500",
+          "inbound": "true"
+        }
+      }
+    ],
+    "boardgamecompilation": [
+      {
+        "_": "We Didn't Playtest This At All",
+        "$": {
+          "objectid": "31016",
+          "inbound": "true"
+        }
+      },
+      {
+        "_": "We Didn't Playtest This At All: Chaos Pack",
+        "$": {
+          "objectid": "37974",
+          "inbound": "true"
+        }
+      }
+    ],
+    "poll": [
+      {
+        "$": {
+          "name": "suggested_numplayers",
+          "title": "User Suggested Number of Players",
+          "totalvotes": "5"
+        },
+        "results": [
+          {
+            "$": {
+              "numplayers": "1"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "5"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "2"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "1"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "4"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "3"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "3"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "2"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "4"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "2"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "3"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "5"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "5"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "6"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "3"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "2"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "7"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "5"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "8"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "4"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "9"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "3"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "1"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "10"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "3"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "1"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "numplayers": "10+"
+            },
+            "result": [
+              {
+                "$": {
+                  "value": "Best",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "Recommended",
+                  "numvotes": "1"
+                }
+              },
+              {
+                "$": {
+                  "value": "Not Recommended",
+                  "numvotes": "2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "name": "language_dependence",
+          "title": "Language Dependence",
+          "totalvotes": "2"
+        },
+        "results": [
+          {
+            "result": [
+              {
+                "$": {
+                  "level": "1",
+                  "value": "No necessary in-game text",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "level": "2",
+                  "value": "Some necessary text - easily memorized or small crib sheet",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "level": "3",
+                  "value": "Moderate in-game text - needs crib sheet or paste ups",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "level": "4",
+                  "value": "Extensive use of text - massive conversion needed to be playable",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "level": "5",
+                  "value": "Unplayable in another language",
+                  "numvotes": "2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$": {
+          "name": "suggested_playerage",
+          "title": "User Suggested Player Age",
+          "totalvotes": "1"
+        },
+        "results": [
+          {
+            "result": [
+              {
+                "$": {
+                  "value": "2",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "3",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "4",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "5",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "6",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "8",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "10",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "12",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "14",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "16",
+                  "numvotes": "1"
+                }
+              },
+              {
+                "$": {
+                  "value": "18",
+                  "numvotes": "0"
+                }
+              },
+              {
+                "$": {
+                  "value": "21 and up",
+                  "numvotes": "0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "157723"
+  },
   "157789": {
     "$": {
       "objectid": "157789"

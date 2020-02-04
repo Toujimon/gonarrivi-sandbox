@@ -58,17 +58,19 @@
     ]
   },
   "¡TIRA AL CUERVO!,W8,1,2,5+": {
-    "bggMatchId": null,
+    "bggMatchId": "181089",
     "foundBggMatches": [
       "181089"
     ]
   },
   "¿ALGUIEN HA JUGADO A ESTE JUEGO?,Q2,1,2--+,13o+": {
-    "bggMatchId": null,
-    "foundBggMatches": []
+    "bggMatchId": "157723",
+    "foundBggMatches": [
+      "157723"
+    ]
   },
   "\"¿POR QUÉ NO TE CALLAS, CARIÑO?\",Q7,2,3--8,14+": {
-    "bggMatchId": null,
+    "bggMatchId": "159890",
     "foundBggMatches": [
       "159890"
     ]
