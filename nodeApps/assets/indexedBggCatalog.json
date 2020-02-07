@@ -318,18 +318,6 @@
     ],
     "id": "359"
   },
-  "362": {
-    "$": {
-      "objectid": "362"
-    },
-    "name": [
-      "Olifanten Parade"
-    ],
-    "yearpublished": [
-      "1988"
-    ],
-    "id": "362"
-  },
   "371": {
     "$": {
       "objectid": "371"
@@ -640,18 +628,6 @@
     ],
     "id": "891"
   },
-  "904": {
-    "$": {
-      "objectid": "904"
-    },
-    "name": [
-      "Tytus, Romek i A'Tomek"
-    ],
-    "yearpublished": [
-      "2000"
-    ],
-    "id": "904"
-  },
   "926": {
     "$": {
       "objectid": "926"
@@ -758,23 +734,6 @@
     ],
     "id": "1275"
   },
-  "1293": {
-    "$": {
-      "objectid": "1293"
-    },
-    "name": [
-      {
-        "_": "Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1972"
-    ],
-    "id": "1293"
-  },
   "1294": {
     "$": {
       "objectid": "1294"
@@ -837,18 +796,6 @@
       "1999"
     ],
     "id": "1407"
-  },
-  "1410": {
-    "$": {
-      "objectid": "1410"
-    },
-    "name": [
-      "Angry Birds Space Race"
-    ],
-    "yearpublished": [
-      "1965"
-    ],
-    "id": "1410"
   },
   "1465": {
     "$": {
@@ -1011,18 +958,6 @@
       "2001"
     ],
     "id": "1675"
-  },
-  "1690": {
-    "$": {
-      "objectid": "1690"
-    },
-    "name": [
-      "AtoMUUUówki"
-    ],
-    "yearpublished": [
-      "2001"
-    ],
-    "id": "1690"
   },
   "1775": {
     "$": {
@@ -1427,23 +1362,6 @@
     ],
     "id": "2471"
   },
-  "2495": {
-    "$": {
-      "objectid": "2495"
-    },
-    "name": [
-      {
-        "_": "Boggle Bowl",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1987"
-    ],
-    "id": "2495"
-  },
   "2511": {
     "$": {
       "objectid": "2511"
@@ -1741,18 +1659,6 @@
     ],
     "id": "3225"
   },
-  "3243": {
-    "$": {
-      "objectid": "3243"
-    },
-    "name": [
-      "Lobo"
-    ],
-    "yearpublished": [
-      "2002"
-    ],
-    "id": "3243"
-  },
   "3249": {
     "$": {
       "objectid": "3249"
@@ -1798,18 +1704,6 @@
       "2002"
     ],
     "id": "3269"
-  },
-  "3337": {
-    "$": {
-      "objectid": "3337"
-    },
-    "name": [
-      "Lobo"
-    ],
-    "yearpublished": [
-      "1993"
-    ],
-    "id": "3337"
   },
   "3457": {
     "$": {
@@ -2359,23 +2253,6 @@
     ],
     "id": "4974"
   },
-  "5049": {
-    "$": {
-      "objectid": "5049"
-    },
-    "name": [
-      {
-        "_": "Body Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1984"
-    ],
-    "id": "5049"
-  },
   "5102": {
     "$": {
       "objectid": "5102"
@@ -2513,18 +2390,6 @@
       "2001"
     ],
     "id": "5360"
-  },
-  "5451": {
-    "$": {
-      "objectid": "5451"
-    },
-    "name": [
-      "Night Parade Hanafuda"
-    ],
-    "yearpublished": [
-      "1701"
-    ],
-    "id": "5451"
   },
   "5497": {
     "$": {
@@ -2743,18 +2608,6 @@
       "2003"
     ],
     "id": "6113"
-  },
-  "6238": {
-    "$": {
-      "objectid": "6238"
-    },
-    "name": [
-      "¡Que viene el lobo!"
-    ],
-    "yearpublished": [
-      "1981"
-    ],
-    "id": "6238"
   },
   "6249": {
     "$": {
@@ -3148,18 +3001,6 @@
     ],
     "id": "7443"
   },
-  "7680": {
-    "$": {
-      "objectid": "7680"
-    },
-    "name": [
-      "Atomes Crochus"
-    ],
-    "yearpublished": [
-      "1963"
-    ],
-    "id": "7680"
-  },
   "7688": {
     "$": {
       "objectid": "7688"
@@ -3298,23 +3139,6 @@
     ],
     "id": "8099"
   },
-  "8109": {
-    "$": {
-      "objectid": "8109"
-    },
-    "name": [
-      {
-        "_": "The Battle of Lobositz",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1978"
-    ],
-    "id": "8109"
-  },
   "8125": {
     "$": {
       "objectid": "8125"
@@ -3424,23 +3248,6 @@
     ],
     "id": "8217"
   },
-  "8260": {
-    "$": {
-      "objectid": "8260"
-    },
-    "name": [
-      {
-        "_": "Monster Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2003"
-    ],
-    "id": "8260"
-  },
   "8295": {
     "$": {
       "objectid": "8295"
@@ -3527,23 +3334,6 @@
       "2000"
     ],
     "id": "8620"
-  },
-  "8631": {
-    "$": {
-      "objectid": "8631"
-    },
-    "name": [
-      {
-        "_": "Pocket Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1980"
-    ],
-    "id": "8631"
   },
   "8638": {
     "$": {
@@ -3758,23 +3548,6 @@
     ],
     "id": "9494"
   },
-  "9611": {
-    "$": {
-      "objectid": "9611"
-    },
-    "name": [
-      {
-        "_": "Boggle Jr. Numbers",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1992"
-    ],
-    "id": "9611"
-  },
   "9635": {
     "$": {
       "objectid": "9635"
@@ -3920,23 +3693,6 @@
     ],
     "id": "10079"
   },
-  "10134": {
-    "$": {
-      "objectid": "10134"
-    },
-    "name": [
-      {
-        "_": "Sesame Street Great Big Parade Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1989"
-    ],
-    "id": "10134"
-  },
   "10151": {
     "$": {
       "objectid": "10151"
@@ -4016,23 +3772,6 @@
       "1997"
     ],
     "id": "10221"
-  },
-  "10273": {
-    "$": {
-      "objectid": "10273"
-    },
-    "name": [
-      {
-        "_": "Elephants on Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2003"
-    ],
-    "id": "10273"
   },
   "10293": {
     "$": {
@@ -4137,23 +3876,6 @@
       "1995"
     ],
     "id": "10510"
-  },
-  "10550": {
-    "$": {
-      "objectid": "10550"
-    },
-    "name": [
-      {
-        "_": "Big Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1979"
-    ],
-    "id": "10550"
   },
   "10680": {
     "$": {
@@ -4292,18 +4014,6 @@
       "1982"
     ],
     "id": "11684"
-  },
-  "11782": {
-    "$": {
-      "objectid": "11782"
-    },
-    "name": [
-      "Pinguin Parade"
-    ],
-    "yearpublished": [
-      "1997"
-    ],
-    "id": "11782"
   },
   "11901": {
     "$": {
@@ -4612,23 +4322,6 @@
     ],
     "id": "13308"
   },
-  "13508": {
-    "$": {
-      "objectid": "13508"
-    },
-    "name": [
-      {
-        "_": "Boggle Jr.",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1988"
-    ],
-    "id": "13508"
-  },
   "13592": {
     "$": {
       "objectid": "13592"
@@ -4662,23 +4355,6 @@
       "2002"
     ],
     "id": "13608"
-  },
-  "13680": {
-    "$": {
-      "objectid": "13680"
-    },
-    "name": [
-      {
-        "_": "Atom Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2003"
-    ],
-    "id": "13680"
   },
   "13682": {
     "$": {
@@ -5444,35 +5120,6 @@
     ],
     "id": "17520"
   },
-  "17536": {
-    "$": {
-      "objectid": "17536"
-    },
-    "name": [
-      {
-        "_": "Lobositz: First Battle of the Seven Years War",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2005"
-    ],
-    "id": "17536"
-  },
-  "17568": {
-    "$": {
-      "objectid": "17568"
-    },
-    "name": [
-      "Atomic Robot"
-    ],
-    "yearpublished": [
-      "1935"
-    ],
-    "id": "17568"
-  },
   "17614": {
     "$": {
       "objectid": "17614"
@@ -5552,20 +5199,6 @@
       "1984"
     ],
     "id": "17986"
-  },
-  "18126": {
-    "$": {
-      "objectid": "18126"
-    },
-    "name": [
-      {
-        "_": "The Battle of the Atoms",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "18126"
   },
   "18155": {
     "$": {
@@ -5856,40 +5489,6 @@
       "1997"
     ],
     "id": "19809"
-  },
-  "19851": {
-    "$": {
-      "objectid": "19851"
-    },
-    "name": [
-      {
-        "_": "Atomic Circus",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2006"
-    ],
-    "id": "19851"
-  },
-  "19934": {
-    "$": {
-      "objectid": "19934"
-    },
-    "name": [
-      {
-        "_": "Die Atomknacker",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1987"
-    ],
-    "id": "19934"
   },
   "20100": {
     "$": {
@@ -6199,23 +5798,6 @@
       "2004"
     ],
     "id": "21110"
-  },
-  "21260": {
-    "$": {
-      "objectid": "21260"
-    },
-    "name": [
-      {
-        "_": "The Great Macy's Thanksgiving Day Parade Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2003"
-    ],
-    "id": "21260"
   },
   "21284": {
     "$": {
@@ -6534,23 +6116,6 @@
     ],
     "id": "22222"
   },
-  "22239": {
-    "$": {
-      "objectid": "22239"
-    },
-    "name": [
-      {
-        "_": "Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2005"
-    ],
-    "id": "22239"
-  },
   "22306": {
     "$": {
       "objectid": "22306"
@@ -6618,20 +6183,6 @@
       "2006"
     ],
     "id": "22652"
-  },
-  "22681": {
-    "$": {
-      "objectid": "22681"
-    },
-    "name": [
-      {
-        "_": "Atommate",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "22681"
   },
   "22766": {
     "$": {
@@ -6850,37 +6401,6 @@
     ],
     "id": "23342"
   },
-  "23489": {
-    "$": {
-      "objectid": "23489"
-    },
-    "name": [
-      {
-        "_": "Pinguin-Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1993"
-    ],
-    "id": "23489"
-  },
-  "23492": {
-    "$": {
-      "objectid": "23492"
-    },
-    "name": [
-      {
-        "_": "Hit Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "23492"
-  },
   "23520": {
     "$": {
       "objectid": "23520"
@@ -6967,18 +6487,6 @@
       "2006"
     ],
     "id": "23686"
-  },
-  "23771": {
-    "$": {
-      "objectid": "23771"
-    },
-    "name": [
-      "Math Boggle"
-    ],
-    "yearpublished": [
-      "1978"
-    ],
-    "id": "23771"
   },
   "23832": {
     "$": {
@@ -7267,18 +6775,6 @@
       "2006"
     ],
     "id": "24845"
-  },
-  "24961": {
-    "$": {
-      "objectid": "24961"
-    },
-    "name": [
-      "¿Qué Hora es, Señor Lobo?"
-    ],
-    "yearpublished": [
-      "2006"
-    ],
-    "id": "24961"
   },
   "25071": {
     "$": {
@@ -7622,40 +7118,6 @@
       "2006"
     ],
     "id": "26346"
-  },
-  "26472": {
-    "$": {
-      "objectid": "26472"
-    },
-    "name": [
-      {
-        "_": "Dragon Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2007"
-    ],
-    "id": "26472"
-  },
-  "26508": {
-    "$": {
-      "objectid": "26508"
-    },
-    "name": [
-      {
-        "_": "Marlin Perkins' Zoo Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1955"
-    ],
-    "id": "26508"
   },
   "26660": {
     "$": {
@@ -8048,23 +7510,6 @@
       "2007"
     ],
     "id": "28734"
-  },
-  "28752": {
-    "$": {
-      "objectid": "28752"
-    },
-    "name": [
-      {
-        "_": "Atomic Business",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2007"
-    ],
-    "id": "28752"
   },
   "28793": {
     "$": {
@@ -8619,23 +8064,6 @@
     ],
     "id": "30933"
   },
-  "30938": {
-    "$": {
-      "objectid": "30938"
-    },
-    "name": [
-      {
-        "_": "Atom Smash",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2004"
-    ],
-    "id": "30938"
-  },
   "30941": {
     "$": {
       "objectid": "30941"
@@ -8652,23 +8080,6 @@
       "2006"
     ],
     "id": "30941"
-  },
-  "30943": {
-    "$": {
-      "objectid": "30943"
-    },
-    "name": [
-      {
-        "_": "La Grande Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2006"
-    ],
-    "id": "30943"
   },
   "30952": {
     "$": {
@@ -8859,23 +8270,6 @@
     ],
     "id": "31361"
   },
-  "31393": {
-    "$": {
-      "objectid": "31393"
-    },
-    "name": [
-      {
-        "_": "Thematic Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1977"
-    ],
-    "id": "31393"
-  },
   "31394": {
     "$": {
       "objectid": "31394"
@@ -8951,23 +8345,6 @@
     ],
     "id": "31627"
   },
-  "31643": {
-    "$": {
-      "objectid": "31643"
-    },
-    "name": [
-      {
-        "_": "Captain Kangaroo: Parade Around the Treasure House Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1969"
-    ],
-    "id": "31643"
-  },
   "31739": {
     "$": {
       "objectid": "31739"
@@ -8998,20 +8375,6 @@
       }
     ],
     "id": "31755"
-  },
-  "31756": {
-    "$": {
-      "objectid": "31756"
-    },
-    "name": [
-      {
-        "_": "LOBO",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "31756"
   },
   "31784": {
     "$": {
@@ -9162,40 +8525,6 @@
       "2007"
     ],
     "id": "32429"
-  },
-  "32608": {
-    "$": {
-      "objectid": "32608"
-    },
-    "name": [
-      {
-        "_": "Atoms",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1981"
-    ],
-    "id": "32608"
-  },
-  "32633": {
-    "$": {
-      "objectid": "32633"
-    },
-    "name": [
-      {
-        "_": "Atomic",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1999"
-    ],
-    "id": "32633"
   },
   "32776": {
     "$": {
@@ -10002,23 +9331,6 @@
     ],
     "id": "36218"
   },
-  "36388": {
-    "$": {
-      "objectid": "36388"
-    },
-    "name": [
-      {
-        "_": "Atom Smashers",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2008"
-    ],
-    "id": "36388"
-  },
   "36446": {
     "$": {
       "objectid": "36446"
@@ -10128,23 +9440,6 @@
     ],
     "id": "36919"
   },
-  "37028": {
-    "$": {
-      "objectid": "37028"
-    },
-    "name": [
-      {
-        "_": "Toy Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1950"
-    ],
-    "id": "37028"
-  },
   "37036": {
     "$": {
       "objectid": "37036"
@@ -10219,23 +9514,6 @@
       "2008"
     ],
     "id": "37177"
-  },
-  "37291": {
-    "$": {
-      "objectid": "37291"
-    },
-    "name": [
-      {
-        "_": "Atome crochu",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1981"
-    ],
-    "id": "37291"
   },
   "37351": {
     "$": {
@@ -10387,23 +9665,6 @@
     ],
     "id": "37911"
   },
-  "37972": {
-    "$": {
-      "objectid": "37972"
-    },
-    "name": [
-      {
-        "_": "Barney Musical Parade Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2004"
-    ],
-    "id": "37972"
-  },
   "38001": {
     "$": {
       "objectid": "38001"
@@ -10545,23 +9806,6 @@
       "2008"
     ],
     "id": "38402"
-  },
-  "38455": {
-    "$": {
-      "objectid": "38455"
-    },
-    "name": [
-      {
-        "_": "Atom Smasher",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2008"
-    ],
-    "id": "38455"
   },
   "38561": {
     "$": {
@@ -11052,18 +10296,6 @@
     ],
     "id": "40480"
   },
-  "40508": {
-    "$": {
-      "objectid": "40508"
-    },
-    "name": [
-      "Boggle Boem!"
-    ],
-    "yearpublished": [
-      "2008"
-    ],
-    "id": "40508"
-  },
   "40568": {
     "$": {
       "objectid": "40568"
@@ -11334,18 +10566,6 @@
     ],
     "id": "41291"
   },
-  "41301": {
-    "$": {
-      "objectid": "41301"
-    },
-    "name": [
-      "Dados Lobos"
-    ],
-    "yearpublished": [
-      "2009"
-    ],
-    "id": "41301"
-  },
   "41392": {
     "$": {
       "objectid": "41392"
@@ -11398,23 +10618,6 @@
       "2009"
     ],
     "id": "41585"
-  },
-  "41605": {
-    "$": {
-      "objectid": "41605"
-    },
-    "name": [
-      {
-        "_": "Travel Scroll-O-Matic Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1991"
-    ],
-    "id": "41605"
   },
   "41687": {
     "$": {
@@ -11618,23 +10821,6 @@
       "2009"
     ],
     "id": "42691"
-  },
-  "42990": {
-    "$": {
-      "objectid": "42990"
-    },
-    "name": [
-      {
-        "_": "Atom Ant Saves the Day",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1966"
-    ],
-    "id": "42990"
   },
   "43171": {
     "$": {
@@ -12389,18 +11575,6 @@
     ],
     "id": "58576"
   },
-  "58961": {
-    "$": {
-      "objectid": "58961"
-    },
-    "name": [
-      "Juego de Tronos: El Juego de Cartas – Lobos del Norte"
-    ],
-    "yearpublished": [
-      "2009"
-    ],
-    "id": "58961"
-  },
   "59061": {
     "$": {
       "objectid": "59061"
@@ -12625,23 +11799,6 @@
       "2001"
     ],
     "id": "62411"
-  },
-  "62695": {
-    "$": {
-      "objectid": "62695"
-    },
-    "name": [
-      {
-        "_": "Plane Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1940"
-    ],
-    "id": "62695"
   },
   "62856": {
     "$": {
@@ -12918,23 +12075,6 @@
       "2010"
     ],
     "id": "64651"
-  },
-  "64826": {
-    "$": {
-      "objectid": "64826"
-    },
-    "name": [
-      {
-        "_": "Moongha Invaders: Mad Scientists and Atomic Monsters Attack the Earth!",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2010"
-    ],
-    "id": "64826"
   },
   "65227": {
     "$": {
@@ -13216,18 +12356,6 @@
       "2010"
     ],
     "id": "67593"
-  },
-  "67631": {
-    "$": {
-      "objectid": "67631"
-    },
-    "name": [
-      "Boggle Flash"
-    ],
-    "yearpublished": [
-      "2010"
-    ],
-    "id": "67631"
   },
   "67885": {
     "$": {
@@ -13996,20 +13124,6 @@
     ],
     "id": "82438"
   },
-  "82446": {
-    "$": {
-      "objectid": "82446"
-    },
-    "name": [
-      {
-        "_": "Parade Spel",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "82446"
-  },
   "82460": {
     "$": {
       "objectid": "82460"
@@ -14147,23 +13261,6 @@
       "2014"
     ],
     "id": "84838"
-  },
-  "84916": {
-    "$": {
-      "objectid": "84916"
-    },
-    "name": [
-      {
-        "_": "War Rocket:  Space Battles in the Atomic Age",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2010"
-    ],
-    "id": "84916"
   },
   "85256": {
     "$": {
@@ -14475,23 +13572,6 @@
     ],
     "id": "89319"
   },
-  "89345": {
-    "$": {
-      "objectid": "89345"
-    },
-    "name": [
-      {
-        "_": "Atomic Super Humans (second edition)",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2010"
-    ],
-    "id": "89345"
-  },
   "89415": {
     "$": {
       "objectid": "89415"
@@ -14537,23 +13617,6 @@
       "2011"
     ],
     "id": "89951"
-  },
-  "89962": {
-    "$": {
-      "objectid": "89962"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Knock on Wood",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "89962"
   },
   "90137": {
     "$": {
@@ -15000,23 +14063,6 @@
     ],
     "id": "94972"
   },
-  "95051": {
-    "$": {
-      "objectid": "95051"
-    },
-    "name": [
-      {
-        "_": "Atomic Cafe 1957",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2009"
-    ],
-    "id": "95051"
-  },
   "95364": {
     "$": {
       "objectid": "95364"
@@ -15098,23 +14144,6 @@
       "2011"
     ],
     "id": "96613"
-  },
-  "96689": {
-    "$": {
-      "objectid": "96689"
-    },
-    "name": [
-      {
-        "_": "Music Maestro Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1992"
-    ],
-    "id": "96689"
   },
   "97469": {
     "$": {
@@ -15486,23 +14515,6 @@
     ],
     "id": "100901"
   },
-  "101023": {
-    "$": {
-      "objectid": "101023"
-    },
-    "name": [
-      {
-        "_": "Parade-opoly",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2010"
-    ],
-    "id": "101023"
-  },
   "101721": {
     "$": {
       "objectid": "101721"
@@ -15519,23 +14531,6 @@
       "2012"
     ],
     "id": "101721"
-  },
-  "101737": {
-    "$": {
-      "objectid": "101737"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: The Card Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "101737"
   },
   "102002": {
     "$": {
@@ -15692,23 +14687,6 @@
     ],
     "id": "103686"
   },
-  "103800": {
-    "$": {
-      "objectid": "103800"
-    },
-    "name": [
-      {
-        "_": "Bounce 'N' Boogie Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "103800"
-  },
   "104006": {
     "$": {
       "objectid": "104006"
@@ -15771,18 +14749,6 @@
       "2011"
     ],
     "id": "104557"
-  },
-  "104768": {
-    "$": {
-      "objectid": "104768"
-    },
-    "name": [
-      "Boggle Alfabetsoep"
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "104768"
   },
   "104769": {
     "$": {
@@ -16149,20 +15115,6 @@
     ],
     "id": "109868"
   },
-  "110152": {
-    "$": {
-      "objectid": "110152"
-    },
-    "name": [
-      {
-        "_": "AtomPunk",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "110152"
-  },
   "110279": {
     "$": {
       "objectid": "110279"
@@ -16312,40 +15264,6 @@
       "2011"
     ],
     "id": "112843"
-  },
-  "113200": {
-    "$": {
-      "objectid": "113200"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: On Thin Ice",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "113200"
-  },
-  "113252": {
-    "$": {
-      "objectid": "113252"
-    },
-    "name": [
-      {
-        "_": "Battle of Lobositz, October 1, 1756",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "113252"
   },
   "113338": {
     "$": {
@@ -16506,23 +15424,6 @@
       "2011"
     ],
     "id": "115233"
-  },
-  "115510": {
-    "$": {
-      "objectid": "115510"
-    },
-    "name": [
-      {
-        "_": "Chemistry: An Atom Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2011"
-    ],
-    "id": "115510"
   },
   "115773": {
     "$": {
@@ -16909,23 +15810,6 @@
     ],
     "id": "121410"
   },
-  "121533": {
-    "$": {
-      "objectid": "121533"
-    },
-    "name": [
-      {
-        "_": "Oggle Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1975"
-    ],
-    "id": "121533"
-  },
   "121610": {
     "$": {
       "objectid": "121610"
@@ -17123,23 +16007,6 @@
       "2013"
     ],
     "id": "122878"
-  },
-  "123103": {
-    "$": {
-      "objectid": "123103"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Spring is in the Air",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "123103"
   },
   "123239": {
     "$": {
@@ -17478,23 +16345,6 @@
     ],
     "id": "125403"
   },
-  "125434": {
-    "$": {
-      "objectid": "125434"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Mega Smash game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "125434"
-  },
   "125494": {
     "$": {
       "objectid": "125494"
@@ -17765,23 +16615,6 @@
       "2012"
     ],
     "id": "127436"
-  },
-  "127533": {
-    "$": {
-      "objectid": "127533"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Space",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "127533"
   },
   "128217": {
     "$": {
@@ -18133,23 +16966,6 @@
       "1882"
     ],
     "id": "130692"
-  },
-  "130705": {
-    "$": {
-      "objectid": "130705"
-    },
-    "name": [
-      {
-        "_": "Super Big Boggle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "130705"
   },
   "130715": {
     "$": {
@@ -18634,23 +17450,6 @@
     ],
     "id": "133473"
   },
-  "133614": {
-    "$": {
-      "objectid": "133614"
-    },
-    "name": [
-      {
-        "_": "Atomic Submarine: Up Scope!",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1959"
-    ],
-    "id": "133614"
-  },
   "133761": {
     "$": {
       "objectid": "133761"
@@ -18748,23 +17547,6 @@
     ],
     "id": "134157"
   },
-  "134252": {
-    "$": {
-      "objectid": "134252"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga Tatooine Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134252"
-  },
   "134253": {
     "$": {
       "objectid": "134253"
@@ -18782,91 +17564,6 @@
     ],
     "id": "134253"
   },
-  "134254": {
-    "$": {
-      "objectid": "134254"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga Hoth Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134254"
-  },
-  "134255": {
-    "$": {
-      "objectid": "134255"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga Death Star Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134255"
-  },
-  "134256": {
-    "$": {
-      "objectid": "134256"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jabba's Palace Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134256"
-  },
-  "134257": {
-    "$": {
-      "objectid": "134257"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Darth Vader's Lightsaber Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134257"
-  },
-  "134258": {
-    "$": {
-      "objectid": "134258"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – At-At Attack Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134258"
-  },
   "134453": {
     "$": {
       "objectid": "134453"
@@ -18878,18 +17575,6 @@
       "2013"
     ],
     "id": "134453"
-  },
-  "134466": {
-    "$": {
-      "objectid": "134466"
-    },
-    "name": [
-      "Spartacus: Las Serpientes y el Lobo Set de Expansión"
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "134466"
   },
   "134570": {
     "$": {
@@ -18904,57 +17589,6 @@
       }
     ],
     "id": "134570"
-  },
-  "134600": {
-    "$": {
-      "objectid": "134600"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Western Round-Up",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134600"
-  },
-  "134601": {
-    "$": {
-      "objectid": "134601"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Space – Planet Block Version",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134601"
-  },
-  "134602": {
-    "$": {
-      "objectid": "134602"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Mega Fling",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "134602"
   },
   "134603": {
     "$": {
@@ -19111,23 +17745,6 @@
     ],
     "id": "135505"
   },
-  "135636": {
-    "$": {
-      "objectid": "135636"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Happy Holidays",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "135636"
-  },
   "135810": {
     "$": {
       "objectid": "135810"
@@ -19144,23 +17761,6 @@
       "1996"
     ],
     "id": "135810"
-  },
-  "136216": {
-    "$": {
-      "objectid": "136216"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Fight on Tatooine Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "136216"
   },
   "136223": {
     "$": {
@@ -19622,23 +18222,6 @@
       "2014"
     ],
     "id": "139993"
-  },
-  "140198": {
-    "$": {
-      "objectid": "140198"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Millennium Falcon Bounce Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "140198"
   },
   "140512": {
     "$": {
@@ -20762,35 +19345,6 @@
     ],
     "id": "147768"
   },
-  "147854": {
-    "$": {
-      "objectid": "147854"
-    },
-    "name": [
-      {
-        "_": "Atomic Race",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1979"
-    ],
-    "id": "147854"
-  },
-  "147949": {
-    "$": {
-      "objectid": "147949"
-    },
-    "name": [
-      "Una Noche: El Hombre Lobo"
-    ],
-    "yearpublished": [
-      "2014"
-    ],
-    "id": "147949"
-  },
   "148166": {
     "$": {
       "objectid": "148166"
@@ -21902,23 +20456,6 @@
     ],
     "id": "151771"
   },
-  "151931": {
-    "$": {
-      "objectid": "151931"
-    },
-    "name": [
-      {
-        "_": "Atom Raider",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2014"
-    ],
-    "id": "151931"
-  },
   "151953": {
     "$": {
       "objectid": "151953"
@@ -21952,40 +20489,6 @@
       "2013"
     ],
     "id": "152248"
-  },
-  "152744": {
-    "$": {
-      "objectid": "152744"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Telepods Star Destroyer Set",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "152744"
-  },
-  "152745": {
-    "$": {
-      "objectid": "152745"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga TIE Fighter Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "152745"
   },
   "152747": {
     "$": {
@@ -22032,23 +20535,6 @@
       "2013"
     ],
     "id": "152955"
-  },
-  "152971": {
-    "$": {
-      "objectid": "152971"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga Rise of Darth Vader Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "152971"
   },
   "152985": {
     "$": {
@@ -22185,23 +20671,6 @@
       "2014"
     ],
     "id": "153507"
-  },
-  "153611": {
-    "$": {
-      "objectid": "153611"
-    },
-    "name": [
-      {
-        "_": "UNO: Angry Birds",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "153611"
   },
   "153773": {
     "$": {
@@ -22391,23 +20860,6 @@
       "2014"
     ],
     "id": "154638"
-  },
-  "154657": {
-    "$": {
-      "objectid": "154657"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Star Wars – Jenga Bespin Battle Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "154657"
   },
   "154892": {
     "$": {
@@ -25337,18 +23789,6 @@
     ],
     "id": "166317"
   },
-  "166326": {
-    "$": {
-      "objectid": "166326"
-    },
-    "name": [
-      "Juego de Tronos: El Juego de Cartas – Tiempo de Lobos"
-    ],
-    "yearpublished": [
-      "2014"
-    ],
-    "id": "166326"
-  },
   "166384": {
     "$": {
       "objectid": "166384"
@@ -27034,23 +25474,6 @@
     ],
     "id": "173389"
   },
-  "173805": {
-    "$": {
-      "objectid": "173805"
-    },
-    "name": [
-      {
-        "_": "Lobotomy",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "173805"
-  },
   "174006": {
     "$": {
       "objectid": "174006"
@@ -28706,18 +27129,6 @@
     ],
     "id": "180918"
   },
-  "180946": {
-    "$": {
-      "objectid": "180946"
-    },
-    "name": [
-      "Super Dungeon Explore: Jinete de Lobo Raízprofunda"
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "180946"
-  },
   "181089": {
     "$": {
       "objectid": "181089"
@@ -30349,23 +28760,6 @@
     ],
     "id": "186175"
   },
-  "186192": {
-    "$": {
-      "objectid": "186192"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Action Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "186192"
-  },
   "186274": {
     "$": {
       "objectid": "186274"
@@ -30927,35 +29321,6 @@
     ],
     "id": "188866"
   },
-  "189152": {
-    "$": {
-      "objectid": "189152"
-    },
-    "name": [
-      {
-        "_": "Boggle: M Happy Meal",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1984"
-    ],
-    "id": "189152"
-  },
-  "189169": {
-    "$": {
-      "objectid": "189169"
-    },
-    "name": [
-      "Juego de tronos: El juego de cartas (Segunda edición) – Lobos del Norte"
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "189169"
-  },
   "189189": {
     "$": {
       "objectid": "189189"
@@ -31108,23 +29473,6 @@
       "2015"
     ],
     "id": "189504"
-  },
-  "189545": {
-    "$": {
-      "objectid": "189545"
-    },
-    "name": [
-      {
-        "_": "Atomic the Card Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "189545"
   },
   "189625": {
     "$": {
@@ -31964,23 +30312,6 @@
     ],
     "id": "192779"
   },
-  "192814": {
-    "$": {
-      "objectid": "192814"
-    },
-    "name": [
-      {
-        "_": "Lobo: 10° Aniversário",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "192814"
-  },
   "192834": {
     "$": {
       "objectid": "192834"
@@ -32187,20 +30518,6 @@
     ],
     "id": "193831"
   },
-  "193886": {
-    "$": {
-      "objectid": "193886"
-    },
-    "name": [
-      {
-        "_": "The Secret Of The Atomic Bomb",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "193886"
-  },
   "193946": {
     "$": {
       "objectid": "193946"
@@ -32297,40 +30614,6 @@
       "2016"
     ],
     "id": "194196"
-  },
-  "194228": {
-    "$": {
-      "objectid": "194228"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Mr. Meeseeks' Box o' Fun Dice and Dares Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "194228"
-  },
-  "194232": {
-    "$": {
-      "objectid": "194232"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Total Rickall Card Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "194232"
   },
   "194247": {
     "$": {
@@ -33834,20 +32117,6 @@
     ],
     "id": "202831"
   },
-  "202969": {
-    "$": {
-      "objectid": "202969"
-    },
-    "name": [
-      {
-        "_": "Sports Bogglers Baseball",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "202969"
-  },
   "202976": {
     "$": {
       "objectid": "202976"
@@ -33898,20 +32167,6 @@
       "2017"
     ],
     "id": "203002"
-  },
-  "203085": {
-    "$": {
-      "objectid": "203085"
-    },
-    "name": [
-      {
-        "_": "Sports Bogglers Basketball",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "203085"
   },
   "203265": {
     "$": {
@@ -34005,23 +32260,6 @@
     ],
     "id": "203788"
   },
-  "203791": {
-    "$": {
-      "objectid": "203791"
-    },
-    "name": [
-      {
-        "_": "Angry Birds Pig Island Smashdown",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "203791"
-  },
   "203824": {
     "$": {
       "objectid": "203824"
@@ -34055,23 +32293,6 @@
       "2017"
     ],
     "id": "203997"
-  },
-  "204025": {
-    "$": {
-      "objectid": "204025"
-    },
-    "name": [
-      {
-        "_": "Angry Birds Go! Jenga: Trophy Cup Challenge",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "204025"
   },
   "204184": {
     "$": {
@@ -34729,18 +32950,6 @@
     ],
     "id": "206509"
   },
-  "206565": {
-    "$": {
-      "objectid": "206565"
-    },
-    "name": [
-      "Clank!: Lobo Feroz"
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "206565"
-  },
   "206597": {
     "$": {
       "objectid": "206597"
@@ -35003,23 +33212,6 @@
     ],
     "id": "207884"
   },
-  "207910": {
-    "$": {
-      "objectid": "207910"
-    },
-    "name": [
-      {
-        "_": "Subatomic: An Atom Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "207910"
-  },
   "208082": {
     "$": {
       "objectid": "208082"
@@ -35129,23 +33321,6 @@
     ],
     "id": "209291"
   },
-  "209366": {
-    "$": {
-      "objectid": "209366"
-    },
-    "name": [
-      {
-        "_": "Gobbit Angry Birds",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "209366"
-  },
   "209484": {
     "$": {
       "objectid": "209484"
@@ -35196,20 +33371,6 @@
       "2017"
     ],
     "id": "209567"
-  },
-  "209607": {
-    "$": {
-      "objectid": "209607"
-    },
-    "name": [
-      {
-        "_": "Randonnée de l'âge de pierre à l'ère atomique",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "209607"
   },
   "209698": {
     "$": {
@@ -35295,23 +33456,6 @@
       "2017"
     ],
     "id": "210025"
-  },
-  "210044": {
-    "$": {
-      "objectid": "210044"
-    },
-    "name": [
-      {
-        "_": "Monopoly: Rick and Morty",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "210044"
   },
   "210163": {
     "$": {
@@ -35550,23 +33694,6 @@
       "2009"
     ],
     "id": "212248"
-  },
-  "212278": {
-    "$": {
-      "objectid": "212278"
-    },
-    "name": [
-      {
-        "_": "Rivet Wars: Atomic Robo",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2013"
-    ],
-    "id": "212278"
   },
   "212382": {
     "$": {
@@ -36080,18 +34207,6 @@
       "2017"
     ],
     "id": "214327"
-  },
-  "214604": {
-    "$": {
-      "objectid": "214604"
-    },
-    "name": [
-      "Frontal Lobotomy: The Beer Game"
-    ],
-    "yearpublished": [
-      "2008"
-    ],
-    "id": "214604"
   },
   "214721": {
     "$": {
@@ -36915,18 +35030,6 @@
     ],
     "id": "219054"
   },
-  "219100": {
-    "$": {
-      "objectid": "219100"
-    },
-    "name": [
-      "Uboot: Lobos de la Kriegsmarine"
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "219100"
-  },
   "219182": {
     "$": {
       "objectid": "219182"
@@ -37138,23 +35241,6 @@
     ],
     "id": "220848"
   },
-  "220926": {
-    "$": {
-      "objectid": "220926"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Anatomy Park – The Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "220926"
-  },
   "221019": {
     "$": {
       "objectid": "221019"
@@ -37172,23 +35258,6 @@
     ],
     "id": "221019"
   },
-  "221043": {
-    "$": {
-      "objectid": "221043"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: From the Deep",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "221043"
-  },
   "221107": {
     "$": {
       "objectid": "221107"
@@ -37205,23 +35274,6 @@
       "2017"
     ],
     "id": "221107"
-  },
-  "221372": {
-    "$": {
-      "objectid": "221372"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Close Rick-Counters of the Rick Kind Deck-Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "221372"
   },
   "221525": {
     "$": {
@@ -37256,23 +35308,6 @@
       "2017"
     ],
     "id": "221725"
-  },
-  "221882": {
-    "$": {
-      "objectid": "221882"
-    },
-    "name": [
-      {
-        "_": "Lobositz: Expansion Kit",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2014"
-    ],
-    "id": "221882"
   },
   "221917": {
     "$": {
@@ -37560,23 +35595,6 @@
     ],
     "id": "224079"
   },
-  "224134": {
-    "$": {
-      "objectid": "224134"
-    },
-    "name": [
-      {
-        "_": "Munchkin Rick and Morty",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "224134"
-  },
   "224259": {
     "$": {
       "objectid": "224259"
@@ -37826,23 +35844,6 @@
       "2017"
     ],
     "id": "225613"
-  },
-  "225827": {
-    "$": {
-      "objectid": "225827"
-    },
-    "name": [
-      {
-        "_": "DC Universe Miniature Game: Parademon Invasion Force",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "225827"
   },
   "225836": {
     "$": {
@@ -38215,20 +36216,6 @@
     ],
     "id": "228389"
   },
-  "228584": {
-    "$": {
-      "objectid": "228584"
-    },
-    "name": [
-      {
-        "_": "Apochalyptica: A Game About Humanity, Survival, and the Atomic Bomb",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "id": "228584"
-  },
   "228618": {
     "$": {
       "objectid": "228618"
@@ -38330,40 +36317,6 @@
       "2017"
     ],
     "id": "229130"
-  },
-  "229171": {
-    "$": {
-      "objectid": "229171"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Allison and Cameron the Cat",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "229171"
-  },
-  "229173": {
-    "$": {
-      "objectid": "229173"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Nicolas Jackson",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "229173"
   },
   "229683": {
     "$": {
@@ -38558,176 +36511,6 @@
       "2017"
     ],
     "id": "230619"
-  },
-  "230649": {
-    "$": {
-      "objectid": "230649"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Faceless Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230649"
-  },
-  "230651": {
-    "$": {
-      "objectid": "230651"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Guardian Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230651"
-  },
-  "230652": {
-    "$": {
-      "objectid": "230652"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Possessed Nuns Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230652"
-  },
-  "230653": {
-    "$": {
-      "objectid": "230653"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Slytherio Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230653"
-  },
-  "230654": {
-    "$": {
-      "objectid": "230654"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Three Little Pigs Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230654"
-  },
-  "230655": {
-    "$": {
-      "objectid": "230655"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Executioner Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230655"
-  },
-  "230656": {
-    "$": {
-      "objectid": "230656"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Big Bad Wolf Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230656"
-  },
-  "230657": {
-    "$": {
-      "objectid": "230657"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: The Tire Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230657"
-  },
-  "230659": {
-    "$": {
-      "objectid": "230659"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: B.A. Dolly",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230659"
-  },
-  "230664": {
-    "$": {
-      "objectid": "230664"
-    },
-    "name": [
-      {
-        "_": "Lobotomy: Cthulhu Expansion",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "230664"
   },
   "230802": {
     "$": {
@@ -39245,23 +37028,6 @@
       "2017"
     ],
     "id": "232598"
-  },
-  "232827": {
-    "$": {
-      "objectid": "232827"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: 100 Días",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "232827"
   },
   "232835": {
     "$": {
@@ -40293,23 +38059,6 @@
     ],
     "id": "237822"
   },
-  "238016": {
-    "$": {
-      "objectid": "238016"
-    },
-    "name": [
-      {
-        "_": "Complex Atomic Compilers",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "238016"
-  },
   "238021": {
     "$": {
       "objectid": "238021"
@@ -40821,23 +38570,6 @@
     ],
     "id": "240696"
   },
-  "240836": {
-    "$": {
-      "objectid": "240836"
-    },
-    "name": [
-      {
-        "_": "Atomic Chess",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1995"
-    ],
-    "id": "240836"
-  },
   "240855": {
     "$": {
       "objectid": "240855"
@@ -40923,18 +38655,6 @@
     ],
     "id": "241225"
   },
-  "241488": {
-    "$": {
-      "objectid": "241488"
-    },
-    "name": [
-      "Cadê o Lobo?"
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "241488"
-  },
   "241490": {
     "$": {
       "objectid": "241490"
@@ -40985,23 +38705,6 @@
       "2019"
     ],
     "id": "241692"
-  },
-  "241731": {
-    "$": {
-      "objectid": "241731"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: The Ricks Must Be Crazy Multiverse Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "241731"
   },
   "241760": {
     "$": {
@@ -41070,23 +38773,6 @@
       "2019"
     ],
     "id": "242149"
-  },
-  "242451": {
-    "$": {
-      "objectid": "242451"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Green Bird Add-On, 3-Pack",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "242451"
   },
   "242544": {
     "$": {
@@ -41324,18 +39010,6 @@
       "2018"
     ],
     "id": "244145"
-  },
-  "244170": {
-    "$": {
-      "objectid": "244170"
-    },
-    "name": [
-      "Hombre Lobo"
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "244170"
   },
   "244367": {
     "$": {
@@ -41902,40 +39576,6 @@
     ],
     "id": "246203"
   },
-  "246532": {
-    "$": {
-      "objectid": "246532"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: The Pickle Rick Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "246532"
-  },
-  "246534": {
-    "$": {
-      "objectid": "246534"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: The Rickshank Rickdemption Deck-Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "246534"
-  },
   "246599": {
     "$": {
       "objectid": "246599"
@@ -42441,23 +40081,6 @@
       "1999"
     ],
     "id": "250661"
-  },
-  "250706": {
-    "$": {
-      "objectid": "250706"
-    },
-    "name": [
-      {
-        "_": "Die Atombombe: The Reich's Bid to Build the Bomb",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "250706"
   },
   "250757": {
     "$": {
@@ -43107,18 +40730,6 @@
     ],
     "id": "255354"
   },
-  "255356": {
-    "$": {
-      "objectid": "255356"
-    },
-    "name": [
-      "Hombres Lobo"
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "255356"
-  },
   "255365": {
     "$": {
       "objectid": "255365"
@@ -43161,23 +40772,6 @@
       "2019"
     ],
     "id": "255588"
-  },
-  "255597": {
-    "$": {
-      "objectid": "255597"
-    },
-    "name": [
-      {
-        "_": "Everyone Loves A Parade",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "255597"
   },
   "255601": {
     "$": {
@@ -43246,23 +40840,6 @@
       "2018"
     ],
     "id": "255681"
-  },
-  "255727": {
-    "$": {
-      "objectid": "255727"
-    },
-    "name": [
-      {
-        "_": "Angry Birds: Power Cards",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2012"
-    ],
-    "id": "255727"
   },
   "255744": {
     "$": {
@@ -43846,23 +41423,6 @@
     ],
     "id": "258436"
   },
-  "258487": {
-    "$": {
-      "objectid": "258487"
-    },
-    "name": [
-      {
-        "_": "Amerika: Defcon 1 – Atomic Defense in Amerika",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "258487"
-  },
   "258647": {
     "$": {
       "objectid": "258647"
@@ -43879,23 +41439,6 @@
       "2018"
     ],
     "id": "258647"
-  },
-  "258790": {
-    "$": {
-      "objectid": "258790"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Close Rick-Counters of the Rick Kind Deck-Building Game – Promo Rick",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "258790"
   },
   "259114": {
     "$": {
@@ -44504,23 +42047,6 @@
     ],
     "id": "262754"
   },
-  "262821": {
-    "$": {
-      "objectid": "262821"
-    },
-    "name": [
-      {
-        "_": "What Do You Meme? Rick and Morty Photo Expansion Pack",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "262821"
-  },
   "262913": {
     "$": {
       "objectid": "262913"
@@ -45006,40 +42532,6 @@
     ],
     "id": "265432"
   },
-  "265770": {
-    "$": {
-      "objectid": "265770"
-    },
-    "name": [
-      {
-        "_": "Parade Down Tulip Lane",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1980"
-    ],
-    "id": "265770"
-  },
-  "265948": {
-    "$": {
-      "objectid": "265948"
-    },
-    "name": [
-      {
-        "_": "Risk: Rick and Morty",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "265948"
-  },
   "266119": {
     "$": {
       "objectid": "266119"
@@ -45108,23 +42600,6 @@
     ],
     "id": "266444"
   },
-  "266446": {
-    "$": {
-      "objectid": "266446"
-    },
-    "name": [
-      {
-        "_": "Sherlock: Paradero Desconocido",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "266446"
-  },
   "266667": {
     "$": {
       "objectid": "266667"
@@ -45158,23 +42633,6 @@
       "2019"
     ],
     "id": "266736"
-  },
-  "266744": {
-    "$": {
-      "objectid": "266744"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Look Who's Purging Now Card Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "266744"
   },
   "266754": {
     "$": {
@@ -45428,23 +42886,6 @@
     ],
     "id": "268004"
   },
-  "268195": {
-    "$": {
-      "objectid": "268195"
-    },
-    "name": [
-      {
-        "_": "Trivial Pursuit: Rick and Morty",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2018"
-    ],
-    "id": "268195"
-  },
   "268279": {
     "$": {
       "objectid": "268279"
@@ -45610,18 +43051,6 @@
     ],
     "id": "269256"
   },
-  "269266": {
-    "$": {
-      "objectid": "269266"
-    },
-    "name": [
-      "GRES: Carnival Parade"
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "269266"
-  },
   "269471": {
     "$": {
       "objectid": "269471"
@@ -45635,23 +43064,6 @@
       }
     ],
     "id": "269471"
-  },
-  "269487": {
-    "$": {
-      "objectid": "269487"
-    },
-    "name": [
-      {
-        "_": "Clue: Rick and Morty Back In Blackout",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2017"
-    ],
-    "id": "269487"
   },
   "269572": {
     "$": {
@@ -46361,23 +43773,6 @@
     ],
     "id": "274590"
   },
-  "274606": {
-    "$": {
-      "objectid": "274606"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: Tales from the Citadel Deck-Building Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2020"
-    ],
-    "id": "274606"
-  },
   "274651": {
     "$": {
       "objectid": "274651"
@@ -46929,23 +44324,6 @@
     ],
     "id": "280071"
   },
-  "280378": {
-    "$": {
-      "objectid": "280378"
-    },
-    "name": [
-      {
-        "_": "Fluxx: Rick and Morty",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "280378"
-  },
   "280500": {
     "$": {
       "objectid": "280500"
@@ -47013,23 +44391,6 @@
       "2020"
     ],
     "id": "280748"
-  },
-  "280768": {
-    "$": {
-      "objectid": "280768"
-    },
-    "name": [
-      {
-        "_": "atommix",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "280768"
   },
   "280789": {
     "$": {
@@ -48689,23 +46050,6 @@
     ],
     "id": "292019"
   },
-  "292030": {
-    "$": {
-      "objectid": "292030"
-    },
-    "name": [
-      {
-        "_": "Funkoverse Strategy Game: Rick and Morty 2-Pack",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "292030"
-  },
   "292037": {
     "$": {
       "objectid": "292037"
@@ -48938,23 +46282,6 @@
       "2019"
     ],
     "id": "293662"
-  },
-  "293691": {
-    "$": {
-      "objectid": "293691"
-    },
-    "name": [
-      {
-        "_": "Rick and Morty: The Morty Zone Dice Game",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "293691"
   },
   "293982": {
     "$": {

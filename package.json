@@ -25,11 +25,13 @@
     "worker-loader": "2.0.0"
   },
   "devDependencies": {
+    "@okta/jwt-verifier": "^1.0.0",
     "@storybook/addon-actions": "^5.3.12",
     "@storybook/addon-links": "^5.3.12",
     "@storybook/addons": "^5.3.12",
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.12",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "xml2js": "^0.4.23",
     "zombie": "^6.1.4"

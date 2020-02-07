@@ -6,9 +6,50 @@ const {
   indexedBggCatalogPath,
   epicBggJoinPath
 } = require("./shared");
+const OktaJwtVerifier = require("@okta/jwt-verifier");
+const cors = require("cors");
 
 const port = 4000;
 const app = express();
+
+const oktaJwtVerifier = new OktaJwtVerifier({
+  issuer: "https://dev-341005.okta.com/oauth2/default",
+  clientId: "0oa249gcgj2McxEJn4x6",
+  assertClaims: {
+    aud: "api://default"
+  }
+});
+
+/**
+ * A simple middleware that asserts valid access tokens and sends 401 responses
+ * if the token is not present or fails validation.  If the token is valid its
+ * contents are attached to req.jwt
+ * (source: https://developer.okta.com/quickstart/#/react/nodejs/express)
+ */
+function oktaAuthenticationRequired(req, res, next) {
+  console.log("ALWAYS AUTHENTICATING");
+  const authHeader = req.headers.authorization || "";
+  const [, accessToken] = authHeader.match(/Bearer (.+)/) || [];
+
+  if (!accessToken) {
+    return res.status(401).end();
+  }
+
+  const expectedAudience = "api://default";
+
+  return oktaJwtVerifier
+    .verifyAccessToken(accessToken, expectedAudience)
+    .then(jwt => {
+      req.jwt = jwt;
+      next();
+    })
+    .catch(err => {
+      res.status(401).send(err.message);
+    });
+}
+
+app.use(cors()); // Cross-origin enabled for all sources right now
+app.use(oktaAuthenticationRequired); // Requires authorization for all endpoints
 app.use(express.json());
 
 app.get("/api/catalog", (req, res) => {

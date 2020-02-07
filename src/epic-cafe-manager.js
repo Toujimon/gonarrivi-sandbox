@@ -17,6 +17,7 @@ import {
   faSmile,
   faPlus
 } from "@fortawesome/free-solid-svg-icons";
+import { withAuth } from "@okta/okta-react";
 
 export default function EpicCafeManager() {
   return (
@@ -41,7 +42,9 @@ export default function EpicCafeManager() {
 /*-- PRIVATE COMPONENTS --*/
 /* To be refactored out if it seems like it may be useful on other modules */
 
-function EpicBggMatcherContainer() {
+const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
+  auth
+}) {
   const [[catalog, mustFetch], setState] = React.useState([null, true]);
   function setCatalog(catalog) {
     setState([catalog, false]);
@@ -49,9 +52,22 @@ function EpicBggMatcherContainer() {
   function refetchCatalog() {
     setState([catalog, true]);
   }
+
+  function fetchWithAuth(url, options = {}) {
+    return auth.getAccessToken().then(token =>
+      fetch(url, {
+        ...options,
+        headers: {
+          ...options.headers,
+          Authorization: `Bearer ${token}`
+        }
+      })
+    );
+  }
+
   React.useEffect(() => {
     if (mustFetch) {
-      fetch("/api/catalog")
+      fetchWithAuth("/api/catalog")
         .then(response =>
           response
             .json()
@@ -90,7 +106,7 @@ function EpicBggMatcherContainer() {
   }, [mustFetch]);
 
   function handleEpicBggMatchConfirm(id, bggMatchId) {
-    fetch("/api/catalog", {
+    fetchWithAuth("/api/catalog", {
       method: "put",
       headers: {
         "Content-Type": "application/json"
@@ -106,7 +122,7 @@ function EpicBggMatcherContainer() {
   }
 
   function handleEpicBggMatchesClean(id) {
-    fetch("/api/catalog", {
+    fetchWithAuth("/api/catalog", {
       method: "delete",
       headers: {
         "Content-Type": "application/json"
@@ -122,7 +138,7 @@ function EpicBggMatcherContainer() {
   }
 
   function handleEpicBggMatchAdd(id, bggMatchId) {
-    fetch("/api/catalog", {
+    fetchWithAuth("/api/catalog", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
@@ -147,7 +163,7 @@ function EpicBggMatcherContainer() {
       onEpicBggMatchAdd={handleEpicBggMatchAdd}
     />
   );
-}
+});
 
 const PAGE_SIZE = 50;
 const MATCHES_FILTERS = [
