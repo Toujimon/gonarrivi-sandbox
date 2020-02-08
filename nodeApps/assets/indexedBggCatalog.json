@@ -925,23 +925,6 @@
     ],
     "id": "1561"
   },
-  "1662": {
-    "$": {
-      "objectid": "1662"
-    },
-    "name": [
-      {
-        "_": "Napoleon: The Waterloo Campaign, 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1974"
-    ],
-    "id": "1662"
-  },
   "1675": {
     "$": {
       "objectid": "1675"
@@ -1917,18 +1900,6 @@
     ],
     "id": "4174"
   },
-  "4230": {
-    "$": {
-      "objectid": "4230"
-    },
-    "name": [
-      "Napoleon's Last Battles: The Waterloo Campaign, 16-18 June 1815"
-    ],
-    "yearpublished": [
-      "1976"
-    ],
-    "id": "4230"
-  },
   "4326": {
     "$": {
       "objectid": "4326"
@@ -2235,23 +2206,6 @@
       "2002"
     ],
     "id": "4953"
-  },
-  "4974": {
-    "$": {
-      "objectid": "4974"
-    },
-    "name": [
-      {
-        "_": "Wellington's Victory: Battle of Waterloo Game – June 18th, 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1976"
-    ],
-    "id": "4974"
   },
   "5102": {
     "$": {
@@ -3364,23 +3318,6 @@
     ],
     "id": "8675"
   },
-  "8742": {
-    "$": {
-      "objectid": "8742"
-    },
-    "name": [
-      {
-        "_": "1815: The Waterloo Campaign",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1975"
-    ],
-    "id": "8742"
-  },
   "8996": {
     "$": {
       "objectid": "8996"
@@ -3523,18 +3460,6 @@
       "1991"
     ],
     "id": "9471"
-  },
-  "9476": {
-    "$": {
-      "objectid": "9476"
-    },
-    "name": [
-      "Waterloo 1815: Campagne de Belgique"
-    ],
-    "yearpublished": [
-      "1993"
-    ],
-    "id": "9476"
   },
   "9494": {
     "$": {
@@ -5119,23 +5044,6 @@
       "1850"
     ],
     "id": "17520"
-  },
-  "17614": {
-    "$": {
-      "objectid": "17614"
-    },
-    "name": [
-      {
-        "_": "Waterloo 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1981"
-    ],
-    "id": "17614"
   },
   "17687": {
     "$": {
@@ -8455,23 +8363,6 @@
       "2007"
     ],
     "id": "32289"
-  },
-  "32327": {
-    "$": {
-      "objectid": "32327"
-    },
-    "name": [
-      {
-        "_": "Waterloo 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1996"
-    ],
-    "id": "32327"
   },
   "32341": {
     "$": {
@@ -12139,23 +12030,6 @@
       "2010"
     ],
     "id": "65611"
-  },
-  "65663": {
-    "$": {
-      "objectid": "65663"
-    },
-    "name": [
-      {
-        "_": "Battle of Waterloo: Hougoumont (1815 AD)",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2006"
-    ],
-    "id": "65663"
   },
   "65789": {
     "$": {
@@ -19544,23 +19418,6 @@
     ],
     "id": "148424"
   },
-  "148426": {
-    "$": {
-      "objectid": "148426"
-    },
-    "name": [
-      {
-        "_": "18 giugno 1815: Waterloo",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "1980"
-    ],
-    "id": "148426"
-  },
   "148494": {
     "$": {
       "objectid": "148494"
@@ -23263,23 +23120,6 @@
     ],
     "id": "163170"
   },
-  "163172": {
-    "$": {
-      "objectid": "163172"
-    },
-    "name": [
-      {
-        "_": "Waterloo 1815: Fallen Eagles",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "163172"
-  },
   "163186": {
     "$": {
       "objectid": "163186"
@@ -25986,23 +25826,6 @@
     ],
     "id": "175309"
   },
-  "175464": {
-    "$": {
-      "objectid": "175464"
-    },
-    "name": [
-      {
-        "_": "Les Quatre-Bras & Waterloo 1815: The Empire's Final Blows",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "175464"
-  },
   "175495": {
     "$": {
       "objectid": "175495"
@@ -27237,23 +27060,6 @@
       "2015"
     ],
     "id": "181289"
-  },
-  "181291": {
-    "$": {
-      "objectid": "181291"
-    },
-    "name": [
-      {
-        "_": "Wellington's Victory: The Battle of Waterloo, 18 June 1815 (second edition)",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "181291"
   },
   "181304": {
     "$": {
@@ -28923,23 +28729,6 @@
       "2015"
     ],
     "id": "187261"
-  },
-  "187277": {
-    "$": {
-      "objectid": "187277"
-    },
-    "name": [
-      {
-        "_": "Les cent-heures de Waterloo, la campagne de Belgique de 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "187277"
   },
   "187280": {
     "$": {
@@ -31089,23 +30878,6 @@
       "2013"
     ],
     "id": "197284"
-  },
-  "197377": {
-    "$": {
-      "objectid": "197377"
-    },
-    "name": [
-      {
-        "_": "Waterloo 1815: Napoleon's Last Battle",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2016"
-    ],
-    "id": "197377"
   },
   "197457": {
     "$": {
@@ -34780,23 +34552,6 @@
     ],
     "id": "218041"
   },
-  "218112": {
-    "$": {
-      "objectid": "218112"
-    },
-    "name": [
-      {
-        "_": "Les Quatre-Bras & Waterloo 1815: The Empire's Final Blows – Davout in Command, 18 June 1815: What if? Scenario",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "218112"
-  },
   "218127": {
     "$": {
       "objectid": "218127"
@@ -38093,23 +37848,6 @@
     ],
     "id": "238048"
   },
-  "238084": {
-    "$": {
-      "objectid": "238084"
-    },
-    "name": [
-      {
-        "_": "Battle of Waterloo, 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2015"
-    ],
-    "id": "238084"
-  },
   "238130": {
     "$": {
       "objectid": "238130"
@@ -40115,23 +39853,6 @@
       "2017"
     ],
     "id": "250934"
-  },
-  "250942": {
-    "$": {
-      "objectid": "250942"
-    },
-    "name": [
-      {
-        "_": "The Day of Waterloo: 1815 AD",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "250942"
   },
   "251219": {
     "$": {
@@ -46537,23 +46258,6 @@
       "2018"
     ],
     "id": "295152"
-  },
-  "295402": {
-    "$": {
-      "objectid": "295402"
-    },
-    "name": [
-      {
-        "_": "Waterloo Campaign 1815",
-        "$": {
-          "primary": "true"
-        }
-      }
-    ],
-    "yearpublished": [
-      "2019"
-    ],
-    "id": "295402"
   },
   "295417": {
     "$": {
