@@ -9,7 +9,8 @@ const {
   rawCatalogFilePath,
   bggMatchesFilePath,
   epicBggJoinPath,
-  indexedBggCatalogPath
+  indexedBggCatalogPath,
+  indexedExtendedBggCatalogPath
 } = require("./shared");
 
 function fetchAndProcess() {
@@ -86,6 +87,37 @@ async function getBggMatches(amount = 2000) {
         );
       }
       if (searchedElements >= amount) break;
+    }
+    console.log(`Finished ${searchedElements} elements`);
+  }
+}
+
+async function getExtendedBggData() {
+  if (fileUtils.exists(indexedBggCatalogPath)) {
+    const indexedBggCatalog = await fileUtils.readJsonFromFile(
+      indexedBggCatalogPath
+    );
+    let searchedElements = 0;
+    const indexedExtendedBggCatalog = {};
+    for (const bggId in indexedBggCatalog) {
+      searchedElements++;
+      console.log(`[${searchedElements}] Searching for "${bggId}"`);
+      await bggApi.get(bggId).then(match =>
+        Promise.all([
+          new Promise(res => {
+            /* The bggMatches object gets updated and saved while waiting some 
+              seconds before the next request */
+            indexedExtendedBggCatalog[bggId] = match;
+            res(
+              fileUtils.writeJsonToFile(
+                indexedExtendedBggCatalog,
+                indexedExtendedBggCatalogPath
+              )
+            );
+          }),
+          new Promise(res => setTimeout(res, 5000))
+        ])
+      );
     }
     console.log(`Finished ${searchedElements} elements`);
   }
@@ -299,6 +331,10 @@ switch (command) {
   }
   case "generate-indexes": {
     generateIndexes();
+    break;
+  }
+  case "get-extended-bgg-data": {
+    getExtendedBggData();
     break;
   }
   case "batch-confirm": {
