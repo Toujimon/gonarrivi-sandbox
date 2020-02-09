@@ -16,11 +16,8 @@
     "foundBggMatches": []
   },
   "¡CAMARERO!,Q3,1,3--10,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "273657",
-      "28989"
-    ]
+    "bggMatchId": "273657",
+    "foundBggMatches": null
   },
   "¡DE MUDANZAS!,Q9,2,3--6,10+": {
     "bggMatchId": "37120",
@@ -35,27 +32,16 @@
     "foundBggMatches": null
   },
   "¡PINGÜINOS!,Q2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177524",
-      "244513",
-      "244954",
-      "60139",
-      "8203",
-      "230241"
-    ]
+    "bggMatchId": "8203",
+    "foundBggMatches": null
   },
   "\"¡RESCATE! ALTO RIESGO, EXPANSIÓN\",B5,1,2--6,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "¡TIBURÓN!,Q4,1,3--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6284",
-      "433",
-      "30539"
-    ]
+    "bggMatchId": "30539",
+    "foundBggMatches": null
   },
   "¡TIRA AL CUERVO!,W8,1,2,5+": {
     "bggMatchId": "181089",
@@ -74,15 +60,8 @@
     "foundBggMatches": null
   },
   "¿QUIÉN ES QUIÉN?,X7,1,2,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "62864",
-      "29261",
-      "4143",
-      "296987",
-      "182994",
-      "252149"
-    ]
+    "bggMatchId": "4143",
+    "foundBggMatches": null
   },
   "¿QUIEN ES QUIEN? DE VIAJE,X6,1,2,6+": {
     "bggMatchId": null,
@@ -93,123 +72,88 @@
     "foundBggMatches": []
   },
   "\"1,2,3! NOW YOU SEE ME\",R8,1,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148494"
-    ]
+    "bggMatchId": "148494",
+    "foundBggMatches": null
   },
   "10 NEGRITOS,A4,1,1--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "150138"
-    ]
+    "bggMatchId": "150138",
+    "foundBggMatches": null
   },
   "1000 KILOMETROS,Q4,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "590"
-    ]
+    "bggMatchId": "590",
+    "foundBggMatches": null
   },
   "10'TO KILL,I3,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174476",
-      "187261",
-      "256341"
-    ]
+    "bggMatchId": "174476",
+    "foundBggMatches": null
   },
   "13 DÍAS LA CRISIS DE LOS MISILES EN CUBA,A3,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177590"
-    ]
+    "bggMatchId": "177590",
+    "foundBggMatches": null
   },
   "15 DÍAS: THE SPANISH GOLDEN AGE,N4,1,2--8,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "163482"
-    ]
+    "bggMatchId": "163482",
+    "foundBggMatches": null
   },
   "1911 AMUNDSEN VS SOTT,M3,1,2,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "1920 WALL STREET,N3,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "226255"
-    ]
+    "bggMatchId": "226255",
+    "foundBggMatches": null
   },
   "2 DE mayo,N2,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "36522",
-      "106032",
-      "26166",
-      "35394"
-    ]
+    "bggMatchId": "36522",
+    "foundBggMatches": null
   },
   "2 DE MAYO: EXPANSIÓN ASALTO AL PALACIO GRIMALDI (DENTRO DEL BÁSICO),N2,1,2,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "21 MUTINIES: ARRR! EDITION,G2,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "102681"
-    ]
+    "bggMatchId": "102681",
+    "foundBggMatches": null
   },
   "30 CARATS,J5,1,3--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148424"
-    ]
+    "bggMatchId": "148424",
+    "foundBggMatches": null
   },
   "4 EN LETRAS,R6,1,1--16,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174988"
-    ]
+    "bggMatchId": "174988",
+    "foundBggMatches": null
   },
   "4 PINTS PLEASE! (¡4 BIRRAS POR FAVOR!),R8,1,2--8,16+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "5 PEPINOS,R6,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "147768"
-    ]
+    "bggMatchId": "147768",
+    "foundBggMatches": null
   },
   "7 WONDERS,O1,2,2--7,10+": {
     "bggMatchId": "68448",
     "foundBggMatches": null
   },
   "7 WONDERS BABEL,O1,1,2--7,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "154638"
-    ]
+    "bggMatchId": "154638",
+    "foundBggMatches": null
   },
   "7 WONDERS CITIES,EPR,1,2--8,13+": {
     "bggMatchId": "111661",
     "foundBggMatches": null
   },
   "7 WONDERS DUEL PANTHEON,EPR,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "202976"
-    ]
+    "bggMatchId": "202976",
+    "foundBggMatches": null
   },
   "7 WONDERS EXPANSION: WONDERPACK,O1,1,2--7,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "7 WONDERS LIDERES,EPR,1,2--7,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "92539"
-    ]
+    "bggMatchId": "92539",
+    "foundBggMatches": null
   },
   "7 WONDERS: DUEL,L4,2,2,10+": {
     "bggMatchId": "173346",
@@ -220,16 +164,12 @@
     "foundBggMatches": null
   },
   "A LO LOCO RETRO,Q2,2,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "181385"
-    ]
+    "bggMatchId": "181385",
+    "foundBggMatches": null
   },
   "A TASTE FOR MURDER,N2,1,ROL,14+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "6448"
-    ]
+    "foundBggMatches": []
   },
   "ABALONE,I4,1,2,8+": {
     "bggMatchId": "526",
@@ -256,12 +196,8 @@
     "foundBggMatches": null
   },
   "AIR SHOW,F4,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "108737",
-      "113338",
-      "16066"
-    ]
+    "bggMatchId": "108737",
+    "foundBggMatches": null
   },
   "AJEDREZ (FICHAS),CLASICOS 1,2,2,": {
     "bggMatchId": null,
@@ -284,10 +220,8 @@
     "foundBggMatches": []
   },
   "AJO Y AGUA,R3,1,4--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "147418"
-    ]
+    "bggMatchId": "147418",
+    "foundBggMatches": null
   },
   "ALCATRAZ,F4,1,2--4,10+": {
     "bggMatchId": "1407",
@@ -306,16 +240,12 @@
     "foundBggMatches": null
   },
   "ALIENS: HADLEY´S HOPE,G5,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "257313"
-    ]
+    "bggMatchId": "257313",
+    "foundBggMatches": null
   },
   "ALQUERQUE,CLASICOS 4,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "11464"
-    ]
+    "bggMatchId": "11464",
+    "foundBggMatches": null
   },
   "ALQUIMISTAS,C2,1,2--4,10+": {
     "bggMatchId": "161970",
@@ -326,49 +256,32 @@
     "foundBggMatches": null
   },
   "ALTA TENSIÓN EL JUEGO DE CARTAS,M3,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203780"
-    ]
+    "bggMatchId": "203780",
+    "foundBggMatches": null
   },
   "ALTIPLANO,F2,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "234487",
-      "264015",
-      "248378",
-      "257047",
-      "23258"
-    ]
+    "bggMatchId": "234487",
+    "foundBggMatches": null
   },
   "ALTO VOLTAJE,R6,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "42206"
-    ]
+    "bggMatchId": "42206",
+    "foundBggMatches": null
   },
   "AMANECER EXPANSIÓN BATTLESTAR GALACTICA,A5,1,3--7,14+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "A-MORPHOS,U7,1,2--5,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "239506",
-      "193620",
-      "298733",
-      "298133"
-    ]
+    "bggMatchId": "239506",
+    "foundBggMatches": null
   },
   "ANGRY BIRDS,V8,1,2--4,5+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "ANTHROPOCHORY,R5,1,2--9,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "227168"
-    ]
+    "bggMatchId": "227168",
+    "foundBggMatches": null
   },
   "ANTIMONOPOLY,P1,1,2--6,8+": {
     "bggMatchId": null,
@@ -384,9 +297,7 @@
   },
   "APRENDE A CONTAR,V9,1,1--4,3+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "39400"
-    ]
+    "foundBggMatches": []
   },
   "APRENDO A CONTAR,U9,1,1+,4+": {
     "bggMatchId": null,
@@ -429,20 +340,16 @@
     "foundBggMatches": []
   },
   "ARBORETUM,M3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "140934"
-    ]
+    "bggMatchId": "140934",
+    "foundBggMatches": null
   },
   "ARCANA,B2,1,2--4,13+": {
     "bggMatchId": "45134",
     "foundBggMatches": null
   },
   "ARCANYA,N4,1,3--10,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176634"
-    ]
+    "bggMatchId": "176634",
+    "foundBggMatches": null
   },
   "ARKHAM HORROR,C2,1,1--8,12+": {
     "bggMatchId": "15987",
@@ -453,23 +360,16 @@
     "foundBggMatches": null
   },
   "ARKHAM HORROR JUEGO DE CARTAS: LEGADO DE DUNWICH (EXPANSIÓN),C2,1,1--2,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "208545"
-    ]
+    "bggMatchId": "208545",
+    "foundBggMatches": null
   },
   "ARS UNIVERSALIS,F5,1,1--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "151683",
-      "290026"
-    ]
+    "bggMatchId": "151683",
+    "foundBggMatches": null
   },
   "ASHES: EL AUGE DE LOS NACIDOS DEL FÉNIX,N1,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "167400"
-    ]
+    "bggMatchId": "167400",
+    "foundBggMatches": null
   },
   "ASSASINS'S CLUB,J3,1,1--2,14+": {
     "bggMatchId": null,
@@ -488,32 +388,24 @@
     "foundBggMatches": null
   },
   "AVENTUREROS AL TREN- EL JUEGO DE CARTAS,S8,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "34127"
-    ]
+    "bggMatchId": "34127",
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN PRIMER VIAJE,X8,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218208"
-    ]
+    "bggMatchId": "218208",
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN: EUROPA,K3,2,2--5,8+": {
     "bggMatchId": "14996",
     "foundBggMatches": null
   },
   "AVENTUREROS AL TREN: LA VUELTA AL MUNDO,K3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "202670"
-    ]
+    "bggMatchId": "202670",
+    "foundBggMatches": null
   },
   "AVENTUREROS AL TREN: PAÍSES NÓRDICOS,K2,1,2--3,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "31627"
-    ]
+    "bggMatchId": "31627",
+    "foundBggMatches": null
   },
   "AZUL,J2,1,2--4,8+": {
     "bggMatchId": "230802",
@@ -524,13 +416,8 @@
     "foundBggMatches": []
   },
   "BABY BLUES,R8,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "155157",
-      "201243",
-      "204279",
-      "209735"
-    ]
+    "bggMatchId": "155157",
+    "foundBggMatches": null
   },
   "BABY COLORS,X9,1,1+,2+": {
     "bggMatchId": null,
@@ -553,57 +440,40 @@
     "foundBggMatches": []
   },
   "BANDIDO,R7,2,1--4,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "290462",
-      "191925",
-      "15287",
-      "9943"
-    ]
+    "bggMatchId": "191925",
+    "foundBggMatches": null
   },
   "BANG- LA BALA,T8,2,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "30933"
-    ]
+    "bggMatchId": "30933",
+    "foundBggMatches": null
   },
   "BANG! DODGE CITY,Q6,1,3--8,10+": {
     "bggMatchId": "9653",
     "foundBggMatches": null
   },
   "BANG! EL DUELO,T8,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182094"
-    ]
+    "bggMatchId": "182094",
+    "foundBggMatches": null
   },
   "BANG! EL JUEGO DE DADOS,N3,1,3--8,8+": {
     "bggMatchId": "143741",
     "foundBggMatches": null
   },
   "BANG! EL VALLE DE LAS SOMBRAS,R6,1,4--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "130046"
-    ]
+    "bggMatchId": "130046",
+    "foundBggMatches": null
   },
   "BANG! FIEBRE DEL ORO,Q6,1,4--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "107794"
-    ]
+    "bggMatchId": "107794",
+    "foundBggMatches": null
   },
   "BANG! WILD WEST SHOW,R6,2,4--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "66508"
-    ]
+    "bggMatchId": "66508",
+    "foundBggMatches": null
   },
   "BAR BESTIAL,Q2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "165950"
-    ]
+    "bggMatchId": "165950",
+    "foundBggMatches": null
   },
   "BARAJA ESPAÑOLA,CLASICOS 3,3,1+,6+": {
     "bggMatchId": null,
@@ -618,43 +488,32 @@
     "foundBggMatches": []
   },
   "BASKETBALL AGE,A0,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "193818"
-    ]
+    "bggMatchId": "193818",
+    "foundBggMatches": null
   },
   "BATALLA DE OVEJAS,J5,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "54137"
-    ]
+    "bggMatchId": "54137",
+    "foundBggMatches": null
   },
   "BATALLA POR EL OLIMPO,L4,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192834"
-    ]
+    "bggMatchId": "192834",
+    "foundBggMatches": null
   },
   "BATTLESTAR GALACTICA,A5,1,3--6,14+": {
     "bggMatchId": "37111",
     "foundBggMatches": null
   },
   "BELLAFLOR,W7,2,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "91512"
-    ]
+    "bggMatchId": "91512",
+    "foundBggMatches": null
   },
   "BINGO,CLASICOS 1,1,1--99,5+": {
     "bggMatchId": "7316",
     "foundBggMatches": null
   },
   "BLACK HILLS,Q8,2,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205819",
-      "130659"
-    ]
+    "bggMatchId": "205819",
+    "foundBggMatches": null
   },
   "BLACK STORIES (CAJA DE MADERA),T9,1,2--15,12+": {
     "bggMatchId": null,
@@ -685,20 +544,16 @@
     "foundBggMatches": []
   },
   "BLACK STORIES EL INTERROGATORIO,T9,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "179561"
-    ]
+    "bggMatchId": "179561",
+    "foundBggMatches": null
   },
   "BLACK STORIES HOSPITALES DEMENCIALES (CAJA DE MADERA),T9,1,2--15,14+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "BLACK STORIES JUEGO DE TABLERO,T8,1,3--13,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38001"
-    ]
+    "bggMatchId": "38001",
+    "foundBggMatches": null
   },
   "BLACK STORIES LEYENDAS OSCURAS (CAJA DE MADERA),T9,1,2,12+": {
     "bggMatchId": null,
@@ -725,50 +580,32 @@
     "foundBggMatches": []
   },
   "BLEKOTECO,R7,1,2--8,8": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "132461"
-    ]
+    "bggMatchId": "132461",
+    "foundBggMatches": null
   },
   "BLOCK & BLOCK,S9,1,2+,5+": {
     "bggMatchId": "187096",
     "foundBggMatches": null
   },
   "BLOKUS,J4,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2453",
-      "6411",
-      "286310",
-      "16395",
-      "97469",
-      "21550"
-    ]
+    "bggMatchId": "2453",
+    "foundBggMatches": null
   },
   "BLOOD BOWL TEAM MANAGER,L1,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "90137",
-      "157126",
-      "129721"
-    ]
+    "bggMatchId": "90137",
+    "foundBggMatches": null
   },
   "BLOOD BOWL: EXPANSIÓN 1 (DENTRO DEL BÁSICO),L1,1,2,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "BLOQS,J4,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "122399"
-    ]
+    "bggMatchId": "122399",
+    "foundBggMatches": null
   },
   "BLUFF PARTY,Q4,2,4--50,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "27155",
-      "40808"
-    ]
+    "bggMatchId": "27155",
+    "foundBggMatches": null
   },
   "BOGGLE,L3,1,1--8,8+": {
     "bggMatchId": null,
@@ -779,13 +616,8 @@
     "foundBggMatches": null
   },
   "BOTE SALVAVIDAS,N4,1,4--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4174",
-      "105046",
-      "37036",
-      "85927"
-    ]
+    "bggMatchId": "4174",
+    "foundBggMatches": null
   },
   "BOTE SALVAVIDAS: CANIBALISMO (DENTRO DEL BÁSICO),N4,1,4--7,12+": {
     "bggMatchId": null,
@@ -800,15 +632,8 @@
     "foundBggMatches": []
   },
   "BOUNCE -OFF,S9,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38871",
-      "166633",
-      "197034",
-      "288897",
-      "214276",
-      "287397"
-    ]
+    "bggMatchId": "166633",
+    "foundBggMatches": null
   },
   "BRAINS EL JARDÍN JAPONÉS,K5,1,1,8+": {
     "bggMatchId": null,
@@ -823,17 +648,12 @@
     "foundBggMatches": []
   },
   "BRICK PARTY,Q8,1,2--9,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "181161"
-    ]
+    "bggMatchId": "181161",
+    "foundBggMatches": null
   },
   "BUBBLE POP,J4,2,1--2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192343",
-      "229843"
-    ]
+    "bggMatchId": "192343",
+    "foundBggMatches": null
   },
   "BUG,V9,1,2--6,4+": {
     "bggMatchId": null,
@@ -852,16 +672,12 @@
     "foundBggMatches": []
   },
   "CAFÉ RACE,N2,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "20781"
-    ]
+    "bggMatchId": "20781",
+    "foundBggMatches": null
   },
   "CAMEL CUP,I3,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "153938"
-    ]
+    "bggMatchId": "153938",
+    "foundBggMatches": null
   },
   "CAMEL CUP CARTAS,I3,2,2--6,8+": {
     "bggMatchId": null,
@@ -872,16 +688,12 @@
     "foundBggMatches": []
   },
   "CANDY TIME,X9,1,2--6,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203788"
-    ]
+    "bggMatchId": "203788",
+    "foundBggMatches": null
   },
   "CAPITAN FLINT,V9,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "183716"
-    ]
+    "bggMatchId": "183716",
+    "foundBggMatches": null
   },
   "CARCASSONE MINIEXPANSIONES EL RIO Y EL ABAD,EPP,1,2--5,7+": {
     "bggMatchId": null,
@@ -896,34 +708,24 @@
     "foundBggMatches": []
   },
   "CARCASSONNE JUNIOR,X8,1,2--4,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "41010"
-    ]
+    "bggMatchId": "41010",
+    "foundBggMatches": null
   },
   "CARCASSONNE: COLINAS Y OVEJAS,H3,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "153773"
-    ]
+    "bggMatchId": "153773",
+    "foundBggMatches": null
   },
   "CARCASSONNE: LA ABADIA Y EL ALCALDE,H3,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "31784"
-    ]
+    "bggMatchId": "31784",
+    "foundBggMatches": null
   },
   "CARCASSONNE: LA TORRE,H3,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "21385"
-    ]
+    "bggMatchId": "21385",
+    "foundBggMatches": null
   },
   "CARCASSONNE: MERCADOS Y PUENTES,H3,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "66646"
-    ]
+    "bggMatchId": "66646",
+    "foundBggMatches": null
   },
   "CARCASSONNE: POSADAS Y CATEDRALES + RÍO,EPP,EPR,2--6,8+": {
     "bggMatchId": null,
@@ -942,10 +744,8 @@
     "foundBggMatches": []
   },
   "CARDS AGAINST DOWNTIME,R2,1,3 +,17+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "238825"
-    ]
+    "bggMatchId": "238825",
+    "foundBggMatches": null
   },
   "CARDS AGAINST HUMANITY,R2,1,3--99,18+": {
     "bggMatchId": "50381",
@@ -960,10 +760,8 @@
     "foundBggMatches": []
   },
   "CARGOLINO VALENTINO,I3,1,2--6,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "183720"
-    ]
+    "bggMatchId": "183720",
+    "foundBggMatches": null
   },
   "CARTAGENA,F3,1,2--5,8+": {
     "bggMatchId": "224031",
@@ -982,86 +780,52 @@
     "foundBggMatches": []
   },
   "CASTLECARDS,Q7,1,2--4,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192016"
-    ]
+    "bggMatchId": "192016",
+    "foundBggMatches": null
   },
   "CAT BOX,Q5,1,2--5,6+": {
     "bggMatchId": "176589",
     "foundBggMatches": null
   },
   "CATAN DE DADOS,N3,1,1--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "27710"
-    ]
+    "bggMatchId": "27710",
+    "foundBggMatches": null
   },
   "CATAN EXPANSIÓN 5 Y 6 JUGADORES,H2,2,5--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4101",
-      "2807",
-      "34691",
-      "4103"
-    ]
+    "bggMatchId": "2807",
+    "foundBggMatches": null
   },
   "CATAN EXPANSIÓN NAVEGANTES 5 Y 6 JUGADORES,H1,1,5--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4103"
-    ]
+    "bggMatchId": "4103",
+    "foundBggMatches": null
   },
   "CATAN PLUS,H2,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38845",
-      "191710",
-      "250661"
-    ]
+    "bggMatchId": "191710",
+    "foundBggMatches": null
   },
   "\"CATAN, EDICIÓN VIAJE\",G4,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172994"
-    ]
+    "bggMatchId": "172994",
+    "foundBggMatches": null
   },
   "\"CATAN, JUNIOR\",X8,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184842",
-      "5824",
-      "140743",
-      "269978",
-      "125921",
-      "27766"
-    ]
+    "bggMatchId": "184842",
+    "foundBggMatches": null
   },
   "\"CATAN, LOS COLONOS DE AMÉRICA\",G4,1,3--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "67239"
-    ]
+    "bggMatchId": "67239",
+    "foundBggMatches": null
   },
   "\"CATAN, LOS COLONOS DE EUROPA\",G4,1,3--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "103091"
-    ]
+    "bggMatchId": "103091",
+    "foundBggMatches": null
   },
   "\"CATAN, PIRATAS Y EXPLORADORES\",EPP,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "135378",
-      "144419"
-    ]
+    "bggMatchId": "135378",
+    "foundBggMatches": null
   },
   "CATAN: CIUDADES Y CABALLEROS,H1,1,3--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "926",
-      "4101"
-    ]
+    "bggMatchId": "926",
+    "foundBggMatches": null
   },
   "CATAN: EL JUEGO,H2,2,3--4,10+": {
     "bggMatchId": "13",
@@ -1072,36 +836,24 @@
     "foundBggMatches": null
   },
   "CATAN: EXPANSIÓN CIUDADES Y CABALLEROS (6 JUGADORES),H1,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4101"
-    ]
+    "bggMatchId": "4101",
+    "foundBggMatches": null
   },
   "CATAN: EXPANSIÓN MERCADERES Y BÁRBAROS (6 JUGADORES),H1,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "34691"
-    ]
+    "bggMatchId": "34691",
+    "foundBggMatches": null
   },
   "CATAN: LOS PRÍNCIPES DE CATAN,M4,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "66056"
-    ]
+    "bggMatchId": "66056",
+    "foundBggMatches": null
   },
   "CATAN: MERCADERES Y BÁRBAROS,H1,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "27760",
-      "34691"
-    ]
+    "bggMatchId": "27760",
+    "foundBggMatches": null
   },
   "CATAN: NAVEGANTES,H1,1,3--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "325",
-      "4103"
-    ]
+    "bggMatchId": "325",
+    "foundBggMatches": null
   },
   "CATS,Q9,1,2--5,10+": {
     "bggMatchId": "257814",
@@ -1112,21 +864,12 @@
     "foundBggMatches": null
   },
   "CAYLUS,F3,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "18602",
-      "284818",
-      "34410",
-      "27364",
-      "150637",
-      "39292"
-    ]
+    "bggMatchId": "18602",
+    "foundBggMatches": null
   },
   "CAZA FANTASMAS,K5,1,1,6+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "35273"
-    ]
+    "foundBggMatches": []
   },
   "CELESTIA,N5,1,2--6,8+": {
     "bggMatchId": "175117",
@@ -1141,26 +884,16 @@
     "foundBggMatches": []
   },
   "CHARIOT RACE,M5,2,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "16294",
-      "193212",
-      "11048",
-      "35269",
-      "65789"
-    ]
+    "bggMatchId": "193212",
+    "foundBggMatches": null
   },
   "CHECKPOINT CHARLIE,N3,1,3--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205079"
-    ]
+    "bggMatchId": "205079",
+    "foundBggMatches": null
   },
   "CHIVATOS Y LADRONES,M2,1,2--5,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "55601"
-    ]
+    "bggMatchId": "55601",
+    "foundBggMatches": null
   },
   "CIUDAD DE MACHI KORO,F2,1,2--4,10+": {
     "bggMatchId": null,
@@ -1187,73 +920,40 @@
     "foundBggMatches": []
   },
   "CLUEDO JUNIOR,X7,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "9852",
-      "10450",
-      "49010",
-      "5591",
-      "10079",
-      "27663"
-    ]
+    "bggMatchId": "9852",
+    "foundBggMatches": null
   },
   "COBARDES,Q2,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "223360"
-    ]
+    "bggMatchId": "223360",
+    "foundBggMatches": null
   },
   "COCODRILO SACAMUELAS,EPR,1,2--12,3+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "10453"
-    ]
+    "bggMatchId": "10453",
+    "foundBggMatches": null
   },
   "COCORICÓ COCOROCÓ,U8,1,2--4,2+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "3570"
-    ]
+    "bggMatchId": "3570",
+    "foundBggMatches": null
   },
   "COCORROTO,R2,1,3+,16+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "CÓDIGO SECRETO,M2,2,2--8,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2392",
-      "178900",
-      "131493",
-      "224037",
-      "292037",
-      "198773"
-    ]
+    "bggMatchId": "2392",
+    "foundBggMatches": null
   },
   "CODIGO SECRETO IMÁGENES,M2,2,2--8,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "198773"
-    ]
+    "bggMatchId": "198773",
+    "foundBggMatches": null
   },
   "COLOCA 4,P2,1,2,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2719"
-    ]
+    "bggMatchId": "2719",
+    "foundBggMatches": null
   },
   "COLONOS DEL IMPERIO,E1,2,1--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "154203",
-      "195543",
-      "177739",
-      "202459",
-      "179657",
-      "270844",
-      "270836",
-      "169075"
-    ]
+    "bggMatchId": "154203",
+    "foundBggMatches": null
   },
   "COLONOS DEL IMPERIO EXPANSION ¿POR QUÉ TANTO ODIO? (DENTRO DEL BÁSICO),E1,1,1--4,10+": {
     "bggMatchId": null,
@@ -1264,36 +964,20 @@
     "foundBggMatches": []
   },
   "COLORETTO,R8,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "5782",
-      "15159",
-      "15156",
-      "19726",
-      "22652",
-      "184281",
-      "12614",
-      "42613",
-      "15288"
-    ]
+    "bggMatchId": "5782",
+    "foundBggMatches": null
   },
   "COLORFOX,Q8,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "193831"
-    ]
+    "bggMatchId": "193831",
+    "foundBggMatches": null
   },
   "COLORPOP,J4,1,1--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "125028"
-    ]
+    "bggMatchId": "125028",
+    "foundBggMatches": null
   },
   "COLOSSAL ARENA,N4,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "105"
-    ]
+    "bggMatchId": "105",
+    "foundBggMatches": null
   },
   "COLOSSEUM,G2,1,3--5,10+": {
     "bggMatchId": "27746",
@@ -1308,51 +992,28 @@
     "foundBggMatches": null
   },
   "COLT EXPRESS CABALLOS Y DILIGENCIAS,F5,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "181158"
-    ]
+    "bggMatchId": "181158",
+    "foundBggMatches": null
   },
   "COMBAT COMANDER EUROPA,C5,1,2,14+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "COME-COCOS,CLASICOS 2,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4907"
-    ]
+    "bggMatchId": "4907",
+    "foundBggMatches": null
   },
   "CO-MIX,K1,1,3--10,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "162367",
-      "136386",
-      "65453",
-      "267737",
-      "235341",
-      "27979"
-    ]
+    "bggMatchId": "162367",
+    "foundBggMatches": null
   },
   "CONAN EL JUEGO DE CARTAS,Q2,1,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "70329"
-    ]
+    "bggMatchId": "70329",
+    "foundBggMatches": null
   },
   "CONCEPT,J2,1,4--12,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "147151",
-      "247314",
-      "294625",
-      "273468",
-      "61714",
-      "56926",
-      "207245",
-      "27601",
-      "41059"
-    ]
+    "bggMatchId": "147151",
+    "foundBggMatches": null
   },
   "CONECTOR APRENDO Inglés,V9,2,1+,7+": {
     "bggMatchId": null,
@@ -1375,180 +1036,108 @@
     "foundBggMatches": []
   },
   "CONQUISTA EL TRONO,U7,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203001"
-    ]
+    "bggMatchId": "203001",
+    "foundBggMatches": null
   },
   "CONTRAST,Q7,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218465",
-      "26660"
-    ]
+    "bggMatchId": "218465",
+    "foundBggMatches": null
   },
   "COPÉRNICO,M3,1,1--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "265120"
-    ]
+    "bggMatchId": "265120",
+    "foundBggMatches": null
   },
   "COPY OR NOT COPY,Q4,1,1--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "206272"
-    ]
+    "bggMatchId": "206272",
+    "foundBggMatches": null
   },
   "CORTEX CHALLENGE,T8,1,2--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "297478",
-      "206175",
-      "237629",
-      "237630",
-      "261355",
-      "203266",
-      "203265"
-    ]
+    "bggMatchId": "206175",
+    "foundBggMatches": null
   },
   "CORTEX GEO,T8,1,2--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203266"
-    ]
+    "bggMatchId": "203266",
+    "foundBggMatches": null
   },
   "CORTEX KIDS,T8,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "237630",
-      "203265"
-    ]
+    "bggMatchId": "203265",
+    "foundBggMatches": null
   },
   "CORTEX KIDS 2,T8,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "237630",
-      "203265"
-    ]
+    "bggMatchId": "237630",
+    "foundBggMatches": null
   },
   "COSMIC ENCOUNTERS,B1,1,3--5,13+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "COSTA RICA,L3,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194100",
-      "208082"
-    ]
+    "bggMatchId": "194100",
+    "foundBggMatches": null
   },
   "COUP: CIUDAD CORRUPTA,R8,1,2--10,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "131357"
-    ]
+    "bggMatchId": "131357",
+    "foundBggMatches": null
   },
   "COVENANT,N3,1,3--5,10+": {
     "bggMatchId": "205478",
     "foundBggMatches": null
   },
   "Covil: Los señores oscuros,C1,1,1--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "187976",
-      "230224"
-    ]
+    "bggMatchId": "187976",
+    "foundBggMatches": null
   },
   "Covil: maldad caótica,C1,1,1--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "230224"
-    ]
+    "bggMatchId": "230224",
+    "foundBggMatches": null
   },
   "COYOTE,V8,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "8172",
-      "33927",
-      "71056",
-      "31074",
-      "29467",
-      "15878",
-      "166695"
-    ]
+    "bggMatchId": "8172",
+    "foundBggMatches": null
   },
   "CRANIUM,O5,1,4--6,13+": {
     "bggMatchId": "891",
     "foundBggMatches": null
   },
   "CRANIUM HULLABALOO,V6,1,1--6,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "7307",
-      "21840"
-    ]
+    "bggMatchId": "7307",
+    "foundBggMatches": null
   },
   "CRAZY CLACK,J2,1,2--6,3+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "117555"
-    ]
+    "bggMatchId": "117555",
+    "foundBggMatches": null
   },
   "CRAZY THERAPY,R5,1,6+,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184190"
-    ]
+    "bggMatchId": "184190",
+    "foundBggMatches": null
   },
   "CRISIS TOKYO,N4,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145401",
-      "6298"
-    ]
+    "bggMatchId": "145401",
+    "foundBggMatches": null
   },
   "CRÓNICAS,M4,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "54307",
-      "239188",
-      "258089",
-      "249811",
-      "297643",
-      "26123",
-      "64651"
-    ]
+    "bggMatchId": "54307",
+    "foundBggMatches": null
   },
   "CROWDFUNDING: EL JUEGO,N2,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "162525"
-    ]
+    "bggMatchId": "162525",
+    "foundBggMatches": null
   },
   "CTHULHU DADOS,R7,4,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "65611"
-    ]
+    "bggMatchId": "65611",
+    "foundBggMatches": null
   },
   "CTHULHU REALMS,N4,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "179303"
-    ]
+    "bggMatchId": "179303",
+    "foundBggMatches": null
   },
   "CUBULUS,J4,1,2--3,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "95364",
-      "8309"
-    ]
+    "bggMatchId": "95364",
+    "foundBggMatches": null
   },
   "CUEVA DE TROLL,C4,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4491"
-    ]
+    "bggMatchId": "4491",
+    "foundBggMatches": null
   },
   "CULTURA FRIKI,O4,1,2--10,14+": {
     "bggMatchId": null,
@@ -1559,24 +1148,16 @@
     "foundBggMatches": []
   },
   "CYCLING PARTY,L5,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "144460"
-    ]
+    "bggMatchId": "144460",
+    "foundBggMatches": null
   },
   "DADOS NINJA,Q3,1,2--5,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "136587"
-    ]
+    "bggMatchId": "136587",
+    "foundBggMatches": null
   },
   "DADOS ZOMBIE,R2,2,2--99,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "62871",
-      "110279",
-      "155148"
-    ]
+    "bggMatchId": "62871",
+    "foundBggMatches": null
   },
   "DADOS ZOMBIE 2: SESIÓN DOBLE ( dentro del basico ),R2,1,2--99,10+": {
     "bggMatchId": null,
@@ -1591,12 +1172,8 @@
     "foundBggMatches": []
   },
   "DARK MATTER,M4,2,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182101",
-      "256490",
-      "256491"
-    ]
+    "bggMatchId": "182101",
+    "foundBggMatches": null
   },
   "DARK TALES,Q3,1,2--4,14+": {
     "bggMatchId": "166158",
@@ -1615,40 +1192,28 @@
     "foundBggMatches": []
   },
   "DE VULGARI ELOQUENTIA,H5,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "75165",
-      "275010",
-      "292360"
-    ]
+    "bggMatchId": "75165",
+    "foundBggMatches": null
   },
   "DEAD OF WINTER,D2,1,2--5,14+": {
     "bggMatchId": "150376",
     "foundBggMatches": null
   },
   "DEATH OVER THE KINGDOM,R8,1,3--16,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172382"
-    ]
+    "bggMatchId": "172382",
+    "foundBggMatches": null
   },
   "DEEP SEA ADVENTURES,R7,1,2--6,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "DEJA-VU,M4,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "232041",
-      "263423",
-      "217321"
-    ]
+    "bggMatchId": "217321",
+    "foundBggMatches": null
   },
   "DELUGIO,I4,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "62054"
-    ]
+    "bggMatchId": "62054",
+    "foundBggMatches": null
   },
   "DEMOCRACIA: EL JUEGO,EPR,1,2--6,10+": {
     "bggMatchId": null,
@@ -1659,10 +1224,8 @@
     "foundBggMatches": []
   },
   "DESTROY BCN,F1,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192904"
-    ]
+    "bggMatchId": "192904",
+    "foundBggMatches": null
   },
   "DIAMANT,R9,1,3--8,8+": {
     "bggMatchId": "15512",
@@ -1673,166 +1236,104 @@
     "foundBggMatches": []
   },
   "DICE FORGE,M5,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194594",
-      "255631",
-      "295132",
-      "255354",
-      "276012",
-      "258003",
-      "268363",
-      "268362",
-      "268365",
-      "276013"
-    ]
+    "bggMatchId": "194594",
+    "foundBggMatches": null
   },
   "DIFFERENCES,Q2,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "107059",
-      "201991",
-      "54395"
-    ]
+    "bggMatchId": "54395",
+    "foundBggMatches": null
   },
   "DINORACE,W6,1,2--4,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "DIRECTOR DE CAMPAÑA 2008,C1,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "46255"
-    ]
+    "bggMatchId": "46255",
+    "foundBggMatches": null
   },
   "DIXIT,J1,1,3--6,6+": {
     "bggMatchId": "39856",
     "foundBggMatches": null
   },
   "DIXIT 2 QUEST,J1,2,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "55660"
-    ]
+    "bggMatchId": "55660",
+    "foundBggMatches": null
   },
   "DIXIT 3 JOURNEY,J1,2,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "119657",
-      "121288"
-    ]
+    "bggMatchId": "119657",
+    "foundBggMatches": null
   },
   "DIXIT 4 ORIGINS,J1,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145325",
-      "150795"
-    ]
+    "bggMatchId": "145325",
+    "foundBggMatches": null
   },
   "DIXIT 5 DAYDREAMS,J1,2,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "156189"
-    ]
+    "bggMatchId": "156189",
+    "foundBggMatches": null
   },
   "DIXIT 6 MEMORIES,J1,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174090",
-      "243310"
-    ]
+    "bggMatchId": "174090",
+    "foundBggMatches": null
   },
   "DIXIT 7 REVELATIONS,J1,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205761"
-    ]
+    "bggMatchId": "205761",
+    "foundBggMatches": null
   },
   "DIXIT ODYSSEY,EPR,1,3--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "92828",
-      "138547",
-      "99134"
-    ]
+    "bggMatchId": "92828",
+    "foundBggMatches": null
   },
   "DOBBLE,Q4,1,2--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "63268",
-      "117995",
-      "125048",
-      "123622"
-    ]
+    "bggMatchId": "63268",
+    "foundBggMatches": null
   },
   "DOBBLE FORMAS Y NÚMEROS,EPP,1,2--6,3+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "DOBBLE KIDS,Q4,1,2--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "117995"
-    ]
+    "bggMatchId": "117995",
+    "foundBggMatches": null
   },
   "DOBBLE STARWARS,Q4,1,2--8,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "\"DOGFIGHT, I GUERRA MUNDIAL\",Q3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "152955"
-    ]
+    "bggMatchId": "152955",
+    "foundBggMatches": null
   },
   "DOGGY BAG,N5,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "217890",
-      "297263"
-    ]
+    "bggMatchId": "217890",
+    "foundBggMatches": null
   },
   "DOLORES,Q2,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "293662",
-      "194523"
-    ]
+    "bggMatchId": "194523",
+    "foundBggMatches": null
   },
   "DOMADORES DE BICHOS,R2,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "165796"
-    ]
+    "bggMatchId": "165796",
+    "foundBggMatches": null
   },
   "DOMINION,M1,2,2--4,13+": {
     "bggMatchId": "36218",
     "foundBggMatches": null
   },
   "DOMINION: COMARCAS,M1,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "104557"
-    ]
+    "bggMatchId": "104557",
+    "foundBggMatches": null
   },
   "DOMINION: CORNUCOPIA,N1,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "90850",
-      "177903"
-    ]
+    "bggMatchId": "90850",
+    "foundBggMatches": null
   },
   "DOMINION: EDAD OSCURA,M1,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "125403"
-    ]
+    "bggMatchId": "125403",
+    "foundBggMatches": null
   },
   "DOMINION: INTRIGA,N1,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "40834"
-    ]
+    "bggMatchId": "40834",
+    "foundBggMatches": null
   },
   "DOMINO,CLASICOS 4,1,1+,6+": {
     "bggMatchId": "94958",
@@ -1843,10 +1344,8 @@
     "foundBggMatches": []
   },
   "DRAGONES Y GALLINAS,N5,2,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205080"
-    ]
+    "bggMatchId": "205080",
+    "foundBggMatches": null
   },
   "DRAGONS,R7,1,2--4,8+": {
     "bggMatchId": "198991",
@@ -1861,69 +1360,48 @@
     "foundBggMatches": []
   },
   "DUELO GAME,EPP,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "88556"
-    ]
+    "bggMatchId": "88556",
+    "foundBggMatches": null
   },
   "DUNGEON RAIDERS,R8,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "80771",
-      "257164"
-    ]
+    "bggMatchId": "80771",
+    "foundBggMatches": null
   },
   "DUNGEON ROLL,Q7,1,1--4,8+": {
     "bggMatchId": "138788",
     "foundBggMatches": null
   },
   "DUPLIK,Q6,1,3--10,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "22348"
-    ]
+    "bggMatchId": "22348",
+    "foundBggMatches": null
   },
   "EL CODIGO DA VINCI,I1,1,2--6,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "EL CRISTAL OSCURO,C0,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "235247"
-    ]
+    "bggMatchId": "235247",
+    "foundBggMatches": null
   },
   "EL CUCO ESTRENA NIDO,W7,2,2--5,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192547"
-    ]
+    "bggMatchId": "192547",
+    "foundBggMatches": null
   },
   "EL DESIERTO PROHIBIDO: LA CIUDAD BAJO LAS DUNAS,K2,2,2--5,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "EL ESPÍA (QUE SE PERDIÓ),M2,2,3--8,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "166384"
-    ]
+    "bggMatchId": "166384",
+    "foundBggMatches": null
   },
   "EL FAVOR DEL FARAON,C3,1,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "171011",
-      "201451"
-    ]
+    "bggMatchId": "171011",
+    "foundBggMatches": null
   },
   "EL GRAN LIBRO DE LA LOCURA,I2,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "171233",
-      "190783",
-      "185582",
-      "185339"
-    ]
+    "bggMatchId": "171233",
+    "foundBggMatches": null
   },
   "EL GRANDE (GL),A4,1,2--5,12+": {
     "bggMatchId": null,
@@ -1931,179 +1409,111 @@
   },
   "EL HOBBIT,R3,1,2--5,10+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "2456",
-      "83629",
-      "126444",
-      "127436",
-      "159044",
-      "144417",
-      "130715",
-      "123695"
-    ]
+    "foundBggMatches": []
   },
   "EL HOMBRE LOBO - EDICION DEFINITIVA,Q3,1,5--68,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "102745",
-      "38159"
-    ]
+    "bggMatchId": "38159",
+    "foundBggMatches": null
   },
   "EL HOMBRE LOBO - EDICION DEFINITIVA ARTEFACTOS,Q3,1,5--40,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "102745"
-    ]
+    "bggMatchId": "102745",
+    "foundBggMatches": null
   },
   "EL JUEGO DE LAS RANAS,U6,1,2--4,4+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "EL LABERINTO MÁGICO,I5,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "41916"
-    ]
+    "bggMatchId": "41916",
+    "foundBggMatches": null
   },
   "EL MERCADO DE LOS LADRONES,N4,1,3--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182351"
-    ]
+    "bggMatchId": "182351",
+    "foundBggMatches": null
   },
   "EL MORTAL,R8,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "258436",
-      "241760"
-    ]
+    "bggMatchId": "241760",
+    "foundBggMatches": null
   },
   "EL ORÁCULO DE DELFOS,G1,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "193558"
-    ]
+    "bggMatchId": "193558",
+    "foundBggMatches": null
   },
   "EL PACTO EXP HOMBRES LOBO CASTONEGRO,Q9,1,9--47,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "EL PADRINO,B3,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "210",
-      "195539"
-    ]
+    "bggMatchId": "195539",
+    "foundBggMatches": null
   },
   "EL PALE,P2,1,3--6,9-99+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "37168"
-    ]
+    "bggMatchId": "37168",
+    "foundBggMatches": null
   },
   "EL PORTAL DE MOLTHAR,R3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "181960"
-    ]
+    "bggMatchId": "181960",
+    "foundBggMatches": null
   },
   "EL PRIMERO DE LA CLASE,V8,1,2+,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4041"
-    ]
+    "bggMatchId": "4041",
+    "foundBggMatches": null
   },
   "EL PRINCIPITO: HAZME UN PLANETA,F2,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "134453"
-    ]
+    "bggMatchId": "134453",
+    "foundBggMatches": null
   },
   "EL SEÑOR DE LOS ANILLOS 2º ED,C2,1,2--5,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "7336"
-    ]
+    "bggMatchId": "7336",
+    "foundBggMatches": null
   },
   "EL SÉPTIMO HÉROE,Q2,1,3--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "135116"
-    ]
+    "bggMatchId": "135116",
+    "foundBggMatches": null
   },
   "EL SHERIFF DE NOTTINGHAM,E4,1,3--5,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "157969",
-      "226065"
-    ]
+    "bggMatchId": "157969",
+    "foundBggMatches": null
   },
   "EL SÍMBOLO ARCANO,C4,2,1--8,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "198045",
-      "100423",
-      "189807",
-      "212572",
-      "237226",
-      "137479",
-      "166679"
-    ]
+    "bggMatchId": "100423",
+    "foundBggMatches": null
   },
   "EL SONETO,F2,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "204802"
-    ]
+    "bggMatchId": "204802",
+    "foundBggMatches": null
   },
   "EL TESORERO,R4,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "257869"
-    ]
+    "bggMatchId": "257869",
+    "foundBggMatches": null
   },
   "EL TESORO DE ISLA TORTUGA,Q2,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "209289"
-    ]
+    "bggMatchId": "209289",
+    "foundBggMatches": null
   },
   "EL ÚLTIMO BANQUETE,L3,1,6--25,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "85394"
-    ]
+    "bggMatchId": "85394",
+    "foundBggMatches": null
   },
   "EL VALLE DE LOS MERCADERES,N3,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176165",
-      "191597"
-    ]
+    "bggMatchId": "176165",
+    "foundBggMatches": null
   },
   "EL ZORRO EN EL BOSQUE,M2,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "221965"
-    ]
+    "bggMatchId": "221965",
+    "foundBggMatches": null
   },
   "EMPORION,N4,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "187587"
-    ]
+    "bggMatchId": "187587",
+    "foundBggMatches": null
   },
   "EN BUSCA DEL IMPERIO COBRA,CLASICOS 2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "10293"
-    ]
+    "bggMatchId": "10293",
+    "foundBggMatches": null
   },
   "EN TU CASA O DONDE SEA,Q2,1,4--7,18+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "198269"
-    ]
+    "bggMatchId": "198269",
+    "foundBggMatches": null
   },
   "ENCONTRAR Y ELIMINAR,V6,1,2,6+": {
     "bggMatchId": null,
@@ -2114,39 +1524,28 @@
     "foundBggMatches": []
   },
   "ENSALADA DE BICHOS,R2,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "32341"
-    ]
+    "bggMatchId": "32341",
+    "foundBggMatches": null
   },
   "ENTERN!,R7,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176013",
-      "165959"
-    ]
+    "bggMatchId": "176013",
+    "foundBggMatches": null
   },
   "EPIC JUEGO DE CARTAS,R7,1,2--4,13+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "40782"
-    ]
+    "foundBggMatches": []
   },
   "ÉRASE UNA VEZ 3º EDICIÓN,N5,1,2--4,4+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "ERIZOS A LA CARRERA,V8,1,3--5,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "359"
-    ]
+    "bggMatchId": "359",
+    "foundBggMatches": null
   },
   "ESCAPE THE ROOM: MISTERIO EN LA MANSIÓN DEL OBSERVATORIO,I3,1,3--8,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "193560"
-    ]
+    "bggMatchId": "193560",
+    "foundBggMatches": null
   },
   "ESCAPE THE ROOM 2: EL SECRETO DEL DOCTOR GRAVELY,I3,1,3--8,14+": {
     "bggMatchId": null,
@@ -2157,40 +1556,20 @@
     "foundBggMatches": []
   },
   "ESCUELA DE PINGÜINOS,V7,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177524",
-      "244513"
-    ]
+    "bggMatchId": "177524",
+    "foundBggMatches": null
   },
   "ESPADA NEGRA JUEGO DE MESA,R3,1,2--8,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180066",
-      "223396"
-    ]
+    "bggMatchId": "180066",
+    "foundBggMatches": null
   },
   "ESPAÑA 20,C5,1,2,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "225836",
-      "234622",
-      "170390",
-      "204659"
-    ]
+    "bggMatchId": "225836",
+    "foundBggMatches": null
   },
   "EUPHORIA,B5,1,2--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "159911",
-      "133848",
-      "271664",
-      "181417",
-      "215534",
-      "195237",
-      "257494",
-      "256549"
-    ]
+    "bggMatchId": "133848",
+    "foundBggMatches": null
   },
   "EUREKA!,R6,1,1--5,10+": {
     "bggMatchId": "232446",
@@ -2221,98 +1600,52 @@
     "foundBggMatches": []
   },
   "EXPLORERS OF THE LOST VALLEY,R3,2,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "190064"
-    ]
+    "bggMatchId": "190064",
+    "foundBggMatches": null
   },
   "FABULA REGNUM,M4,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "153054"
-    ]
+    "bggMatchId": "153054",
+    "foundBggMatches": null
   },
   "FAKES,Q7,1,3,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184155",
-      "173058"
-    ]
+    "bggMatchId": "184155",
+    "foundBggMatches": null
   },
   "FAMIGLIA,R5,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205418",
-      "81453",
-      "224664",
-      "34483",
-      "200634"
-    ]
+    "bggMatchId": "81453",
+    "foundBggMatches": null
   },
   "FANTASIA S.A.,N4,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "63630",
-      "7950",
-      "181807",
-      "11684",
-      "40480",
-      "217428",
-      "27627"
-    ]
+    "bggMatchId": "40480",
+    "foundBggMatches": null
   },
   "FANTASMA BLITZ,V6,2,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "83195",
-      "118705",
-      "148532",
-      "197760"
-    ]
+    "bggMatchId": "83195",
+    "foundBggMatches": null
   },
   "FARAON,K5,1,2--4,6+": {
     "bggMatchId": "8295",
     "foundBggMatches": null
   },
   "FAST FLIP,Q4,1,2--8,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "126879",
-      "194088"
-    ]
+    "bggMatchId": "194088",
+    "foundBggMatches": null
   },
   "FAST FOOD FEAR,R8,2,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "223538"
-    ]
+    "bggMatchId": "223538",
+    "foundBggMatches": null
   },
   "FAUNA,I1,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "185074",
-      "32414",
-      "26233",
-      "16230",
-      "35497",
-      "84088",
-      "111275",
-      "111166",
-      "300247"
-    ]
+    "bggMatchId": "35497",
+    "foundBggMatches": null
   },
   "FEELINKS,K1,1,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "232509",
-      "269072"
-    ]
+    "bggMatchId": "232509",
+    "foundBggMatches": null
   },
   "FELIX EL GATO ENCERRADO,Q5,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "32125"
-    ]
+    "bggMatchId": "32125",
+    "foundBggMatches": null
   },
   "FEMINISMOS REUNIDOS,O5,1,2--99,14+": {
     "bggMatchId": null,
@@ -2324,28 +1657,15 @@
   },
   "FILM QUIZ,Q2,1,2--99,3+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "240562",
-      "41954",
-      "109868",
-      "110354",
-      "282362",
-      "191449"
-    ]
+    "foundBggMatches": []
   },
   "FINAL TOUCH,J3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192701"
-    ]
+    "bggMatchId": "192701",
+    "foundBggMatches": null
   },
   "FINCA,D5,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "40628",
-      "261720",
-      "70463"
-    ]
+    "bggMatchId": "261720",
+    "foundBggMatches": null
   },
   "FIREFLY,C4,1,1--5,13+": {
     "bggMatchId": "138161",
@@ -2364,35 +1684,24 @@
     "foundBggMatches": null
   },
   "FLICK EM UP! TIERRA DE FORAJIDOS,E4,1,2--10,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "169124"
-    ]
+    "bggMatchId": "169124",
+    "foundBggMatches": null
   },
   "FLUXX,R4,2,2--6,8+": {
     "bggMatchId": "258",
     "foundBggMatches": null
   },
   "FLUXX CTHULHU,R4,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "122159",
-      "44489"
-    ]
+    "bggMatchId": "122159",
+    "foundBggMatches": null
   },
   "FLUXX ZOMBI,R4,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "29387",
-      "37177",
-      "44489"
-    ]
+    "bggMatchId": "29387",
+    "foundBggMatches": null
   },
   "FLYNN EL PIRATA,W8,2,2--5,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "159627"
-    ]
+    "bggMatchId": "159627",
+    "foundBggMatches": null
   },
   "FOR THE PEOPLE: LA GUERRA DE SUCESIÓN 1861-1865,A2,1,2,14+": {
     "bggMatchId": null,
@@ -2407,33 +1716,24 @@
     "foundBggMatches": null
   },
   "FROG MENÚ,Q7,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184407"
-    ]
+    "bggMatchId": "184407",
+    "foundBggMatches": null
   },
   "FUERZA DE DRAGON,W7,2,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "23658"
-    ]
+    "bggMatchId": "23658",
+    "foundBggMatches": null
   },
   "FUJI FLUSH,R5,2,3--8,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203430",
-      "228675"
-    ]
+    "bggMatchId": "203430",
+    "foundBggMatches": null
   },
   "FUNGI,Q3,2,2,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "GALAXIA LA CONQUISTA,L5,2,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "28143"
-    ]
+    "bggMatchId": "28143",
+    "foundBggMatches": null
   },
   "GALAXIA: EXPANSIÓN LA TORMENTA (DENTRO DEL BÁSICO),L5,1,2--4,12+": {
     "bggMatchId": null,
@@ -2444,70 +1744,44 @@
     "foundBggMatches": []
   },
   "GALEONES CAÑONES Y DOBLONES,K1,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176606"
-    ]
+    "bggMatchId": "176606",
+    "foundBggMatches": null
   },
   "GALLETAS,L2,2,2--5,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "169755",
-      "179794"
-    ]
+    "bggMatchId": "179794",
+    "foundBggMatches": null
   },
   "GAME OF LIVE JUNIOR,X7,1,2--4,5+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "GAME OF TRAINS,R3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "235949",
-      "180602",
-      "3091",
-      "14003",
-      "8146"
-    ]
+    "bggMatchId": "180602",
+    "foundBggMatches": null
   },
   "GAME OF TROLLS,R5,1,8--25,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "216456",
-      "227010",
-      "188363",
-      "9635",
-      "202395"
-    ]
+    "bggMatchId": "216456",
+    "foundBggMatches": null
   },
   "GARDENS,F2,1,2--4,10+": {
     "bggMatchId": "153422",
     "foundBggMatches": null
   },
   "GEOPICNIC,U9,1,2--99,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148382"
-    ]
+    "bggMatchId": "148382",
+    "foundBggMatches": null
   },
   "GESTOS,W5,1,4+,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2379"
-    ]
+    "bggMatchId": "2379",
+    "foundBggMatches": null
   },
   "GIFT TRAP,N0,1,3--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "23686"
-    ]
+    "bggMatchId": "23686",
+    "foundBggMatches": null
   },
   "GLOBALL,Q4,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "22933",
-      "70488"
-    ]
+    "bggMatchId": "70488",
+    "foundBggMatches": null
   },
   "GO,CLASICOS 4,1,2,12+": {
     "bggMatchId": "188",
@@ -2518,222 +1792,104 @@
     "foundBggMatches": null
   },
   "GODZILLA TOTAL WAR,M3,1,3--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "280742"
-    ]
+    "bggMatchId": "280742",
+    "foundBggMatches": null
   },
   "GRAN FORSETI,R3,1,4--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "240085"
-    ]
+    "bggMatchId": "240085",
+    "foundBggMatches": null
   },
   "GRAN HERMANO,O3,1,4--6,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6785"
-    ]
+    "bggMatchId": "6785",
+    "foundBggMatches": null
   },
   "GRAN HOTEL AUSTRIA,D4,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182874",
-      "238724",
-      "238742"
-    ]
+    "bggMatchId": "182874",
+    "foundBggMatches": null
   },
   "GRAVITY WARFARE,S9,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "232119"
-    ]
+    "bggMatchId": "232119",
+    "foundBggMatches": null
   },
   "GUACAMOLE,W6,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "41687",
-      "69472"
-    ]
+    "bggMatchId": "41687",
+    "foundBggMatches": null
   },
   "GUERRA FRÍA CÍA VS KGB,Q2,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "24742"
-    ]
+    "bggMatchId": "24742",
+    "foundBggMatches": null
   },
   "GUILDS,E3,1,2--4,12+": {
     "bggMatchId": "194019",
     "foundBggMatches": null
   },
   "GUILDS OF LONDON,G4,1,1--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "134157",
-      "234151",
-      "211174",
-      "211790",
-      "228693",
-      "279809"
-    ]
+    "bggMatchId": "134157",
+    "foundBggMatches": null
   },
   "HAMBURGUESA A LA MESA,X5,1,2--4,3+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "HANABI,Q4,2,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "98778",
-      "70918",
-      "272743",
-      "121996",
-      "183833",
-      "123712",
-      "290357",
-      "149310",
-      "239006"
-    ]
+    "bggMatchId": "98778",
+    "foundBggMatches": null
   },
   "HARU ICHIBAN,I3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "165662"
-    ]
+    "bggMatchId": "165662",
+    "foundBggMatches": null
   },
   "HATFLINGS!,M3,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "199800"
-    ]
+    "bggMatchId": "199800",
+    "foundBggMatches": null
   },
   "HEDBANZ,V7,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "153484",
-      "292732",
-      "155153",
-      "247618",
-      "1855",
-      "23049",
-      "262913",
-      "200296",
-      "271033"
-    ]
+    "bggMatchId": "153484",
+    "foundBggMatches": null
   },
   "HELL´S RISING,B1,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "212107"
-    ]
+    "bggMatchId": "212107",
+    "foundBggMatches": null
   },
   "HELLO SUNSHINE!,W5,1,1,1+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "139161"
-    ]
+    "bggMatchId": "139161",
+    "foundBggMatches": null
   },
   "HELP ME!,Q2,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "125770",
-      "107463"
-    ]
+    "bggMatchId": "107463",
+    "foundBggMatches": null
   },
   "HERENCIA DE TIA AGATA,CLASICOS 2,1,2--4,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4953",
-      "1899"
-    ]
+    "bggMatchId": "4953",
+    "foundBggMatches": null
   },
   "HEX,CLASICOS 4,1,2,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "HEXAFUTBOL,L5,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "163605"
-    ]
+    "bggMatchId": "163605",
+    "foundBggMatches": null
   },
   "HEXCALIBUR,F1,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "230488"
-    ]
+    "bggMatchId": "230488",
+    "foundBggMatches": null
   },
   "HIPPO,R7,2,2--4,6+": {
     "bggMatchId": "234105",
     "foundBggMatches": null
   },
   "HISTORIAS CORRIENTES,A4,1,2--5,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "241021"
-    ]
+    "bggMatchId": "241021",
+    "foundBggMatches": null
   },
   "HIT Z ROAD,D1,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176083"
-    ]
+    "bggMatchId": "176083",
+    "foundBggMatches": null
   },
   "HIVE,Q3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "213271",
-      "39179",
-      "244868",
-      "99670",
-      "248101",
-      "244870",
-      "131014",
-      "244865",
-      "244872",
-      "244862",
-      "244875",
-      "244876",
-      "244861",
-      "258168",
-      "244874",
-      "244864",
-      "174237",
-      "40568",
-      "2655",
-      "21375",
-      "186175",
-      "94667",
-      "187280",
-      "201308",
-      "253145",
-      "253196",
-      "154597",
-      "247946",
-      "15351",
-      "60075",
-      "70704",
-      "30323",
-      "139666",
-      "84331",
-      "21417",
-      "27473",
-      "218300",
-      "244871",
-      "19374",
-      "244869",
-      "5771",
-      "244860",
-      "3249",
-      "244863",
-      "286578",
-      "244866",
-      "128964",
-      "197934",
-      "244873",
-      "244867",
-      "183860"
-    ]
+    "bggMatchId": "2655",
+    "foundBggMatches": null
   },
   "HIVE EXPANSIÓN: LADYBUG,Q3,1,2,8+": {
     "bggMatchId": null,
@@ -2748,42 +1904,24 @@
     "foundBggMatches": []
   },
   "\"HOGAR, DULCE HOGAR\",L1,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194880",
-      "208871"
-    ]
+    "bggMatchId": "194880",
+    "foundBggMatches": null
   },
   "HOLMES SHERLOCK & MYCROFT,S8,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174078",
-      "292615",
-      "292557"
-    ]
+    "bggMatchId": "174078",
+    "foundBggMatches": null
   },
   "HOMBRES LOBO DE CASTRONEGRO,R6,2,8--18,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "25821",
-      "56885",
-      "21713",
-      "132780",
-      "168680"
-    ]
+    "bggMatchId": "56885",
+    "foundBggMatches": null
   },
   "HOME SWEET HOME,Q4,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "88802",
-      "121076"
-    ]
+    "bggMatchId": "88802",
+    "foundBggMatches": null
   },
   "HONSHU,R8,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "207336"
-    ]
+    "bggMatchId": "207336",
+    "foundBggMatches": null
   },
   "HOSTAGE NEGOTIATOR,K5,1,1,13+": {
     "bggMatchId": "134253",
@@ -2802,41 +1940,28 @@
     "foundBggMatches": []
   },
   "HOTEL DELUXE,P2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "1502"
-    ]
+    "bggMatchId": "1502",
+    "foundBggMatches": null
   },
   "HUH,V9,1,2--4,5+": {
     "bggMatchId": "192130",
     "foundBggMatches": null
   },
   "HUIDA DE SILVER CITY,D3,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "138166",
-      "172962",
-      "172961"
-    ]
+    "bggMatchId": "138166",
+    "foundBggMatches": null
   },
   "HUMANOS!!! 3 ZOMBIECON,D3,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "119108"
-    ]
+    "bggMatchId": "119108",
+    "foundBggMatches": null
   },
   "HUNDIR LA FLOTA,P3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2425",
-      "31361"
-    ]
+    "bggMatchId": "2425",
+    "foundBggMatches": null
   },
   "HUNGRY SHARK,V8,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "259114"
-    ]
+    "bggMatchId": "259114",
+    "foundBggMatches": null
   },
   "ID4S,Q7,1,3--20,6+": {
     "bggMatchId": null,
@@ -2859,10 +1984,8 @@
     "foundBggMatches": []
   },
   "IKONIKUS,Q7,3,2--8,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148381"
-    ]
+    "bggMatchId": "148381",
+    "foundBggMatches": null
   },
   "ILLUMINATI,M4,1,2--6,12+": {
     "bggMatchId": "859",
@@ -2873,46 +1996,24 @@
     "foundBggMatches": null
   },
   "IMHOTEP,H5,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "36919",
-      "191862",
-      "229839",
-      "255674",
-      "292888",
-      "234423",
-      "213218",
-      "206442",
-      "292887"
-    ]
+    "bggMatchId": "191862",
+    "foundBggMatches": null
   },
   "IMPLOIDING KITTENS,Q5,2,2--6,7+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "INCÓMODOS INVITADOS,G1,1,2--8,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188866",
-      "284597",
-      "284580"
-    ]
+    "bggMatchId": "188866",
+    "foundBggMatches": null
   },
   "INTELECT,P3,1,2--4,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "320",
-      "274101",
-      "2318",
-      "1515"
-    ]
+    "bggMatchId": "320",
+    "foundBggMatches": null
   },
   "INTERFERENCIAS,Q6,1,4--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "46213",
-      "216798"
-    ]
+    "bggMatchId": "216798",
+    "foundBggMatches": null
   },
   "IQ BLOX,K5,1,1,6+": {
     "bggMatchId": null,
@@ -2935,53 +2036,36 @@
     "foundBggMatches": []
   },
   "ISLA DE SKYE,F3,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176494",
-      "232226"
-    ]
+    "bggMatchId": "176494",
+    "foundBggMatches": null
   },
   "ISTANBUL,E4,1,2--5,10+": {
     "bggMatchId": "148949",
     "foundBggMatches": null
   },
   "IT'S MINE,EPP,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180256",
-      "271"
-    ]
+    "bggMatchId": "180256",
+    "foundBggMatches": null
   },
   "JAIPUR,N4,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "54043"
-    ]
+    "bggMatchId": "54043",
+    "foundBggMatches": null
   },
   "JENGA CLASSIC,S9,4,1+,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2452"
-    ]
+    "bggMatchId": "2452",
+    "foundBggMatches": null
   },
   "JENGA QUAKE,S9,1,1--99,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "171087"
-    ]
+    "bggMatchId": "171087",
+    "foundBggMatches": null
   },
   "JENGA TETRIS,S9,1,1+,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145259"
-    ]
+    "bggMatchId": "145259",
+    "foundBggMatches": null
   },
   "JOKO,N3,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6424",
-      "155872"
-    ]
+    "bggMatchId": "6424",
+    "foundBggMatches": null
   },
   "JUEGO DE LAS ESCALERAS,U8,1,2--4,5+": {
     "bggMatchId": null,
@@ -2992,16 +2076,12 @@
     "foundBggMatches": null
   },
   "JUEGO DE TRONOS TRIVIA,O5,1,2--4,18+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188793"
-    ]
+    "bggMatchId": "188793",
+    "foundBggMatches": null
   },
   "JUEGO DE TRONOS: LA MANO DEL REY,N5,2,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205610"
-    ]
+    "bggMatchId": "205610",
+    "foundBggMatches": null
   },
   "JUEGO REAL DE UR,CLASICOS 0,1,2,14+": {
     "bggMatchId": null,
@@ -3012,72 +2092,44 @@
     "foundBggMatches": []
   },
   "JUMP IN,K5,1,1,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "674",
-      "235070"
-    ]
+    "bggMatchId": "235070",
+    "foundBggMatches": null
   },
   "JUNGLE SPEED,Q5,1,2--8,7+": {
     "bggMatchId": "8098",
     "foundBggMatches": null
   },
   "JUNGLE SPEED EXPANSION,Q5,1,2--15,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "10680"
-    ]
+    "bggMatchId": "10680",
+    "foundBggMatches": null
   },
   "JUNGLE SPEED SAFARI,Q5,1,2--6,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "144468",
-      "149718"
-    ]
+    "bggMatchId": "144468",
+    "foundBggMatches": null
   },
   "JUNTA CARTAS,R8,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192777"
-    ]
+    "bggMatchId": "192777",
+    "foundBggMatches": null
   },
   "KABALEO,K2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "94891"
-    ]
+    "bggMatchId": "94891",
+    "foundBggMatches": null
   },
   "KALEIDOS,K2,1,2--12,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "146592",
-      "545",
-      "24209",
-      "70263",
-      "167128",
-      "22123",
-      "23520",
-      "97989",
-      "9674"
-    ]
+    "bggMatchId": "545",
+    "foundBggMatches": null
   },
   "KALUA,M2,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "69356",
-      "133761"
-    ]
+    "bggMatchId": "69356",
+    "foundBggMatches": null
   },
   "KANJI BATTLE SEGUNDA EDICIÓN,N4,1,2--6,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "KARIBOU CAMP,Q8,1,3--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192233",
-      "288360"
-    ]
+    "bggMatchId": "192233",
+    "foundBggMatches": null
   },
   "KEYFLOWER,F5,1,2--6,12+": {
     "bggMatchId": "122515",
@@ -3088,49 +2140,24 @@
     "foundBggMatches": []
   },
   "KHARNAGE,C1,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194196",
-      "261681",
-      "261263",
-      "221921",
-      "261682",
-      "217880",
-      "221917",
-      "218228",
-      "231811"
-    ]
+    "bggMatchId": "194196",
+    "foundBggMatches": null
   },
   "KIKI RICKY,K5,1,2--4,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "23656",
-      "30248"
-    ]
+    "bggMatchId": "23656",
+    "foundBggMatches": null
   },
   "KILL THE UNICORNS,P0,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "204602",
-      "241692"
-    ]
+    "bggMatchId": "204602",
+    "foundBggMatches": null
   },
   "KING OF NEW YORK,F1,1,2--6,10+": {
     "bggMatchId": "160499",
     "foundBggMatches": null
   },
   "KING OF THE HILL,A3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4701",
-      "30093",
-      "34046",
-      "197528",
-      "113940",
-      "19665",
-      "88354",
-      "254629"
-    ]
+    "bggMatchId": "197528",
+    "foundBggMatches": null
   },
   "KING OF TOKYO,F1,1,2--6,8+": {
     "bggMatchId": "70323",
@@ -3141,165 +2168,92 @@
     "foundBggMatches": null
   },
   "KINGDOMINO,M3,2,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "204583",
-      "281960",
-      "260941",
-      "240909"
-    ]
+    "bggMatchId": "204583",
+    "foundBggMatches": null
   },
   "KITTY PAWN,EPP,1,1--4,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "KIWIS VOLADORES,U8,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "171541"
-    ]
+    "bggMatchId": "171541",
+    "foundBggMatches": null
   },
   "KODAMA,N5,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "277611",
-      "297266",
-      "252402",
-      "212708",
-      "181810",
-      "196422",
-      "214767",
-      "238858",
-      "227758"
-    ]
+    "bggMatchId": "181810",
+    "foundBggMatches": null
   },
   "KRAZIA: HISPÁNICA,C5,1,1--8,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "KREUS,L2,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "198110",
-      "213016"
-    ]
+    "bggMatchId": "198110",
+    "foundBggMatches": null
   },
   "KUNG FU,Q7,1,4--8,8+": {
     "bggMatchId": "43340",
     "foundBggMatches": null
   },
   "LA AVENTURA DEL PASO DEL NOROESTE,N2,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "128662"
-    ]
+    "bggMatchId": "128662",
+    "foundBggMatches": null
   },
   "LA COSA,Q2,1,4--12,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "280714",
-      "158392",
-      "40789",
-      "151771",
-      "231304",
-      "263136",
-      "198415",
-      "238549",
-      "41459",
-      "189625"
-    ]
+    "bggMatchId": "158392",
+    "foundBggMatches": null
   },
   "LA CUCARACHA LOOP,K5,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172310"
-    ]
+    "bggMatchId": "172310",
+    "foundBggMatches": null
   },
   "LA ESCALERA ENCANTADA,V7,1,2--4,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "12346"
-    ]
+    "bggMatchId": "12346",
+    "foundBggMatches": null
   },
   "LA FUGA DE COLDITZ,B3,1,2--6,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LA FURIA DE DRÁCULA,C3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "936",
-      "20963",
-      "181279"
-    ]
+    "bggMatchId": "20963",
+    "foundBggMatches": null
   },
   "LA GRANJA,F0,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "119890",
-      "130752",
-      "146886",
-      "178452",
-      "195528",
-      "148765",
-      "60109",
-      "203002"
-    ]
+    "bggMatchId": "146886",
+    "foundBggMatches": null
   },
   "LA ISLA PROHIBIDA,K2,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "65244",
-      "169390"
-    ]
+    "bggMatchId": "65244",
+    "foundBggMatches": null
   },
   "LA POSADA SANGRIENTA,S8,1,1--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180593"
-    ]
+    "bggMatchId": "180593",
+    "foundBggMatches": null
   },
   "LA RECETA DE LA BRUJA,V8,1,2--6,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LA RESISTENCIA,R9,1,5--10,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "41114",
-      "237391",
-      "199451",
-      "146757",
-      "250396"
-    ]
+    "bggMatchId": "41114",
+    "foundBggMatches": null
   },
   "LA VILLA,E4,1,2--4,12+": {
     "bggMatchId": "104006",
     "foundBggMatches": null
   },
   "LABYRINTH CARD,K5,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "233977",
-      "295477",
-      "186389",
-      "533",
-      "65333",
-      "176188"
-    ]
+    "bggMatchId": "533",
+    "foundBggMatches": null
   },
   "LADRILLAZO,J3,1,2--4,18+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "242879",
-      "244433"
-    ]
+    "bggMatchId": "242879",
+    "foundBggMatches": null
   },
   "LAS BRUJAS DE CERNEGULA,Q3,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "237130"
-    ]
+    "bggMatchId": "237130",
+    "foundBggMatches": null
   },
   "LAS LEYENDAS DE ANDOR,L3,1,2--4,10+": {
     "bggMatchId": "127398",
@@ -3310,29 +2264,20 @@
     "foundBggMatches": []
   },
   "LAS LEYENDAS DE ANDOR: CHADA Y THORN,M2,L3,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177079"
-    ]
+    "bggMatchId": "177079",
+    "foundBggMatches": null
   },
   "LAS MAREAS DEL TIEMPO,M3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176229"
-    ]
+    "bggMatchId": "176229",
+    "foundBggMatches": null
   },
   "LAS MIL Y UNA NOCHES,H5,1,1--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "34119"
-    ]
+    "bggMatchId": "34119",
+    "foundBggMatches": null
   },
   "LAS VEGAS QUIZ,O5,1,4--18,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "20100",
-      "123239"
-    ]
+    "bggMatchId": "123239",
+    "foundBggMatches": null
   },
   "LASER MAZE,I5,1,1+,8+": {
     "bggMatchId": null,
@@ -3343,379 +2288,232 @@
     "foundBggMatches": null
   },
   "LAZOS DE SANGRE,L3,1,6--12,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "130877"
-    ]
+    "bggMatchId": "130877",
+    "foundBggMatches": null
   },
   "LE HAVRE,E2,1,1--5,12+": {
     "bggMatchId": "35677",
     "foundBggMatches": null
   },
   "LEGADO PERDIDO: 1 - NAVE Y JARDÍN FLOTANTE,N3,2,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "142039"
-    ]
+    "bggMatchId": "142039",
+    "foundBggMatches": null
   },
   "LEGADO PERDIDO: 2 - LA ESPADA VORPAL Y EL CHAPITEL DE ELECTRO,N3,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "173319"
-    ]
+    "bggMatchId": "173319",
+    "foundBggMatches": null
   },
   "LEGADO PERDIDO: 3 - EL GRIAL SAGRADO Y EL BÁCULO DE DRAGONES,N3,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "175222"
-    ]
+    "bggMatchId": "175222",
+    "foundBggMatches": null
   },
   "LINCE,U7,1,5--10,13+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "138247",
-      "14032",
-      "128510",
-      "66450"
-    ]
+    "foundBggMatches": []
   },
   "LINCE DISNEY,U7,1,1--4,4+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LINEA DIRECTA,T7,1,1--4,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6578"
-    ]
+    "bggMatchId": "6578",
+    "foundBggMatches": null
   },
   "LINK: UN JUEGO DE MESA EN 8 BITS,L5,1,1--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "230619"
-    ]
+    "bggMatchId": "230619",
+    "foundBggMatches": null
   },
   "LIXO?,Q2,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "103328"
-    ]
+    "bggMatchId": "103328",
+    "foundBggMatches": null
   },
   "LOBO,J5,1,2--6,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LOCOS CRONONAUTAS,Q2,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "203997"
-    ]
+    "bggMatchId": "203997",
+    "foundBggMatches": null
   },
   "LONDON AFTER MIDNIGH,R6,1,2--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "169062",
-      "207347"
-    ]
+    "bggMatchId": "169062",
+    "foundBggMatches": null
   },
   "LONDON AFTER MIDNIGHT 2 SHERLOCK IN HELL,R6,2,2--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "207347"
-    ]
+    "bggMatchId": "207347",
+    "foundBggMatches": null
   },
   "LOONY QUEST,V8,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "136991",
-      "189376",
-      "191526",
-      "191302"
-    ]
+    "bggMatchId": "136991",
+    "foundBggMatches": null
   },
   "LOONY QUEST IN LOST CITY,V8,1,2--5,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LORD OF THE PIGS,N2,1,3--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "169393"
-    ]
+    "bggMatchId": "169393",
+    "foundBggMatches": null
   },
   "LOS CASTILLOS DE BORGOÑAN,B5,1,2--4,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "LOS IMPOSTORES,Q2,1,3--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182218"
-    ]
+    "bggMatchId": "182218",
+    "foundBggMatches": null
   },
   "LOS INMORTALES,L1,1,3--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "244428",
-      "262288"
-    ]
+    "bggMatchId": "244428",
+    "foundBggMatches": null
   },
   "LOS TESOROS DE CASTELLINA,W8,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145492"
-    ]
+    "bggMatchId": "145492",
+    "foundBggMatches": null
   },
   "LOVE LETTER,R5,1,2--4,8+": {
     "bggMatchId": "129622",
     "foundBggMatches": null
   },
   "LUCHADOR! EL JUEGO DE DADOS,K1,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "143075"
-    ]
+    "bggMatchId": "143075",
+    "foundBggMatches": null
   },
   "LUDI GLADIATORII,M3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "274511",
-      "189925"
-    ]
+    "bggMatchId": "189925",
+    "foundBggMatches": null
   },
   "LUNA LLENA,E3,1,2--7,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "86075",
-      "55158"
-    ]
+    "bggMatchId": "55158",
+    "foundBggMatches": null
   },
   "LUNA LLENA EXPASION LUNA DE MUERTE (DENTRO DEL ORIGINAL),E3,1,2--7,14+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MACBETH,R9,1,2--5,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "98417",
-      "65227",
-      "257604"
-    ]
+    "bggMatchId": "257604",
+    "foundBggMatches": null
   },
   "MADAME CHING,E5,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "154443"
-    ]
+    "bggMatchId": "154443",
+    "foundBggMatches": null
   },
   "MAFIA DE CUBA,J3,1,6--12,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176558",
-      "183138"
-    ]
+    "bggMatchId": "176558",
+    "foundBggMatches": null
   },
   "MAGE WARS ARENA,B2,1,2,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "195555",
-      "101721",
-      "174451",
-      "157333",
-      "133798",
-      "197457",
-      "202760",
-      "174891"
-    ]
+    "bggMatchId": "101721",
+    "foundBggMatches": null
   },
   "MAGIC MANDALA,Q5,1,1--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "246203"
-    ]
+    "bggMatchId": "246203",
+    "foundBggMatches": null
   },
   "MAGIC MAZE,S8,2,1--8,8+": {
     "bggMatchId": "209778",
     "foundBggMatches": null
   },
   "MAGIC MAZE: SEGURIDAD MÁXIMA,S8,1,1--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "230359"
-    ]
+    "bggMatchId": "230359",
+    "foundBggMatches": null
   },
   "MAGNATES,E5,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "155025",
-      "207847",
-      "172611"
-    ]
+    "bggMatchId": "155025",
+    "foundBggMatches": null
   },
   "MAHJONG,CLASICOS 0,1,1--4,7+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "294735",
-      "2093",
-      "61722",
-      "20510",
-      "67948",
-      "108018",
-      "153330",
-      "191896"
-    ]
+    "foundBggMatches": []
   },
   "MANILA,D5,2,3--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "21786",
-      "38066",
-      "146930",
-      "15817",
-      "25991",
-      "238021"
-    ]
+    "bggMatchId": "15817",
+    "foundBggMatches": null
   },
   "MANOS ARRIBA,R5,2,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "171950"
-    ]
+    "bggMatchId": "171950",
+    "foundBggMatches": null
   },
   "MARRONES,R7,1,2--9,89": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "147681"
-    ]
+    "foundBggMatches": []
   },
   "MARS ATTACKS: EL JUEGO DE DADOS,J3,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "155119"
-    ]
+    "bggMatchId": "155119",
+    "foundBggMatches": null
   },
   "MASCARADE,N4,1,2--13,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "13592",
-      "139030",
-      "254513",
-      "163107",
-      "146565",
-      "144984"
-    ]
+    "bggMatchId": "139030",
+    "foundBggMatches": null
   },
   "MASCARADE: EXPANSION,N4,1,2--13,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "163107"
-    ]
+    "bggMatchId": "163107",
+    "foundBggMatches": null
   },
   "MASCOTAS,R5,1,2--8,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188699",
-      "224986",
-      "292223"
-    ]
+    "bggMatchId": "224986",
+    "foundBggMatches": null
   },
   "MASTER MIND COLORES,O4,2,2,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MASTERCHEF,O3,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "117684",
-      "166309",
-      "207884"
-    ]
+    "bggMatchId": "166309",
+    "foundBggMatches": null
   },
   "MASTERMAN,O5,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "2392",
-      "3874"
-    ]
+    "bggMatchId": "3874",
+    "foundBggMatches": null
   },
   "MATEMATIKUS,U9,1,2--99,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148383"
-    ]
+    "bggMatchId": "148383",
+    "foundBggMatches": null
   },
   "MATTERHORN,M3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "231644",
-      "151557",
-      "23680"
-    ]
+    "bggMatchId": "231644",
+    "foundBggMatches": null
   },
   "MAYA EL ABECEDARIO,W9,1,1--4,4+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MECANISBURGO,F3,2,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38980",
-      "121610",
-      "62856",
-      "63066",
-      "93564"
-    ]
+    "bggMatchId": "38980",
+    "foundBggMatches": null
   },
   "MEDITACIONES DISPARATADAS,R6,1,4--8,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180918"
-    ]
+    "bggMatchId": "180918",
+    "foundBggMatches": null
   },
   "MEMO MADERA CAPERUCITA ROJA GOULA,w9,1,18,2+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "METAL MANIA,N5,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218236",
-      "63617"
-    ]
+    "bggMatchId": "218236",
+    "foundBggMatches": null
   },
   "MICRO ROBOTS,Q2,1,5--10,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "191543"
-    ]
+    "bggMatchId": "191543",
+    "foundBggMatches": null
   },
   "MIGUEL STROGOFF,B1,1,1--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "224894"
-    ]
+    "bggMatchId": "224894",
+    "foundBggMatches": null
   },
   "MIKADO,CLASICOS 4,1,2--99,8+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "5259",
-      "6424",
-      "2065",
-      "3728",
-      "14617",
-      "70174"
-    ]
+    "foundBggMatches": []
   },
   "MIKADO DE MADERA,CLASICOS 4,1,2,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MIL (1049),H0,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "105187",
-      "109281"
-    ]
+    "bggMatchId": "105187",
+    "foundBggMatches": null
   },
   "MIL KILOMENTROS FUN & SPEED,Q4,1,2--6,8+": {
     "bggMatchId": null,
@@ -3726,56 +2524,36 @@
     "foundBggMatches": []
   },
   "MINISTERIO DEL TIEMPO,A4,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "230548"
-    ]
+    "bggMatchId": "230548",
+    "foundBggMatches": null
   },
   "MIS PRIMERAS CANCIONES,X9,1,1+,1+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MISION: PLANETA ROJO,G3,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176920"
-    ]
+    "bggMatchId": "176920",
+    "foundBggMatches": null
   },
   "MISTERIOS DE PEKIN,CLASICOS 2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "1950"
-    ]
+    "bggMatchId": "1950",
+    "foundBggMatches": null
   },
   "MIX IT,Q2,1,2--6,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177843",
-      "218275",
-      "25457",
-      "268554"
-    ]
+    "bggMatchId": "177843",
+    "foundBggMatches": null
   },
   "MIXMO,Q8,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "42105"
-    ]
+    "bggMatchId": "42105",
+    "foundBggMatches": null
   },
   "MOMBASA,H4,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172386",
-      "213293",
-      "195850",
-      "283739"
-    ]
+    "bggMatchId": "172386",
+    "foundBggMatches": null
   },
   "MONDRIAN THE DICE GAME,J3,2,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "198611"
-    ]
+    "bggMatchId": "198611",
+    "foundBggMatches": null
   },
   "MONEY LAND,M0,1,2--5,5+": {
     "bggMatchId": null,
@@ -3790,90 +2568,52 @@
     "foundBggMatches": []
   },
   "MONOPOLY DELUXE,P1,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "35808",
-      "8374",
-      "7098",
-      "24764",
-      "13608"
-    ]
+    "bggMatchId": "7098",
+    "foundBggMatches": null
   },
   "MONOPOLY EDICIÓN BARCELONA,P1,1,2--6,7+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MONOPOLY ESPAÑA,P1,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "212248"
-    ]
+    "bggMatchId": "212248",
+    "foundBggMatches": null
   },
   "MONOPOLY JUNIOR,X8,1,2--6,8+": {
     "bggMatchId": "5339",
     "foundBggMatches": null
   },
   "MONOS LOCOS,X5,2,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "12826"
-    ]
+    "bggMatchId": "12826",
+    "foundBggMatches": null
   },
   "MONSTARGH!,Q3,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "250284"
-    ]
+    "bggMatchId": "250284",
+    "foundBggMatches": null
   },
   "MONSTER CLANS,Q3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "256527"
-    ]
+    "bggMatchId": "256527",
+    "foundBggMatches": null
   },
   "MONSTERS VS HEROES: LEGENDS OF CTHULHU,Q2,1,2--8,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "MONSTRUO FINAL,N3,2,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "131835",
-      "202831",
-      "246855",
-      "174973",
-      "133772"
-    ]
+    "bggMatchId": "131835",
+    "foundBggMatches": null
   },
   "MONTAÑAS DE LA LOCURA,C1,1,1--8,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "164167",
-      "150615",
-      "41392",
-      "214293"
-    ]
+    "bggMatchId": "164167",
+    "foundBggMatches": null
   },
   "MOUSE IN THE HOUSE,W6,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205540",
-      "10510",
-      "16362"
-    ]
+    "bggMatchId": "16362",
+    "foundBggMatches": null
   },
   "MR. JACK,H4,1,2,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "21763",
-      "30362",
-      "55427",
-      "72287",
-      "260306",
-      "100166",
-      "260303",
-      "30941"
-    ]
+    "bggMatchId": "21763",
+    "foundBggMatches": null
   },
   "MR. JACK EDICIÓN 10º ANIVERSARIO,H4,1,2,9+": {
     "bggMatchId": null,
@@ -3884,12 +2624,8 @@
     "foundBggMatches": []
   },
   "MR. JACK POCKET,H4,1,2,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "72287",
-      "260306",
-      "100166"
-    ]
+    "bggMatchId": "72287",
+    "foundBggMatches": null
   },
   "MUNCHKIN,T9,2,2,7+": {
     "bggMatchId": "1927",
@@ -3900,28 +2636,20 @@
     "foundBggMatches": null
   },
   "MUNCHKIN 4: ¡QUÉ LOCURA DE MONTURA!,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "20660"
-    ]
+    "bggMatchId": "20660",
+    "foundBggMatches": null
   },
   "MUNCHKIN 5 EXPLORADORES EXPLOTADORES,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "28327"
-    ]
+    "bggMatchId": "28327",
+    "foundBggMatches": null
   },
   "MUNCHKIN 6 MAZMORRAS MAJARETAS,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "33493"
-    ]
+    "bggMatchId": "33493",
+    "foundBggMatches": null
   },
   "MUNCHKIN 7 TRAMPAS A DOS MANOS,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "90567"
-    ]
+    "bggMatchId": "90567",
+    "foundBggMatches": null
   },
   "MUNCHKIN CTHULHU,T9,1,3--6,10+": {
     "bggMatchId": "25071",
@@ -3932,59 +2660,28 @@
     "foundBggMatches": []
   },
   "MUNCHKIN: DESTRUYE LA NAVIDAD,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "43894"
-    ]
+    "bggMatchId": "43894",
+    "foundBggMatches": null
   },
   "MUNDUS NOVUS,J3,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "103686",
-      "115773",
-      "126706"
-    ]
+    "bggMatchId": "103686",
+    "foundBggMatches": null
   },
   "MUSA,Q2,1,2--12,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "224991",
-      "290654",
-      "234396",
-      "252776",
-      "31355",
-      "20626",
-      "19409",
-      "32429",
-      "219317",
-      "208589"
-    ]
+    "bggMatchId": "234396",
+    "foundBggMatches": null
   },
   "MUSIC IQ,O4,2,2--12,15+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "5648",
-      "191928"
-    ]
+    "bggMatchId": "191928",
+    "foundBggMatches": null
   },
   "MY FIRST MEMORY,X9,1,2--4,2+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "220236"
-    ]
+    "bggMatchId": "220236",
+    "foundBggMatches": null
   },
   "MY RUMMY,P4,1,2--4,8+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "811",
-      "25196",
-      "5942",
-      "66126",
-      "106",
-      "1265",
-      "371",
-      "294530"
-    ]
+    "foundBggMatches": []
   },
   "MYSTERIUM,E3,1,2--7,10+": {
     "bggMatchId": "181304",
@@ -3995,106 +2692,64 @@
     "foundBggMatches": []
   },
   "NADA!,R7,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184822",
-      "20741",
-      "172611",
-      "137931"
-    ]
+    "bggMatchId": "137931",
+    "foundBggMatches": null
   },
   "NARCOS: PLATA O PLOMO,B0,1,2--5,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "278165"
-    ]
+    "bggMatchId": "278165",
+    "foundBggMatches": null
   },
   "NAVEGANDO HACIA OSIRIS,E0,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "224079",
-      "254431"
-    ]
+    "bggMatchId": "224079",
+    "foundBggMatches": null
   },
   "NAVÍOS DE LÍNEA TRAFALGAR 1805,C5,1,2--60,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "195450"
-    ]
+    "bggMatchId": "195450",
+    "foundBggMatches": null
   },
   "NIAGARA,I1,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "13308",
-      "34349",
-      "70456",
-      "187451",
-      "20235",
-      "21855"
-    ]
+    "bggMatchId": "13308",
+    "foundBggMatches": null
   },
   "NMBR9,R9,1,1--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "217449"
-    ]
+    "bggMatchId": "217449",
+    "foundBggMatches": null
   },
   "NO GAME OVER,Q7,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218556",
-      "266736",
-      "188846",
-      "156822"
-    ]
+    "bggMatchId": "218556",
+    "foundBggMatches": null
   },
   "NO TIME FOR HEROES,N2,1,1--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "178166"
-    ]
+    "bggMatchId": "178166",
+    "foundBggMatches": null
   },
   "NOT ALONE,J3,1,2--7,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194879",
-      "238130",
-      "222738",
-      "222739",
-      "228389",
-      "209698",
-      "232381"
-    ]
+    "bggMatchId": "194879",
+    "foundBggMatches": null
   },
   "NOT ALONE EXPLORATION (ENTRO DEL BÁSICO),J3,1,2--7,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "NUMEROS LOCOS,L2,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "179553"
-    ]
+    "bggMatchId": "179553",
+    "foundBggMatches": null
   },
   "OCACHESS,U7,1,2--6,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "OCÉANOS,E5,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192860"
-    ]
+    "bggMatchId": "192860",
+    "foundBggMatches": null
   },
   "ODYSSEY,E3,1,2--5,13+": {
     "bggMatchId": "176215",
     "foundBggMatches": null
   },
   "OFFBOARD,I4,1,2,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "89951"
-    ]
+    "bggMatchId": "89951",
+    "foundBggMatches": null
   },
   "\"OH MY GOODS! BUENO, BONITO Y BARATO\",R3,2,2--4,10+": {
     "bggMatchId": null,
@@ -4105,69 +2760,36 @@
     "foundBggMatches": []
   },
   "OILFIELD,F3,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "131241",
-      "24266"
-    ]
+    "bggMatchId": "131241",
+    "foundBggMatches": null
   },
   "OLYMPIANS WAR,N4,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192275"
-    ]
+    "bggMatchId": "192275",
+    "foundBggMatches": null
   },
   "OMERTA,L5,1,2--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "270445",
-      "161620",
-      "152985"
-    ]
+    "bggMatchId": "161620",
+    "foundBggMatches": null
   },
   "ON THE TOP,Q7,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38607",
-      "184156",
-      "35468",
-      "10221",
-      "4016",
-      "87476",
-      "33351"
-    ]
+    "bggMatchId": "35468",
+    "foundBggMatches": null
   },
   "ONUS: EXPANSIÓN GRIEGOS Y PERSAS,J3,1,1--4,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "ONUS: ROMA VS CARTAGO,J3,2,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "165004"
-    ]
+    "bggMatchId": "165004",
+    "foundBggMatches": null
   },
   "OPERACIÓN,V7,1,1--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "5277",
-      "37911",
-      "15743",
-      "3737",
-      "29224",
-      "27982",
-      "189270",
-      "31258"
-    ]
+    "bggMatchId": "3737",
+    "foundBggMatches": null
   },
   "ORIGAMI,R5,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "189410",
-      "234469",
-      "288431",
-      "243087"
-    ]
+    "bggMatchId": "234469",
+    "foundBggMatches": null
   },
   "OTHELO,CLASICOS 2,1,2,8+": {
     "bggMatchId": null,
@@ -4178,44 +2800,28 @@
     "foundBggMatches": []
   },
   "OVEJA NEGRA,R9,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "231027",
-      "36739"
-    ]
+    "bggMatchId": "36739",
+    "foundBggMatches": null
   },
   "OXO,CLASICOS 0,1,,": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "11901",
-      "9494",
-      "229084"
-    ]
+    "bggMatchId": "11901",
+    "foundBggMatches": null
   },
   "PACHISI,CLASICOS 4,1,2--4,8+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "38270",
-      "2136"
-    ]
+    "foundBggMatches": []
   },
   "PALABRAS OCULTAS,P3,1,2--99,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "25855"
-    ]
+    "bggMatchId": "25855",
+    "foundBggMatches": null
   },
   "PALABREA,Q4,1,2--5,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "169436"
-    ]
+    "bggMatchId": "169436",
+    "foundBggMatches": null
   },
   "PAMPLONA VIVA SAN FERMIN,H5,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "91759"
-    ]
+    "bggMatchId": "91759",
+    "foundBggMatches": null
   },
   "PANDEMIC,A5,2,2--4,8+": {
     "bggMatchId": "30549",
@@ -4226,25 +2832,16 @@
     "foundBggMatches": []
   },
   "\"PANDEMIC, EN EL LABORATORIO\",A5,1,1--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "137136"
-    ]
+    "bggMatchId": "137136",
+    "foundBggMatches": null
   },
   "PANIC LAB,Q4,1,2--10,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "121073",
-      "213222",
-      "236735"
-    ]
+    "bggMatchId": "121073",
+    "foundBggMatches": null
   },
   "PAPILIO,R3,1,2--5,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "173380",
-      "231990"
-    ]
+    "bggMatchId": "173380",
+    "foundBggMatches": null
   },
   "PARADE,EPP,1,2--6,12+": {
     "bggMatchId": null,
@@ -4267,56 +2864,28 @@
     "foundBggMatches": []
   },
   "PARTY CO DISNEY,X7,1,3--20,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "128282"
-    ]
+    "bggMatchId": "128282",
+    "foundBggMatches": null
   },
   "PARTY CO JUNIOR,X7,1,1--20,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "29268"
-    ]
+    "bggMatchId": "29268",
+    "foundBggMatches": null
   },
   "PASAPALABRA,O3,1,2+,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "34974"
-    ]
+    "bggMatchId": "34974",
+    "foundBggMatches": null
   },
   "PASSWORD,O3,1,2--8,8+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "41532",
-      "1549",
-      "226256",
-      "21076",
-      "152747",
-      "1775",
-      "114318",
-      "106789",
-      "129442"
-    ]
+    "foundBggMatches": []
   },
   "PASSWORD EXPRESS,Q7,1,2--10,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "226256"
-    ]
+    "bggMatchId": "226256",
+    "foundBggMatches": null
   },
   "PATCHWORK,L4,2,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "163412",
-      "41585",
-      "242544",
-      "264239",
-      "292906",
-      "246639",
-      "238617",
-      "257570",
-      "236608"
-    ]
+    "bggMatchId": "163412",
+    "foundBggMatches": null
   },
   "\"PATHFINDER, EL AUGE DE LOS SEÑORES DE LAS RUNAS\",B1,1,1--4,13+": {
     "bggMatchId": null,
@@ -4352,247 +2921,147 @@
   },
   "PATOS AL RESCATE,X6,1,2--6,3+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "9471"
-    ]
+    "foundBggMatches": []
   },
   "PENTAURUS DUEL,Q2,1,1--2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "220848"
-    ]
+    "bggMatchId": "220848",
+    "foundBggMatches": null
   },
   "PEQUEÑOS GRANDES WESTERN,M3,1,1--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180852"
-    ]
+    "bggMatchId": "180852",
+    "foundBggMatches": null
   },
   "PERSONAJES HOMBRES LOBO DE CASTRONEGRO,R6,1,8--28,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "132780"
-    ]
+    "bggMatchId": "132780",
+    "foundBggMatches": null
   },
   "PICNIKO,U9,1,2--99,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "142851"
-    ]
+    "bggMatchId": "142851",
+    "foundBggMatches": null
   },
   "PICTIONARY,O2,1,2--6,8+": {
     "bggMatchId": "214281",
     "foundBggMatches": null
   },
   "PICTOMANIA,U7,1,3--6,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "98229",
-      "252526",
-      "283497",
-      "283498",
-      "132580"
-    ]
+    "bggMatchId": "98229",
+    "foundBggMatches": null
   },
   "PICTUREKA,O3,1,2--7,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "187439",
-      "64648",
-      "22889",
-      "53317",
-      "42686",
-      "116938",
-      "241842"
-    ]
+    "bggMatchId": "22889",
+    "foundBggMatches": null
   },
   "PIKO PIKO,Q2,1,2--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "15818",
-      "245200",
-      "181614",
-      "66797",
-      "244505"
-    ]
+    "bggMatchId": "15818",
+    "foundBggMatches": null
   },
   "PILARES DE LA TIERRA JUEGO DE CARTAS,R3,1,3--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "67593"
-    ]
+    "bggMatchId": "67593",
+    "foundBggMatches": null
   },
   "PINCHA AL PIRATA,EPR,1,2--4,3+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "PIRATAS AL AGUA,Q4,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "219621"
-    ]
+    "bggMatchId": "219621",
+    "foundBggMatches": null
   },
   "PIRATOONS,L2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172560"
-    ]
+    "bggMatchId": "172560",
+    "foundBggMatches": null
   },
   "PITCHCAR MINI,M5,1,2--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "14254",
-      "14356",
-      "25947",
-      "59418",
-      "26260"
-    ]
+    "bggMatchId": "14254",
+    "foundBggMatches": null
   },
   "PLUS ULTRA,H5,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "160908"
-    ]
+    "bggMatchId": "160908",
+    "foundBggMatches": null
   },
   "POCKET INVADERS,R8,2,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "181120",
-      "269256"
-    ]
+    "bggMatchId": "181120",
+    "foundBggMatches": null
   },
   "POLARION,V6,2,2,3+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "243219"
-    ]
+    "bggMatchId": "243219",
+    "foundBggMatches": null
   },
   "POLI BUENO POLI MALO,Q7,2,4--8,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "153064"
-    ]
+    "bggMatchId": "153064",
+    "foundBggMatches": null
   },
   "POLILLA TRAMPOSA,R2,1,3--5,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "105593"
-    ]
+    "bggMatchId": "105593",
+    "foundBggMatches": null
   },
   "POLIS: FIGHT FOR HEGEMONY,C5,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "69779",
-      "169583"
-    ]
+    "bggMatchId": "69779",
+    "foundBggMatches": null
   },
   "POOL PARTY,K5,1,1,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "7972",
-      "100380",
-      "241490",
-      "297407"
-    ]
+    "bggMatchId": "241490",
+    "foundBggMatches": null
   },
   "POPULI TUROLI,R3,1,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "162070"
-    ]
+    "bggMatchId": "162070",
+    "foundBggMatches": null
   },
   "PÓQUER DE BICHOS,R2,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "129736",
-      "11971"
-    ]
+    "bggMatchId": "11971",
+    "foundBggMatches": null
   },
   "PORT ROYAL,N3,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "144214",
-      "565",
-      "156009",
-      "184025",
-      "181899",
-      "219265",
-      "193265"
-    ]
+    "bggMatchId": "156009",
+    "foundBggMatches": null
   },
   "PORT ROYAL AMPLIACIÓN,N3,1,1--5,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "PORTAL OF MORTH,C2,1,1--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180906"
-    ]
+    "bggMatchId": "180906",
+    "foundBggMatches": null
   },
   "POT DE VIN,M3,1,3--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "232078"
-    ]
+    "bggMatchId": "232078",
+    "foundBggMatches": null
   },
   "POTATO PALS,U6,1,1--4,3+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "31739"
-    ]
+    "bggMatchId": "31739",
+    "foundBggMatches": null
   },
   "POWERUP,O1,1,1--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "231972",
-      "288028",
-      "167387"
-    ]
+    "bggMatchId": "231972",
+    "foundBggMatches": null
   },
   "PREDATOR: PARTIDA DE CAZA,M5,1,1--5,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "261112"
-    ]
+    "bggMatchId": "261112",
+    "foundBggMatches": null
   },
   "PREGUNTAS DE MIERDA,R6,1,4--8,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "69676",
-      "180917"
-    ]
+    "bggMatchId": "69676",
+    "foundBggMatches": null
   },
   "PREGUNTAS DE MIERDA 2,R6,3,2--24,18+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "69676",
-      "180917"
-    ]
+    "bggMatchId": "180917",
+    "foundBggMatches": null
   },
   "PRIMERA CLASE,F4,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "206941"
-    ]
+    "bggMatchId": "206941",
+    "foundBggMatches": null
   },
   "PROHIS,M4,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "165563"
-    ]
+    "bggMatchId": "165563",
+    "foundBggMatches": null
   },
   "PROVINCIA ROMANA,A3,1,2--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "151016"
-    ]
+    "bggMatchId": "151016",
+    "foundBggMatches": null
   },
   "PRRRT…,R8,1,3--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "90919"
-    ]
+    "bggMatchId": "90919",
+    "foundBggMatches": null
   },
   "PUERTO RICO,F5,1,2--5,12+": {
     "bggMatchId": "3076",
@@ -4607,162 +3076,100 @@
     "foundBggMatches": []
   },
   "PURPLE STORIES,T9,1,2--15,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "168659"
-    ]
+    "bggMatchId": "168659",
+    "foundBggMatches": null
   },
   "QUADROPOLIS,I2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "176396",
-      "194499",
-      "198583",
-      "198581",
-      "198580",
-      "219618",
-      "195506",
-      "194500",
-      "198582"
-    ]
+    "bggMatchId": "176396",
+    "foundBggMatches": null
   },
   "QUANTUM,A1,1,2--4,13+": {
     "bggMatchId": "143519",
     "foundBggMatches": null
   },
   "QUEST STORIES,N4,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "200593"
-    ]
+    "bggMatchId": "200593",
+    "foundBggMatches": null
   },
   "QUIZ CHEF,R6,1,2--10,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "150965",
-      "185142",
-      "185143"
-    ]
+    "bggMatchId": "150965",
+    "foundBggMatches": null
   },
   "QUIZOO,Q4,1,2--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218574"
-    ]
+    "bggMatchId": "218574",
+    "foundBggMatches": null
   },
   "QUORIDOR,L2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "624",
-      "13875"
-    ]
+    "bggMatchId": "624",
+    "foundBggMatches": null
   },
   "QWIRKLE,V7,1,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "25669",
-      "171489",
-      "39813",
-      "197614",
-      "134824",
-      "222381",
-      "191075",
-      "147561"
-    ]
+    "bggMatchId": "25669",
+    "foundBggMatches": null
   },
   "RA,D4,1,2--5,14+": {
     "bggMatchId": "12",
     "foundBggMatches": null
   },
   "RALLYRAS,Q7,1,3--8,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "186510"
-    ]
+    "bggMatchId": "186510",
+    "foundBggMatches": null
   },
   "RAPTOR,L4,1,2,9+": {
     "bggMatchId": "177639",
     "foundBggMatches": null
   },
   "RATLAND,J5,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "232473"
-    ]
+    "bggMatchId": "232473",
+    "foundBggMatches": null
   },
   "RATMEN TEAM,M0,1,2+,14+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "RAY MASTER,L3,2,1--2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "163186"
-    ]
+    "bggMatchId": "163186",
+    "foundBggMatches": null
   },
   "RED7,Q7,2,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "161417"
-    ]
+    "bggMatchId": "161417",
+    "foundBggMatches": null
   },
   "REGRESO AL FUTURO,N3,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "184460"
-    ]
+    "bggMatchId": "184460",
+    "foundBggMatches": null
   },
   "RESCATE,B5,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "9471",
-      "6466",
-      "100901",
-      "139766"
-    ]
+    "bggMatchId": "100901",
+    "foundBggMatches": null
   },
   "RHINO HERO,W7,2,2--5,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "91514",
-      "237213",
-      "218333"
-    ]
+    "bggMatchId": "91514",
+    "foundBggMatches": null
   },
   "RHINO HERO SUPER BATTLE,W7,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "218333"
-    ]
+    "bggMatchId": "218333",
+    "foundBggMatches": null
   },
   "RIALTO,G3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "23205",
-      "119591"
-    ]
+    "bggMatchId": "119591",
+    "foundBggMatches": null
   },
   "RICK & MORTY MIX UP,A2,1,2--4,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "258069"
-    ]
+    "bggMatchId": "258069",
+    "foundBggMatches": null
   },
   "RICK Y MORTY,A2,1,2--4,16+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "RICK Y MORTY MEGASEMILLAS,Q3,2,2--4,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "240511"
-    ]
+    "bggMatchId": "240511",
+    "foundBggMatches": null
   },
   "RICOCHET ROBOTS,I5,1,1--15,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "51"
-    ]
+    "bggMatchId": "51",
+    "foundBggMatches": null
   },
   "RISK,O2,1,2--6,10+": {
     "bggMatchId": "181",
@@ -4773,20 +3180,16 @@
     "foundBggMatches": []
   },
   "RISK EUROPA,O2,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "204184"
-    ]
+    "bggMatchId": "204184",
+    "foundBggMatches": null
   },
   "RISK SEÑOR DE LOS ANILLOS 2002,O2,1,2--4,9+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "RITMO Y BOLA,Q4,1,4--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "37728"
-    ]
+    "bggMatchId": "37728",
+    "foundBggMatches": null
   },
   "RIVER BOAT,G5,1,2--4,10+": {
     "bggMatchId": null,
@@ -4801,10 +3204,8 @@
     "foundBggMatches": null
   },
   "ROLL THROUGH THE AGES: LA EDAD DE BRONCE,M2,1,1--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "37380"
-    ]
+    "bggMatchId": "37380",
+    "foundBggMatches": null
   },
   "ROOM 25 SEGUNDA EDICION,B4,1,1--8,10+": {
     "bggMatchId": null,
@@ -4812,63 +3213,39 @@
   },
   "RULETA,CLASICOS 4,1,2--9,12+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "15549",
-      "4910",
-      "22964"
-    ]
+    "foundBggMatches": []
   },
   "RUMBLE IN THE DUNGEON,Q2,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "130827"
-    ]
+    "bggMatchId": "130827",
+    "foundBggMatches": null
   },
   "RUMBLE IN THE HOUSE,Q2,1,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "99437"
-    ]
+    "bggMatchId": "99437",
+    "foundBggMatches": null
   },
   "RUMBO A LA INDIA,Q2,1,3--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "141736"
-    ]
+    "bggMatchId": "141736",
+    "foundBggMatches": null
   },
   "RUMMI CLASSIC METAL BOX,P4,1,2+,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "RUMMIKUB ORIGINAL,P4,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "811",
-      "169466",
-      "4598"
-    ]
+    "bggMatchId": "4598",
+    "foundBggMatches": null
   },
   "RUMMY PRO,P4,1,2--6,7+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "40004"
-    ]
+    "foundBggMatches": []
   },
   "RUSH HOUR SHIFT,I5,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "173389"
-    ]
+    "bggMatchId": "173389",
+    "foundBggMatches": null
   },
   "RUSSIAN RAILROADS,A3,1,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "144733",
-      "206944",
-      "181693",
-      "234335",
-      "166410"
-    ]
+    "bggMatchId": "144733",
+    "foundBggMatches": null
   },
   "SABOTEUR,EPR,1,3--10,8+": {
     "bggMatchId": "9220",
@@ -4879,95 +3256,52 @@
     "foundBggMatches": null
   },
   "SABOTEUR 2: EXPANSIÓN,EPR,1,2--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "91072"
-    ]
+    "bggMatchId": "91072",
+    "foundBggMatches": null
   },
   "SABOTEUR EL DESAFIO,M4,1,1--2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "168215"
-    ]
+    "bggMatchId": "168215",
+    "foundBggMatches": null
   },
   "SALTA SALTA MI GORRITO,U8,1,2--4,5+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "SAMURAI SWORD,Q6,1,3--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "128667",
-      "157952",
-      "156042",
-      "221",
-      "236446"
-    ]
+    "bggMatchId": "128667",
+    "foundBggMatches": null
   },
   "SAMURAI SWORD SOL NACIENTE,A2,1,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "156042"
-    ]
+    "bggMatchId": "156042",
+    "foundBggMatches": null
   },
   "SANTIAGO,G2,1,3--5,10+": {
     "bggMatchId": "8125",
     "foundBggMatches": null
   },
   "SANTIAGO DE CUBA,G5,1,2--4,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "104347",
-      "149308",
-      "149307",
-      "149306",
-      "149309"
-    ]
+    "bggMatchId": "104347",
+    "foundBggMatches": null
   },
   "SAQUEADORES,Q2,1,2--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "199780",
-      "242684",
-      "170042",
-      "210164",
-      "210163"
-    ]
+    "bggMatchId": "199780",
+    "foundBggMatches": null
   },
   "SAQUEADORES MAR DEL NORTE,B3,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "170042",
-      "210164",
-      "210163"
-    ]
+    "bggMatchId": "170042",
+    "foundBggMatches": null
   },
   "SBLAP,V8,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "166440"
-    ]
+    "bggMatchId": "166440",
+    "foundBggMatches": null
   },
   "SCARAB LORDS,N4,2,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4488"
-    ]
+    "bggMatchId": "4488",
+    "foundBggMatches": null
   },
   "SCATTERGORIES,P4,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "7443",
-      "50910",
-      "2381",
-      "83919",
-      "8997",
-      "10722",
-      "64219",
-      "8620",
-      "128513",
-      "40115"
-    ]
+    "bggMatchId": "2381",
+    "foundBggMatches": null
   },
   "SCOTLAND YARD,K5,1,2--4,8+": {
     "bggMatchId": "171665",
@@ -4982,72 +3316,48 @@
     "foundBggMatches": []
   },
   "SCUBA JUNIOR,R3,1,2--5,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "157920"
-    ]
+    "bggMatchId": "157920",
+    "foundBggMatches": null
   },
   "SE VENDE,N2,2,3--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "172",
-      "227881",
-      "84838"
-    ]
+    "bggMatchId": "172",
+    "foundBggMatches": null
   },
   "SECTOR 6,N2,1,1--6,8+": {
     "bggMatchId": "177844",
     "foundBggMatches": null
   },
   "SECUENZOOS,Q2,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145675"
-    ]
+    "bggMatchId": "145675",
+    "foundBggMatches": null
   },
   "SENTIENT,M5,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "223855"
-    ]
+    "bggMatchId": "223855",
+    "foundBggMatches": null
   },
   "SEVEN SWORDS,C1,1,2,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "126941"
-    ]
+    "bggMatchId": "126941",
+    "foundBggMatches": null
   },
   "SHARK SHOOTER,W6,1,2--8,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "31755"
-    ]
+    "bggMatchId": "31755",
+    "foundBggMatches": null
   },
   "SHERLOCK : LA TUMBA DEL ARQUEÓLOGO,I3,1,1--8,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "SHERLOCK 13 REHENES,I3,1,1--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "266444"
-    ]
+    "bggMatchId": "266444",
+    "foundBggMatches": null
   },
   "SHERLOCK HOLMES: CARLTON HOUSE,EPP,1,1--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "223931",
-      "3224"
-    ]
+    "bggMatchId": "3224",
+    "foundBggMatches": null
   },
   "SHERLOCK HOLMES: DETECTIVE ASESOR,EPP,1,1--8,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194934",
-      "204305",
-      "3225",
-      "2511"
-    ]
+    "bggMatchId": "2511",
+    "foundBggMatches": null
   },
   "SHERLOCK ÚLTIMA LLAMADA,I3,1,1--8,8+": {
     "bggMatchId": null,
@@ -5066,67 +3376,44 @@
     "foundBggMatches": null
   },
   "SI SEÑOR OSCURO CAJA ROJA,Q2,1,4--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "18723"
-    ]
+    "bggMatchId": "18723",
+    "foundBggMatches": null
   },
   "SI SEÑOR OSCURO CAJA VERDE,Q2,1,4--16,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "18723",
-      "216014"
-    ]
+    "bggMatchId": "216014",
+    "foundBggMatches": null
   },
   "SIDIBABA,E3,1,3--7,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38402"
-    ]
+    "bggMatchId": "38402",
+    "foundBggMatches": null
   },
   "SIMON AIR,W5,1,1--2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "5749"
-    ]
+    "bggMatchId": "5749",
+    "foundBggMatches": null
   },
   "SIMON'S CAT CARD GAME,R7,1,3--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188614",
-      "225035"
-    ]
+    "bggMatchId": "188614",
+    "foundBggMatches": null
   },
   "SIMPLEMENTE GENIAL,O4,1,2--4,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "36745"
-    ]
+    "bggMatchId": "36745",
+    "foundBggMatches": null
   },
   "SIN PALABRAS,O0,1,2--99,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "14370"
-    ]
+    "bggMatchId": "14370",
+    "foundBggMatches": null
   },
   "SIZE UP,R4,1,2--10,7-107": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "271037"
-    ]
+    "bggMatchId": "271037",
+    "foundBggMatches": null
   },
   "SKULL & ROSES,Q2,1,3--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "92415"
-    ]
+    "bggMatchId": "92415",
+    "foundBggMatches": null
   },
   "SKULL KING,R3,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "150145",
-      "191071"
-    ]
+    "bggMatchId": "150145",
+    "foundBggMatches": null
   },
   "SMALLWORLD,K4,2,2--5,8+": {
     "bggMatchId": null,
@@ -5149,90 +3436,56 @@
     "foundBggMatches": null
   },
   "SOCCER CITY,A0,1,2,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "147171",
-      "199865"
-    ]
+    "bggMatchId": "147171",
+    "foundBggMatches": null
   },
   "SOLITARIO,CLASICOS 4,1,1,12+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "232835",
-      "142585",
-      "234622",
-      "60550",
-      "13713",
-      "20561",
-      "271874"
-    ]
+    "foundBggMatches": []
   },
   "SONGBIRDS,M4,1,1--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "246200",
-      "212765",
-      "293982"
-    ]
+    "bggMatchId": "212765",
+    "foundBggMatches": null
   },
   "SOPA DE BICHOS,R2,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38391"
-    ]
+    "bggMatchId": "38391",
+    "foundBggMatches": null
   },
   "SOPA DE NUMEROS,R6,1,1--6,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "SORPRENDEDORES,I2,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "108743"
-    ]
+    "bggMatchId": "108743",
+    "foundBggMatches": null
   },
   "SOSPECHOSOS INHABITUALES,K1,1,3--18,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "178570"
-    ]
+    "bggMatchId": "178570",
+    "foundBggMatches": null
   },
   "SPARTACUS EL JUEGO DE TABLERO,C4,1,2,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "SPEED CUPS,Q5,2,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "146149",
-      "181952",
-      "158100",
-      "257967"
-    ]
+    "bggMatchId": "146149",
+    "foundBggMatches": null
   },
   "SPEED CUPS 2 (DENTRO DEL BÁSICO),Q5,1,2,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "SPOILERS THE BEGINNING,Q2,1,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "225313"
-    ]
+    "bggMatchId": "225313",
+    "foundBggMatches": null
   },
   "SPOILERS: THE GAME,Q2,2,3--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188601",
-      "298545"
-    ]
+    "bggMatchId": "188601",
+    "foundBggMatches": null
   },
   "STALAG 17,A3,1,2--5,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "107173",
-      "133162"
-    ]
+    "bggMatchId": "107173",
+    "foundBggMatches": null
   },
   "STALAG 18 (DENTRO DEL BÁSICO),A3,1,2--6,12+": {
     "bggMatchId": null,
@@ -5255,52 +3508,28 @@
     "foundBggMatches": null
   },
   "STAR WARS: REBELLION,A2,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "282070",
-      "218017",
-      "160964",
-      "183532",
-      "187645",
-      "226840"
-    ]
+    "bggMatchId": "187645",
+    "foundBggMatches": null
   },
   "STEAM PARK,I2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "121410",
-      "150153",
-      "204506",
-      "204507"
-    ]
+    "bggMatchId": "121410",
+    "foundBggMatches": null
   },
   "STEVEN UNIVERSE,N3,1,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "236736",
-      "236199",
-      "288068"
-    ]
+    "bggMatchId": "236199",
+    "foundBggMatches": null
   },
   "STICK UP,Q8,1,3--12,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6424",
-      "25416"
-    ]
+    "bggMatchId": "25416",
+    "foundBggMatches": null
   },
   "STICKMAN,Q8,1,2--6,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "234117"
-    ]
+    "bggMatchId": "234117",
+    "foundBggMatches": null
   },
   "STONE AGE JUNIOR,X8,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "191004",
-      "234511"
-    ]
+    "bggMatchId": "191004",
+    "foundBggMatches": null
   },
   "STORY CUBES,R7,2,1--12,8+": {
     "bggMatchId": "20545",
@@ -5311,10 +3540,8 @@
     "foundBggMatches": []
   },
   "STORY CUBES ANIMALIA,R7,1,1--12,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182952"
-    ]
+    "bggMatchId": "182952",
+    "foundBggMatches": null
   },
   "STORY CUBES DEPORTES,R7,1,1--10,6+": {
     "bggMatchId": null,
@@ -5345,10 +3572,8 @@
     "foundBggMatches": []
   },
   "STORY CUBES MEDIEVAL,R7,1,1--99,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192324"
-    ]
+    "bggMatchId": "192324",
+    "foundBggMatches": null
   },
   "STORY CUBES MITOLOGIA,R7,1,1--12,6+": {
     "bggMatchId": null,
@@ -5363,10 +3588,8 @@
     "foundBggMatches": []
   },
   "STORY CUBES PREHISTORIA,R7,1,1--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "142558"
-    ]
+    "bggMatchId": "142558",
+    "foundBggMatches": null
   },
   "STORY CUBES RESCATE,R7,1,1--99,6+": {
     "bggMatchId": null,
@@ -5381,28 +3604,16 @@
     "foundBggMatches": []
   },
   "STORYLINE: SCARY TALES,R9,1,3--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "205263"
-    ]
+    "bggMatchId": "205263",
+    "foundBggMatches": null
   },
   "STRATEGO ORIGINAL,P3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "1917"
-    ]
+    "bggMatchId": "1917",
+    "foundBggMatches": null
   },
   "SUPER MUNCHKIN,T9,1,3--6,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "186859",
-      "41034",
-      "24733",
-      "16933",
-      "260205",
-      "22894",
-      "39393"
-    ]
+    "bggMatchId": "16933",
+    "foundBggMatches": null
   },
   "SUPER TAKI,R4,1,2--10,6+": {
     "bggMatchId": null,
@@ -5413,40 +3624,24 @@
     "foundBggMatches": []
   },
   "SUSHI GO,R4,2,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192291",
-      "251250",
-      "250934",
-      "133473",
-      "165802",
-      "37400",
-      "207783"
-    ]
+    "bggMatchId": "133473",
+    "foundBggMatches": null
   },
   "SUSHI GO PARTY,R4,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192291",
-      "251250",
-      "250934"
-    ]
+    "bggMatchId": "192291",
+    "foundBggMatches": null
   },
   "T.I.M.E STORIES,G3,1,2--4,12+": {
     "bggMatchId": "146508",
     "foundBggMatches": null
   },
   "T.I.M.E STORIES: BAJO LA MÁSCARA,G3,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "189686"
-    ]
+    "bggMatchId": "189686",
+    "foundBggMatches": null
   },
   "T.I.M.E STORIES: EL CASO MARCY,G3,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "180585"
-    ]
+    "bggMatchId": "180585",
+    "foundBggMatches": null
   },
   "T.I.M.E STORIES: PROFECIA DE LOS DRAGONES,G3,1,2--4,12+": {
     "bggMatchId": null,
@@ -5469,27 +3664,20 @@
     "foundBggMatches": null
   },
   "TAKENOKO,J2,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "70919",
-      "174095"
-    ]
+    "bggMatchId": "70919",
+    "foundBggMatches": null
   },
   "TANGRAM ORIGINAL,CLASICOS 3,2,1+,6+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "TARGET EARTH,A2,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "75333"
-    ]
+    "bggMatchId": "75333",
+    "foundBggMatches": null
   },
   "TAXIMANIA,O0,1,2--6,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "38647"
-    ]
+    "bggMatchId": "38647",
+    "foundBggMatches": null
   },
   "TELESKETCH,U5,1,1,2+": {
     "bggMatchId": null,
@@ -5500,17 +3688,8 @@
     "foundBggMatches": null
   },
   "TERRA MYSTICA,B4,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "120677",
-      "149890",
-      "181289",
-      "150740",
-      "184895",
-      "161317",
-      "280885",
-      "220308"
-    ]
+    "bggMatchId": "120677",
+    "foundBggMatches": null
   },
   "TERRA MYSTICA: EXPANSIÓN FUEGO Y HIELO,B4,1,2--5,12+": {
     "bggMatchId": null,
@@ -5521,26 +3700,20 @@
     "foundBggMatches": null
   },
   "TESOROS INESPERADOS,Q2,1,3--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "4475"
-    ]
+    "bggMatchId": "4475",
+    "foundBggMatches": null
   },
   "TEXAS HOLDEM POKER,CLASICOS 3,1,1--99,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "1115"
-    ]
+    "bggMatchId": "1115",
+    "foundBggMatches": null
   },
   "THE ADVENTURERS,C3,1,2--6,13+": {
     "bggMatchId": "43868",
     "foundBggMatches": null
   },
   "THE CHEF KING,L3,1,1--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "248891"
-    ]
+    "bggMatchId": "248891",
+    "foundBggMatches": null
   },
   "THE COUNSINS' WAR,C5,1,2,12+": {
     "bggMatchId": null,
@@ -5551,10 +3724,8 @@
     "foundBggMatches": null
   },
   "THE HIVE POCKET,Q3,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "154597"
-    ]
+    "bggMatchId": "154597",
+    "foundBggMatches": null
   },
   "THE ISLAND,J5,1,2--4,8+": {
     "bggMatchId": "2653",
@@ -5573,124 +3744,72 @@
     "foundBggMatches": []
   },
   "THE WITCHER,M2,1,2,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "31235",
-      "147116",
-      "30952"
-    ]
+    "bggMatchId": "31235",
+    "foundBggMatches": null
   },
   "THE WRITER,K1,1,2--4,9+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "235729",
-      "295152",
-      "10151",
-      "19314",
-      "148327",
-      "56844",
-      "111202",
-      "174768",
-      "7262",
-      "5324"
-    ]
+    "bggMatchId": "174768",
+    "foundBggMatches": null
   },
   "THROUGH THE AGES: UNA NUEVA HISTORIA DE CIVILIZACIÓN,C3,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182028"
-    ]
+    "bggMatchId": "182028",
+    "foundBggMatches": null
   },
   "TIBURON ATACA,U6,1,2--4,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "6284"
-    ]
+    "bggMatchId": "6284",
+    "foundBggMatches": null
   },
   "TICKET TO MARS,M3,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "187449",
-      "218235"
-    ]
+    "bggMatchId": "218235",
+    "foundBggMatches": null
   },
   "TICKET TO RIDE,K4,1,2--5,8+": {
     "bggMatchId": "24439",
     "foundBggMatches": null
   },
   "TIC-TAC BOUM,P2,1,2--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "137",
-      "15383",
-      "91995"
-    ]
+    "bggMatchId": "137",
+    "foundBggMatches": null
   },
   "TIME OF SOCCER,A0,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "77200",
-      "212436",
-      "166317",
-      "257138"
-    ]
+    "bggMatchId": "166317",
+    "foundBggMatches": null
   },
   "TIMEBOMB,N4,1,4--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "236217",
-      "170587",
-      "231748",
-      "187806"
-    ]
+    "bggMatchId": "236217",
+    "foundBggMatches": null
   },
   "TIMELINE: CIENCIA Y DESCUBRIMIENTOS,Q4,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "99975"
-    ]
+    "bggMatchId": "99975",
+    "foundBggMatches": null
   },
   "TIMELINE: EVENTOS,Q4,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "113401"
-    ]
+    "bggMatchId": "113401",
+    "foundBggMatches": null
   },
   "TIMELINE: INVENTOS,Q4,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "85256"
-    ]
+    "bggMatchId": "85256",
+    "foundBggMatches": null
   },
   "TIMELINE: MULTITEMÁTICA,Q4,1,2--8,8+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "TIMELINE: MÚSICA Y CINE,Q4,1,2--8,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "145189"
-    ]
+    "bggMatchId": "145189",
+    "foundBggMatches": null
   },
   "TIME'S UP ACADEMY 1,Q6,1,4--12,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "46158",
-      "150800"
-    ]
+    "bggMatchId": "46158",
+    "foundBggMatches": null
   },
   "TIMES UP FAMILY,Q6,1,4--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "88126",
-      "154006"
-    ]
+    "bggMatchId": "88126",
+    "foundBggMatches": null
   },
   "TIMES UP KIDS,Q6,1,2--12,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174219"
-    ]
+    "bggMatchId": "174219",
+    "foundBggMatches": null
   },
   "TIMES UP KIDS 2 PANDA,Q6,1,4--12,4+": {
     "bggMatchId": null,
@@ -5706,46 +3825,27 @@
   },
   "TIP TOPS,I4,1,2--6,6+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "175236",
-      "8675"
-    ]
+    "foundBggMatches": []
   },
   "TITAN RACE,M4,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "175495"
-    ]
+    "bggMatchId": "175495",
+    "foundBggMatches": null
   },
   "TOKAIDO,F4,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "123540",
-      "155731",
-      "186375",
-      "144384",
-      "149772",
-      "157816",
-      "171503",
-      "132479"
-    ]
+    "bggMatchId": "123540",
+    "foundBggMatches": null
   },
   "TOMA 6,R5,3,2--10,8+": {
     "bggMatchId": "268586",
     "foundBggMatches": null
   },
   "TOMB: CRYPTMASTER,D0,1,1--6,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "43320"
-    ]
+    "bggMatchId": "43320",
+    "foundBggMatches": null
   },
   "TOPOUM,B4,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "188314",
-      "205600"
-    ]
+    "bggMatchId": "188314",
+    "foundBggMatches": null
   },
   "TOPOUM: EXPASIÓN BRATATATATA (DENTRO DEL BASICO),B4,1,2--4,12+": {
     "bggMatchId": null,
@@ -5756,75 +3856,44 @@
     "foundBggMatches": []
   },
   "TORTILLA PATATAS,Q2,2,2--4,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "158236"
-    ]
+    "bggMatchId": "158236",
+    "foundBggMatches": null
   },
   "TOTAL RUMBLE,R3,1,3--12,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "81698"
-    ]
+    "bggMatchId": "81698",
+    "foundBggMatches": null
   },
   "TOWN OF SALEM,Q7,1,5--40,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "250494",
-      "191432"
-    ]
+    "bggMatchId": "191432",
+    "foundBggMatches": null
   },
   "TOZUDO,U6,1,2--4,4+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "8392"
-    ]
+    "bggMatchId": "8392",
+    "foundBggMatches": null
   },
   "TRAGABOLAS,U5,1,2,5+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "5895",
-      "38561"
-    ]
+    "bggMatchId": "5895",
+    "foundBggMatches": null
   },
   "TRAGABOLAS DE VIAJE,X6,1,2,4+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "TRAGEDY LOOPER,C1,2,2--4,13+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "148319",
-      "150610",
-      "150607",
-      "205324",
-      "148321",
-      "181173",
-      "160796",
-      "148320",
-      "207674",
-      "276596"
-    ]
+    "bggMatchId": "148319",
+    "foundBggMatches": null
   },
   "TRANVÍA,L4,1,2,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "175293",
-      "166571"
-    ]
+    "bggMatchId": "175293",
+    "foundBggMatches": null
   },
   "TRAPPIST ONE,L2,1,2--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "257994",
-      "264597"
-    ]
+    "bggMatchId": "257994",
+    "foundBggMatches": null
   },
   "TRES HURRAS POR EL AMO,N4,1,2--6,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "175961"
-    ]
+    "bggMatchId": "175961",
+    "foundBggMatches": null
   },
   "TRICKY TREE,U8,1,2--4,5+": {
     "bggMatchId": null,
@@ -5836,28 +3905,11 @@
   },
   "TRIOMINOS,M2,1,1--6,6+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "4040",
-      "81263",
-      "123587",
-      "99881",
-      "7377",
-      "169297"
-    ]
+    "foundBggMatches": []
   },
   "TRIVIAL PURSUIT DVD,P4,1,2--24,15+": {
     "bggMatchId": null,
-    "foundBggMatches": [
-      "22048",
-      "33698",
-      "15047",
-      "22839",
-      "26346",
-      "20589",
-      "8039",
-      "15548",
-      "13782"
-    ]
+    "foundBggMatches": []
   },
   "TRIVIAL PURSUIT GENUS,P5,1,2--36,15+": {
     "bggMatchId": "40853",
@@ -5868,62 +3920,40 @@
     "foundBggMatches": null
   },
   "TRIVIAL PURSUIT HARRY POTTER,O4,1,2--6,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "179280",
-      "254195"
-    ]
+    "bggMatchId": "179280",
+    "foundBggMatches": null
   },
   "TRIVIAL PURSUIT MARVEL,O4,1,2--24,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "213711",
-      "184442"
-    ]
+    "bggMatchId": "184442",
+    "foundBggMatches": null
   },
   "TRIVIAL PURSUIT PARTY,P5,1,3--6,16+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "149328"
-    ]
+    "bggMatchId": "149328",
+    "foundBggMatches": null
   },
   "TRIVIAL PUSUIT FAMILIA,X5,1,2--36,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "TRIVIAL THE BIG BANG THEORY,O4,1,2--10,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "192017"
-    ]
+    "bggMatchId": "192017",
+    "foundBggMatches": null
   },
   "TRIVIO 12000 LA FUERZA DEL SABER,P0,1,2--6,12+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "TROYES,E4,1,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "40311",
-      "73439",
-      "216944",
-      "284584",
-      "94284",
-      "127061"
-    ]
+    "bggMatchId": "216944",
+    "foundBggMatches": null
   },
   "TRUE STORIES,Q2,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "179552",
-      "200707"
-    ]
+    "bggMatchId": "179552",
+    "foundBggMatches": null
   },
   "TWEEGLES,Q4,1,2--5,6+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "123514"
-    ]
+    "bggMatchId": "123514",
+    "foundBggMatches": null
   },
   "TWILIGHT STRUGGLE,B2,1,2,14+": {
     "bggMatchId": "12333",
@@ -5942,106 +3972,68 @@
     "foundBggMatches": null
   },
   "UN IMPERIO EN 8 MINUTOS,L3,2,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "131366"
-    ]
+    "bggMatchId": "131366",
+    "foundBggMatches": null
   },
   "UNO TIKI TWIST,V7,1,2--10,7+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "182707"
-    ]
+    "bggMatchId": "182707",
+    "foundBggMatches": null
   },
   "UNO! JUEGO DE CARTAS,Q5,1,2--10,7+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "UPSTREAM,J2,1,2--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "67182",
-      "209567",
-      "285094"
-    ]
+    "bggMatchId": "209567",
+    "foundBggMatches": null
   },
   "VALERIA,N1,1,1--5,13+": {
     "bggMatchId": "170561",
     "foundBggMatches": null
   },
   "VALLE DE LOS REYES,Q3,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "194577",
-      "150999",
-      "175223"
-    ]
+    "bggMatchId": "150999",
+    "foundBggMatches": null
   },
   "VAMPIR MAU MAU,Q3,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "154515"
-    ]
+    "bggMatchId": "154515",
+    "foundBggMatches": null
   },
   "VERSAILLES,N5,1,2--5,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "291",
-      "217344",
-      "40312",
-      "102881",
-      "12281",
-      "19387",
-      "160561",
-      "174517",
-      "253506"
-    ]
+    "bggMatchId": "160561",
+    "foundBggMatches": null
   },
   "VETTRIP,EPR,1,2...,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "283058"
-    ]
+    "bggMatchId": "283058",
+    "foundBggMatches": null
   },
   "VIERNES,Q2,1,1,10+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "43570",
-      "201418"
-    ]
+    "bggMatchId": "43570",
+    "foundBggMatches": null
   },
   "VIRREY,G2,2,1--4,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "157526"
-    ]
+    "bggMatchId": "157526",
+    "foundBggMatches": null
   },
   "VIRUS,R5,1,1--6,14+": {
     "bggMatchId": "189351",
     "foundBggMatches": null
   },
   "VIRUS! 2: EVOLUTION,R5,1,2--6,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "266667"
-    ]
+    "bggMatchId": "266667",
+    "foundBggMatches": null
   },
   "VISUAL PANIC,Q4,1,2--7,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "139038"
-    ]
+    "bggMatchId": "139038",
+    "foundBggMatches": null
   },
   "WALKING ON THE MOON MARCH ON MARCH,R9,1,2--5,10+": {
     "bggMatchId": null,
     "foundBggMatches": []
   },
   "WAREHOUSE 51,N4,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "177702",
-      "181594"
-    ]
+    "bggMatchId": "177702",
+    "foundBggMatches": null
   },
   "WATERLOO 1815,C5,1,2--8,12+": {
     "bggMatchId": null,
@@ -6056,45 +4048,28 @@
     "foundBggMatches": null
   },
   "WHITE STORIES,T9,1,2--15,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "43171",
-      "47616",
-      "123999",
-      "175309",
-      "123998"
-    ]
+    "bggMatchId": "43171",
+    "foundBggMatches": null
   },
   "WIZARD,R3,1,3--6,10+": {
     "bggMatchId": "1465",
     "foundBggMatches": null
   },
   "YANGTZE,L5,1,2--4,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "212382",
-      "160851",
-      "25872",
-      "244114"
-    ]
+    "bggMatchId": "212382",
+    "foundBggMatches": null
   },
   "YLANDYSS,Q3,1,2--4,14+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "174518"
-    ]
+    "bggMatchId": "174518",
+    "foundBggMatches": null
   },
   "YO FUI A EGB,O5,1,2--6,12+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "210179"
-    ]
+    "bggMatchId": "210179",
+    "foundBggMatches": null
   },
   "ZEN MASTER,Q8,1,3--5,8+": {
-    "bggMatchId": null,
-    "foundBggMatches": [
-      "83197"
-    ]
+    "bggMatchId": "83197",
+    "foundBggMatches": null
   },
   "ZOMBICIDE,D1,2,1--6,13+": {
     "bggMatchId": "113924",
