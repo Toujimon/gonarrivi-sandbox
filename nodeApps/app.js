@@ -26,8 +26,8 @@ const oktaJwtVerifier = new OktaJwtVerifier({
  * contents are attached to req.jwt
  * (source: https://developer.okta.com/quickstart/#/react/nodejs/express)
  */
+//let alreadyVerified = false;
 function oktaAuthenticationRequired(req, res, next) {
-  console.log("ALWAYS AUTHENTICATING");
   const authHeader = req.headers.authorization || "";
   const [, accessToken] = authHeader.match(/Bearer (.+)/) || [];
 
@@ -40,10 +40,17 @@ function oktaAuthenticationRequired(req, res, next) {
   return oktaJwtVerifier
     .verifyAccessToken(accessToken, expectedAudience)
     .then(jwt => {
+      // if (!alreadyVerified) {
+      //   alreadyVerified = !alreadyVerified;
+      //   console.log(jwt);
+      // }
       req.jwt = jwt;
       next();
     })
     .catch(err => {
+      // if (alreadyVerified) {
+      //   alreadyVerified = !alreadyVerified;
+      // }
       res.status(401).send(err.message);
     });
 }
