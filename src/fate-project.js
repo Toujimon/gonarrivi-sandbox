@@ -1,60 +1,60 @@
-import React from "react";
-import styled from "styled-components";
-import { StyledBox } from "./components/design-system";
-import LineClamper from "./components/line-clamper";
-import FateManager from "./components/fate-manager";
+import React from 'react'
+import styled from 'styled-components'
+import { StyledBox } from './components/design-system'
+import LineClamper from './components/line-clamper'
+import FateManager from './components/fate-manager'
 
 const StyledList = styled.ul`
   margin: 0;
-`;
+`
 
 class FateProject extends React.Component {
   state = {
     strSkills: (() => {
       if (localStorage) {
         const strFateCoreSkillTable = localStorage.getItem(
-          "FATE_CORE_SKILLS_TABLE"
-        );
-        return strFateCoreSkillTable || null;
+          'FATE_CORE_SKILLS_TABLE'
+        )
+        return strFateCoreSkillTable || null
       }
-      return null;
+      return null
     })()
-  };
-  _canSetState = true;
+  }
+  _canSetState = true
   componentDidMount() {
-    const { strSkills } = this.state;
+    const { strSkills } = this.state
     if (strSkills === null) {
-      fetch("https://fate-srd.com/fate-core/default-skill-list")
+      fetch('https://fate-srd.com/fate-core/default-skill-list')
         .then(response => response.text())
-        .then(text => new DOMParser().parseFromString(text, "text/html"))
+        .then(text => new DOMParser().parseFromString(text, 'text/html'))
         .then(doc => {
-          const elFateCoreSkillTable = doc.querySelector(".skill-list");
+          const elFateCoreSkillTable = doc.querySelector('.skill-list')
           if (elFateCoreSkillTable) {
-            const strFateCoreSkillTable = elFateCoreSkillTable.innerHTML;
+            const strFateCoreSkillTable = elFateCoreSkillTable.innerHTML
             if (localStorage) {
               localStorage.setItem(
-                "FATE_CORE_SKILLS_TABLE",
+                'FATE_CORE_SKILLS_TABLE',
                 strFateCoreSkillTable
-              );
+              )
             }
             if (this._canSetState) {
-              this.setState({ strSkills: strFateCoreSkillTable });
+              this.setState({ strSkills: strFateCoreSkillTable })
             }
           } else {
-            throw new Error("FATE CORE skill table element not found");
+            throw new Error('FATE CORE skill table element not found')
           }
         })
         .catch(e => {
-          console.error(e);
-          this.setState({ strSkills: "" });
-        });
+          console.error(e)
+          this.setState({ strSkills: '' })
+        })
     }
   }
   componentWillUnmount() {
-    this._canSetState = false;
+    this._canSetState = false
   }
   render() {
-    const { strSkills } = this.state;
+    const { strSkills } = this.state
     return (
       <React.Fragment>
         <h2>FATE CORE Utils</h2>
@@ -79,10 +79,10 @@ class FateProject extends React.Component {
             </StyledList>
           </LineClamper>
         </StyledBox>
-        {strSkills !== null ? <FateManager /> : "Something is loading..."}
+        {strSkills !== null ? <FateManager /> : 'Something is loading...'}
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default FateProject;
+export default FateProject

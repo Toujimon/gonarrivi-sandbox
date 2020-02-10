@@ -1,17 +1,15 @@
-import * as React from "react";
-import * as PropTypes from "prop-types";
-import styled, { keyframes, css } from "styled-components";
-import { lighten } from "polished";
-import { theme } from "./design-system";
-import FateDie from "./fate-die";
-export { DEFAULT_SIZE } from "./fate-die";
-
-// const CLICK_ANIMATION_MILLISECONDS = 100;
+import * as React from 'react'
+import * as PropTypes from 'prop-types'
+import styled, { keyframes, css } from 'styled-components'
+import { lighten } from 'polished'
+import { theme } from './design-system'
+import FateDie from './fate-die'
+export { DEFAULT_SIZE } from './fate-die'
 
 const StyledWrapper = styled.span`
   display: inline-flex;
   align-items: center;
-`;
+`
 
 const hoveringKeyFrames = keyframes`
   0% {
@@ -23,7 +21,7 @@ const hoveringKeyFrames = keyframes`
   100%{
     transform: scale(1);
   }
-`;
+`
 
 const StyledSelectableFateDie = styled(FateDie)`
   ${({ onClick }) =>
@@ -34,50 +32,29 @@ const StyledSelectableFateDie = styled(FateDie)`
             animation: ${hoveringKeyFrames} 0.8s linear infinite;
           }
         `
-      : ""}
+      : ''}
   ${({ selected, theme }) =>
-    selected ? `background-color: ${lighten(0.3, theme.primary)};` : ""}
-`;
+    selected ? `background-color: ${lighten(0.3, theme.primary)};` : ''}
+`
 StyledSelectableFateDie.defaultProps = {
   theme
-};
+}
 
-// const clickedKeyFrames = keyframes`
-//   0% {
-//     transform: translateY(0);
-//   }
-//   50% {
-//     transform: translateY(-10px);
-//   }
-//   100%{
-//     transform: translateY(0);
-//   }
-// `;
-
-// const StyledSelectionChangedFateDice = styled(StyledSelectableFateDie)`
-//   animation: ${css`
-//     ${clickedKeyFrames} ${CLICK_ANIMATION_MILLISECONDS}ms linear
-//   `};
-// `;
-
-function FateDice({
-  dice, onDieSelect
-}) {
-
+function FateDice({ dice, onDieSelect }) {
   return (
     <StyledWrapper>
       <span>
-        {dice.map((x, i) =>
+        {dice.map((x, i) => (
           <StyledSelectableFateDie
             key={i}
             value={x.value}
             selected={x.selected}
             onClick={(...args) => onDieSelect(i, ...args)}
-          />)}
+          />
+        ))}
       </span>
     </StyledWrapper>
-  );
-
+  )
 }
 
 FateDice.propTypes = {
@@ -88,6 +65,6 @@ FateDice.propTypes = {
     })
   ).isRequired,
   onDieSelect: PropTypes.func
-};
+}
 
-export default FateDice;
+export default FateDice

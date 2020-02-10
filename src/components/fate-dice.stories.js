@@ -1,11 +1,11 @@
-import * as React from "react";
-import { action } from "@storybook/addon-actions";
-import FateDice from "./fate-dice";
+import * as React from 'react'
+import { action } from '@storybook/addon-actions'
+import FateDice from './fate-dice'
 
 export default {
   component: FateDice,
-  title: "Fate Dice"
-};
+  title: 'Fate Dice'
+}
 
 export const SomeDice = () => (
   <FateDice
@@ -14,6 +14,6 @@ export const SomeDice = () => (
       { value: 3, selected: false },
       { value: 5, selected: true }
     ]}
-    onDieSelect={action("Die selected")}
+    onDieSelect={action('Die selected')}
   />
-);
+)

@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import styled, { ThemeProvider } from "styled-components";
-import { theme } from "./components/design-system";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import styled, { ThemeProvider } from 'styled-components'
+import { theme } from './components/design-system'
 import {
   AppBar,
   Avatar,
@@ -12,71 +12,71 @@ import {
   Tab,
   Typography,
   Button
-} from "@material-ui/core";
-import homeBannerImage from "./assets/images/home-banner.jpg";
-import homeAvatarImage from "./assets/images/home-avatar.jpeg";
-import Home from "./home";
-import FateProject from "./fate-project";
-import EpicCafeManager from "./epic-cafe-manager";
-import { Security, ImplicitCallback, withAuth } from "@okta/okta-react";
+} from '@material-ui/core'
+import homeBannerImage from './assets/images/home-banner.jpg'
+import homeAvatarImage from './assets/images/home-avatar.jpeg'
+import Home from './home'
+import FateProject from './fate-project'
+import EpicCafeManager from './epic-cafe-manager'
+import { Security, ImplicitCallback, withAuth } from '@okta/okta-react'
 
 const config = {
   issuer: `https://dev-341005.okta.com/oauth2/default`,
-  redirectUri: window.location.origin + "/gonarrivi-sandbox/implicit/callback",
-  clientId: "0oa249gcgj2McxEJn4x6",
+  redirectUri: window.location.origin + '/gonarrivi-sandbox/implicit/callback',
+  clientId: '0oa249gcgj2McxEJn4x6',
   pkce: true
-};
+}
 
 /* TODO: Add async process to detect if its allowed */
-const isApiAllowed = window.location.hostname === "localhost";
+const isApiAllowed = window.location.hostname === 'localhost'
 
-const appTheme = { ...theme, primary: "#199e57" };
+const appTheme = { ...theme, primary: '#199e57' }
 
 const StyledAppBar = styled(AppBar)`
   flex-direction: row;
-`;
+`
 const StyledAppBarTabs = styled(Tabs)`
   flex: 0 0 auto;
   margin-left: auto;
-`;
+`
 
 const StyledTopBanner = styled.div`
   ${props =>
     props.background
       ? `background-image: url(${props.background});
       background-size: cover;`
-      : "background-color: transparent;"}
+      : 'background-color: transparent;'}
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 24px;
   text-align: center;
-  ${({ textColor }) => (textColor ? `color: ${textColor};` : "")}
-`;
+  ${({ textColor }) => (textColor ? `color: ${textColor};` : '')}
+`
 
 const StyledAvatar = styled(Avatar)`
   width: 120px;
   height: 120px;
-`;
+`
 
 function LoginButton({ isAuthenticated, onLogin, onLogout }) {
   return isAuthenticated ? (
     <Button onClick={onLogout}>Logout</Button>
   ) : (
     <Button onClick={onLogin}>Login</Button>
-  );
+  )
 }
 
 const AppContent = withAuth(function AppContent({ auth }) {
-  const [authenticated, setAuthenticated] = React.useState(null);
+  const [authenticated, setAuthenticated] = React.useState(null)
   React.useEffect(() => {
     auth.isAuthenticated().then(confirmation => {
       if (confirmation !== authenticated) {
-        setAuthenticated(confirmation);
+        setAuthenticated(confirmation)
       }
-    });
-  });
+    })
+  })
   return authenticated === null ? null : (
     <ThemeProvider theme={appTheme}>
       <CssBaseline>
@@ -84,7 +84,7 @@ const AppContent = withAuth(function AppContent({ auth }) {
           <Route path="/:subPath?">
             {({ match, history }) => (
               <StyledAppBarTabs
-                value={match.params.subPath || ""}
+                value={match.params.subPath || ''}
                 onChange={(e, newValue) => history.push(`/${newValue}`)}
               >
                 <Tab value="" label="Home" />
@@ -98,8 +98,8 @@ const AppContent = withAuth(function AppContent({ auth }) {
           {authenticated !== null && (
             <LoginButton
               isAuthenticated={authenticated}
-              onLogin={() => auth.login("/")}
-              onLogout={() => auth.logout("/")}
+              onLogin={() => auth.login('/')}
+              onLogout={() => auth.logout('/')}
             />
           )}
         </StyledAppBar>
@@ -131,8 +131,8 @@ const AppContent = withAuth(function AppContent({ auth }) {
         </Container>
       </CssBaseline>
     </ThemeProvider>
-  );
-});
+  )
+})
 
 function App() {
   return (
@@ -144,8 +144,8 @@ function App() {
         </Switch>
       </Security>
     </BrowserRouter>
-  );
+  )
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+const rootElement = document.getElementById('root')
+ReactDOM.render(<App />, rootElement)

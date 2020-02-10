@@ -1,11 +1,11 @@
-import React from "react";
-import { action } from "@storybook/addon-actions";
-import FateDie from "./fate-die";
+import React from 'react'
+import { action } from '@storybook/addon-actions'
+import FateDie from './fate-die'
 
 export default {
   component: FateDie,
-  title: "Fate Die"
-};
+  title: 'Fate Die'
+}
 
 export const All_six_sides_from_1_to_6 = () => (
   <React.Fragment>
@@ -16,4 +16,4 @@ export const All_six_sides_from_1_to_6 = () => (
     <FateDie value={5} />
     <FateDie value={6} />
   </React.Fragment>
-);
+)

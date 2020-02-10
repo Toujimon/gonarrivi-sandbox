@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { StyledBox } from "./components/design-system";
+import React from 'react'
+import styled from 'styled-components'
+import { StyledBox } from './components/design-system'
 import {
   Typography,
   Grid,
@@ -9,15 +9,15 @@ import {
   Button,
   IconButton,
   TablePagination
-} from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+} from '@material-ui/core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEye,
   faSadTear,
   faSmile,
   faPlus
-} from "@fortawesome/free-solid-svg-icons";
-import { withAuth } from "@okta/okta-react";
+} from '@fortawesome/free-solid-svg-icons'
+import { withAuth } from '@okta/okta-react'
 
 export default function EpicCafeManager() {
   return (
@@ -36,7 +36,7 @@ export default function EpicCafeManager() {
         <EpicBggMatcherContainer />
       </StyledBox>
     </React.Fragment>
-  );
+  )
 }
 
 /*-- PRIVATE COMPONENTS --*/
@@ -45,12 +45,12 @@ export default function EpicCafeManager() {
 const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
   auth
 }) {
-  const [[catalog, mustFetch], setState] = React.useState([null, true]);
+  const [[catalog, mustFetch], setState] = React.useState([null, true])
   function setCatalog(catalog) {
-    setState([catalog, false]);
+    setState([catalog, false])
   }
   function refetchCatalog() {
-    setState([catalog, true]);
+    setState([catalog, true])
   }
 
   function fetchWithAuth(url, options = {}) {
@@ -62,12 +62,12 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
           Authorization: `Bearer ${token}`
         }
       })
-    );
+    )
   }
 
   React.useEffect(() => {
     if (mustFetch) {
-      fetchWithAuth("/api/catalog")
+      fetchWithAuth('/api/catalog')
         .then(response =>
           response
             .json()
@@ -79,8 +79,8 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
                     id,
                     name,
                     players:
-                      players.type === "range" || players.type === "min"
-                        ? `${players.min} - ${players.max || ""}`
+                      players.type === 'range' || players.type === 'min'
+                        ? `${players.min} - ${players.max || ''}`
                         : players.type,
                     age,
                     coordinates,
@@ -90,71 +90,71 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
                       epicBggJoin[id].foundBggMatches.map(
                         matchId => bggCatalog[matchId]
                       )
-                  };
+                  }
                 }
-              );
+              )
             })
         )
         .catch(error => {
-          console.log(error);
-          return [];
+          console.log(error)
+          return []
         })
         .then(processedCatalog => {
-          setCatalog(processedCatalog);
-        });
+          setCatalog(processedCatalog)
+        })
     }
-  }, [mustFetch]);
+  }, [mustFetch])
 
   function handleEpicBggMatchConfirm(id, bggMatchId) {
-    fetchWithAuth("/api/catalog", {
-      method: "put",
+    fetchWithAuth('/api/catalog', {
+      method: 'put',
       headers: {
-        "Content-Type": "application/json"
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({ id, bggMatchId })
     }).then(res => {
       if (res.status === 200) {
-        refetchCatalog();
+        refetchCatalog()
       } else {
-        console.error("Error while trying to update data:", res.statusText);
+        console.error('Error while trying to update data:', res.statusText)
       }
-    });
+    })
   }
 
   function handleEpicBggMatchesClean(id) {
-    fetchWithAuth("/api/catalog", {
-      method: "delete",
+    fetchWithAuth('/api/catalog', {
+      method: 'delete',
       headers: {
-        "Content-Type": "application/json"
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({ id })
     }).then(res => {
       if (res.status === 200) {
-        refetchCatalog();
+        refetchCatalog()
       } else {
-        console.error("Error while trying to clean matches:", res.statusText);
+        console.error('Error while trying to clean matches:', res.statusText)
       }
-    });
+    })
   }
 
   function handleEpicBggMatchAdd(id, bggMatchId) {
-    fetchWithAuth("/api/catalog", {
-      method: "post",
+    fetchWithAuth('/api/catalog', {
+      method: 'post',
       headers: {
-        "Content-Type": "application/json"
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({ id, bggMatchId })
     }).then(res => {
       if (res.status === 200) {
-        refetchCatalog();
+        refetchCatalog()
       } else {
-        console.error("Error while trying to update data:", res.statusText);
+        console.error('Error while trying to update data:', res.statusText)
       }
-    });
+    })
   }
 
   return catalog === null ? (
-    "Loading catalog information, may take a while..."
+    'Loading catalog information, may take a while...'
   ) : (
     <EpicBggMatcher
       games={catalog}
@@ -162,64 +162,64 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
       onEpicBggMatchesClean={handleEpicBggMatchesClean}
       onEpicBggMatchAdd={handleEpicBggMatchAdd}
     />
-  );
-});
+  )
+})
 
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 50
 const MATCHES_FILTERS = [
-  ["All", null],
-  ["No matches", x => !x.foundBggMatches || !x.foundBggMatches.length],
-  ["Just one match", x => x.foundBggMatches && x.foundBggMatches.length === 1],
+  ['All', null],
+  ['No matches', x => !x.foundBggMatches || !x.foundBggMatches.length],
+  ['Just one match', x => x.foundBggMatches && x.foundBggMatches.length === 1],
   [
-    "Multiple matches (2 .. 5)",
+    'Multiple matches (2 .. 5)',
     x =>
       x.foundBggMatches &&
       x.foundBggMatches.length > 1 &&
       x.foundBggMatches.length < 6
   ],
   [
-    "Multiple matches (6 ... 10)",
+    'Multiple matches (6 ... 10)',
     x =>
       x.foundBggMatches &&
       x.foundBggMatches.length > 5 &&
       x.foundBggMatches.length < 11
   ],
   [
-    "Multiple matches (11 ... 20)",
+    'Multiple matches (11 ... 20)',
     x =>
       x.foundBggMatches &&
       x.foundBggMatches.length > 10 &&
       x.foundBggMatches.length < 21
   ],
   [
-    "Multiple matches (21 ... 50)",
+    'Multiple matches (21 ... 50)',
     x =>
       x.foundBggMatches &&
       x.foundBggMatches.length > 20 &&
       x.foundBggMatches.length < 51
   ],
   [
-    "Multiple matches (51 ... )",
+    'Multiple matches (51 ... )',
     x => x.foundBggMatches && x.foundBggMatches.length > 51
   ]
-];
+]
 
 const CONFIRMED_FILTERS = [
-  ["All", null],
-  ["Not confirmed", x => !x.bggMatchId],
-  ["Confirmed", x => !!x.bggMatchId]
-];
+  ['All', null],
+  ['Not confirmed', x => !x.bggMatchId],
+  ['Confirmed', x => !!x.bggMatchId]
+]
 
 const FILTERS = MATCHES_FILTERS.map(([, matchesFilter]) =>
   CONFIRMED_FILTERS.map(([, confirmedFilter]) => x =>
     (!matchesFilter || matchesFilter(x)) &&
     (!confirmedFilter || confirmedFilter(x))
   )
-);
+)
 
 const StyledGrid = styled(Grid)`
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-`;
+`
 
 function EpicBggMatcher({
   games,
@@ -230,33 +230,33 @@ function EpicBggMatcher({
   const [
     [page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex],
     setState
-  ] = React.useState([0, 0, 0]);
+  ] = React.useState([0, 0, 0])
   const setPage = page =>
-    setState([page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
+    setState([page, appliedMatchesFilterIndex, appliedConfirmedFilterIndex])
   const setAppliedMatchedFilterIndex = appliedMatchesFilterIndex =>
-    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
+    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex])
   const setAppliedConfirmedFilterIndex = appliedConfirmedFilterIndex =>
-    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex]);
+    setState([0, appliedMatchesFilterIndex, appliedConfirmedFilterIndex])
 
   const appliedFilter =
     (FILTERS[appliedMatchesFilterIndex] || [])[appliedConfirmedFilterIndex] ||
-    null;
+    null
 
   const [displayedGames, filteredGamesCount] = React.useMemo(() => {
-    const filteredGames = !appliedFilter ? games : games.filter(appliedFilter);
+    const filteredGames = !appliedFilter ? games : games.filter(appliedFilter)
     const displayedGames = filteredGames.slice(
       page * PAGE_SIZE,
       (page + 1) * PAGE_SIZE
-    );
-    return [displayedGames, filteredGames.length];
-  }, [games, page, appliedFilter]);
+    )
+    return [displayedGames, filteredGames.length]
+  }, [games, page, appliedFilter])
 
   React.useEffect(() => {
     if (page > 0 && !displayedGames.length) {
-      setPage(0);
+      setPage(0)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [displayedGames, page]);
+  }, [displayedGames, page])
 
   return (
     <StyledBox>
@@ -323,8 +323,8 @@ function EpicBggMatcher({
                     onClick={() =>
                       window.open(
                         `https://boardgamegeek.com/boardgame/${bggMatchId}`,
-                        "epicBggMatchViewer",
-                        "titlebar=no"
+                        'epicBggMatchViewer',
+                        'titlebar=no'
                       )
                     }
                   >
@@ -350,16 +350,16 @@ function EpicBggMatcher({
         )}
       </ul>
     </StyledBox>
-  );
+  )
 }
 
 const StyledSelect = styled(Select)`
   flex: 1 1 auto;
-`;
+`
 
 const StyledButton = styled(Button)`
   white-space: nowrap;
-`;
+`
 
 function BggMatchSelector({
   matches,
@@ -370,22 +370,22 @@ function BggMatchSelector({
 }) {
   const [selected, setSelected] = React.useState(
     currentMatch || (matches.length && matches[0].id) || null
-  );
+  )
   // const currentlySelected = matches.find(x => x.id === selected);
   return (
     <Toolbar>
       {matches.length ? (
         <React.Fragment>
           <StyledSelect
-            value={selected || ""}
+            value={selected || ''}
             native
             onChange={event => setSelected(event.currentTarget.value || null)}
           >
             <option value=""></option>
             {matches.map(({ id, name, yearpublished }) => (
               <option key={id} value={id}>
-                {typeof name[0] === "string" ? name[0] : name[0]["_"]} (
-                {yearpublished ? yearpublished[0] : "???"})
+                {typeof name[0] === 'string' ? name[0] : name[0]['_']} (
+                {yearpublished ? yearpublished[0] : '???'})
               </option>
             ))}
           </StyledSelect>
@@ -393,8 +393,8 @@ function BggMatchSelector({
             onClick={() =>
               window.open(
                 `https://boardgamegeek.com/boardgame/${selected}`,
-                "bggMatchViewer",
-                "titlebar=no"
+                'bggMatchViewer',
+                'titlebar=no'
               )
             }
           >
@@ -402,7 +402,7 @@ function BggMatchSelector({
           </IconButton>
           {selected !== currentMatch ? (
             <StyledButton onClick={() => onMatchConfirm(selected)}>
-              {selected ? "Confirm match" : "Remove current match"}
+              {selected ? 'Confirm match' : 'Remove current match'}
             </StyledButton>
           ) : (
             <Button onClick={() => onMatchesClean()}>Clean matches</Button>
@@ -410,22 +410,22 @@ function BggMatchSelector({
         </React.Fragment>
       ) : (
         <Typography>
-          {!currentMatch ? "No matches found" : "Match already confirmed"}{" "}
+          {!currentMatch ? 'No matches found' : 'Match already confirmed'}{' '}
           <FontAwesomeIcon icon={!currentMatch ? faSadTear : faSmile} />
         </Typography>
       )}
       <IconButton
         onClick={event => {
-          const newBggMatchId = prompt("Add a new game match");
+          const newBggMatchId = prompt('Add a new game match')
           if (newBggMatchId) {
-            onMatchAdd(newBggMatchId);
+            onMatchAdd(newBggMatchId)
           }
         }}
       >
         <FontAwesomeIcon icon={faPlus} />
       </IconButton>
     </Toolbar>
-  );
+  )
 }
 
 /*-- UTILITY FUNCTIONS --*/

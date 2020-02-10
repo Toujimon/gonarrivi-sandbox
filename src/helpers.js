@@ -7,10 +7,10 @@
  * @returns A shallow copy of the original array with the same length and elements except for the modified one.
  */
 export function modifyArrayElement(array, index, getNewElement) {
-  const currentElement = array[index];
+  const currentElement = array[index]
   return [
     ...array.slice(0, index),
     getNewElement(currentElement),
     ...array.slice(index + 1)
-  ];
+  ]
 }

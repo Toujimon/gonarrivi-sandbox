@@ -1,31 +1,31 @@
-import React from "react";
+import React from 'react'
 
 export default class WebWorkerTester extends React.Component {
-  _worker = null;
+  _worker = null
 
   _handleClick = e => {
     if (this._worker) {
-      this._worker.postMessage("something");
+      this._worker.postMessage('something')
     }
-  };
+  }
 
   _handleMessage = e => {
-    console.log(e.data);
-  };
+    console.log(e.data)
+  }
 
   componentDidMount() {
-    this._worker = new Worker("/worker-test.js");
-    this._worker.addEventListener("message", this._handleMessage);
+    this._worker = new Worker('/worker-test.js')
+    this._worker.addEventListener('message', this._handleMessage)
   }
 
   componentWillUnmount() {
     if (this._worker) {
-      this._worker.terminate();
-      this._worker = null;
+      this._worker.terminate()
+      this._worker = null
     }
   }
 
   render() {
-    return <button onClick={this._handleClick}>Send message to worker</button>;
+    return <button onClick={this._handleClick}>Send message to worker</button>
   }
 }
