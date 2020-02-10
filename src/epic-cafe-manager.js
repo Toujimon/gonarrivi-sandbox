@@ -103,6 +103,7 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
           setCatalog(processedCatalog)
         })
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mustFetch])
 
   function handleEpicBggMatchConfirm(id, bggMatchId) {
