@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Fate Dice Some Dice 1`] = `
+<span
+  className="sc-AykKH kctFUT"
+>
+  <span>
+    <span
+      className="sc-AykKG dCDdCz sc-AykKI dWPkvD"
+      onClick={[Function]}
+      selected={false}
+      title="1"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-minus-square fa-w-14 "
+        data-icon="minus-square"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM92 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H92z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <span
+      className="sc-AykKG dCDdCz sc-AykKI dWPkvD"
+      onClick={[Function]}
+      selected={false}
+      title="3"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-square fa-w-14 "
+        data-icon="square"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </span>
+    <span
+      className="sc-AykKG dCDdCz sc-AykKI exaQJH"
+      onClick={[Function]}
+      selected={true}
+      title="5"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-plus-square fa-w-14 "
+        data-icon="plus-square"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-32 252c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92H92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </span>
+  </span>
+</span>
+`;
+
+exports[`Storyshots Fate Die All Six Sides From 1 To 6 1`] = `
+Array [
+  <span
+    className="sc-AykKG dCDdCz"
+    title="1"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-minus-square fa-w-14 "
+      data-icon="minus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM92 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H92z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+  <span
+    className="sc-AykKG dCDdCz"
+    title="2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-minus-square fa-w-14 "
+      data-icon="minus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM92 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H92z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+  <span
+    className="sc-AykKG dCDdCz"
+    title="3"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-square fa-w-14 "
+      data-icon="square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+  <span
+    className="sc-AykKG dCDdCz"
+    title="4"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-square fa-w-14 "
+      data-icon="square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+  <span
+    className="sc-AykKG dCDdCz"
+    title="5"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-plus-square fa-w-14 "
+      data-icon="plus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-32 252c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92H92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+  <span
+    className="sc-AykKG dCDdCz"
+    title="6"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-plus-square fa-w-14 "
+      data-icon="plus-square"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-32 252c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92H92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </span>,
+]
+`;
