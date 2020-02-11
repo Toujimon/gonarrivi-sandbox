@@ -55,7 +55,7 @@ const EpicBggMatcherContainer = withAuth(function EpicBggMatcherContainer({
 
   function fetchWithAuth(url, options = {}) {
     return auth.getAccessToken().then(token =>
-      fetch(url, {
+      fetch(`//${process.env.REACT_APP_API_HOST}${url}`, {
         ...options,
         headers: {
           ...options.headers,
