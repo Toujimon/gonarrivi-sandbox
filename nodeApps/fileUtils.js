@@ -1,33 +1,33 @@
-const fs = require("fs");
+const fs = require('fs')
 
 function exists(path) {
-  return fs.existsSync(path);
+  return fs.existsSync(path)
 }
 
 function writeTextToFile(text, filePath) {
   return new Promise(resolve => {
-    fs.writeFile(filePath, text, resolve);
-  });
+    fs.writeFile(filePath, text, resolve)
+  })
 }
 
 function readTextFromFile(filePath) {
   return new Promise((resolve, reject) => {
-    fs.readFile(filePath, "utf-8", (err, data) => {
+    fs.readFile(filePath, 'utf-8', (err, data) => {
       if (err) {
-        reject(err);
+        reject(err)
       } else {
-        resolve(data);
+        resolve(data)
       }
-    });
-  });
+    })
+  })
 }
 
 function writeJsonToFile(jsonObject, filePath) {
-  return writeTextToFile(JSON.stringify(jsonObject, null, 2), filePath);
+  return writeTextToFile(JSON.stringify(jsonObject, null, 2), filePath)
 }
 
 function readJsonFromFile(filePath) {
-  return readTextFromFile(filePath).then(text => JSON.parse(text));
+  return readTextFromFile(filePath).then(text => JSON.parse(text))
 }
 
 module.exports = {
@@ -36,4 +36,4 @@ module.exports = {
   readTextFromFile,
   writeJsonToFile,
   readJsonFromFile
-};
+}
