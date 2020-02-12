@@ -15,12 +15,13 @@ const port = 4000
 const app = express()
 const server = http.Server(app)
 
+const oktaClientId = '0oa249gcgj2McxEJn4x6'
 const oktaJwtVerifier = new OktaJwtVerifier({
   issuer: 'https://dev-341005.okta.com/oauth2/default',
-  clientId: '0oa249gcgj2McxEJn4x6',
-  assertClaims: {
-    aud: 'api://default'
-  }
+  clientId: oktaClientId
+  // assertClaims: {
+  //   aud: 'api://default'
+  // }
 })
 
 function verifyOktaAccessTokenBearer(headers) {
@@ -46,22 +47,14 @@ function verifyOktaAccessTokenBearer(headers) {
  * contents are attached to req.jwt
  * (source: https://developer.okta.com/quickstart/#/react/nodejs/express)
  */
-//let alreadyVerified = false;
 function oktaAuthenticationRequired(req, res, next) {
   console.log('auth')
   return verifyOktaAccessTokenBearer(req.headers)
     .then(jwt => {
-      // if (!alreadyVerified) {
-      //   alreadyVerified = !alreadyVerified;
-      //   console.log(jwt);
-      // }
       req.jwt = jwt
       return next()
     })
     .catch(err => {
-      // if (alreadyVerified) {
-      //   alreadyVerified = !alreadyVerified;
-      // }
       res.status(401).send(err.message)
     })
 }
@@ -74,24 +67,38 @@ const io = socketIo(server)
 io.on('connection', function(socket) {
   console.log('New connection', { id: socket.id, jwt: socket.jwt })
   io.emit('new-connection')
-  socket.on('identify', ({ token }, callback) => {
-    const expectedAudience = 'api://default'
-    oktaJwtVerifier
-      .verifyAccessToken(token, expectedAudience)
-      .then(jwt => {
+  socket.on('identify', ({ token, idToken }, callback) => {
+    Promise.all([
+      oktaJwtVerifier
+        .verifyAccessToken(token, 'api://default')
+        .catch(err => ({ accessTokenFailed: err.message })),
+      oktaJwtVerifier
+        .verifyAccessToken(idToken, oktaClientId)
+        .catch(err => ({ idTokenFailed: err.message }))
+    ])
+      .then(([jwt, idJwt]) => {
         // Storing the jwt on the socket!!
         socket.jwt = jwt
-        console.log('Storing the JWT on the socket!!', { id: socket.id })
+        socket.idJwt = idJwt
+        console.log('Storing the JWT on the socket!!', {
+          id: socket.id,
+          jwtSub: jwt.claims.sub,
+          idJwt
+        })
         return {
-          message: `Returning the whole jwt right now (have to chagne it)`,
-          jwt
+          message: `Returning the whole jwt right now (have to change it)`,
+          jwt,
+          idJwt
         }
       })
-      .catch(err => ({ message: `Couldn't understand a thing` }))
+      .catch(
+        err =>
+          console.error('Error while authenticating', err) || {
+            message: `Couldn't understand a thing`,
+            error: err.message
+          }
+      )
       .then(data => callback(data))
-  })
-  socket.on('check-identity', () => {
-    console.log('Just to check', { id: socket.id, hasJwt: !!socket.jwt })
   })
   socket.on('disconnect', reason =>
     console.log('Lost connection', { id: socket.id, reason })

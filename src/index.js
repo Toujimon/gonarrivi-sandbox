@@ -21,12 +21,16 @@ import EpicCafeManager from './epic-cafe-manager'
 import { Security, ImplicitCallback, withAuth } from '@okta/okta-react'
 import io from 'socket.io-client'
 
-const config = {
-  issuer: `https://dev-341005.okta.com/oauth2/default`,
-  redirectUri: window.location.origin + '/gonarrivi-sandbox/implicit/callback',
-  clientId: '0oa249gcgj2McxEJn4x6',
-  pkce: true
-}
+const authConfig =
+  process.env.REACT_APP_OKTA_ISSUER && process.env.REACT_APP_OKTA_CLIENT_ID
+    ? {
+        issuer: process.env.REACT_APP_OKTA_ISSUER,
+        redirectUri:
+          window.location.origin + '/gonarrivi-sandbox/implicit/callback',
+        clientId: process.env.REACT_APP_OKTA_CLIENT_ID,
+        pkce: true
+      }
+    : null
 
 /* TODO: Add async process to detect if its allowed */
 const isApiAllowed = !!process.env.REACT_APP_API_HOST
@@ -88,18 +92,24 @@ const AppContent = withAuth(function AppContent({ auth }) {
       )
       setSocket(socket)
       socket.on('connect', () => {
-        auth.getAccessToken().then(token => {
-          socket.emit('identify', { token }, (...args) => {
-            console.log('ack from the server after identificating', args)
-          })
-        })
+        Promise.all([auth.getAccessToken(), auth.getIdToken()]).then(
+          ([accessToken, idToken]) => {
+            socket.emit(
+              'identify',
+              { token: accessToken, idToken },
+              (...args) => {
+                console.log('ack from the server after identificating', args)
+              }
+            )
+          }
+        )
       })
     } else if (!authenticated && socket) {
       socket.close()
       setSocket(null)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [authenticated, socket]∫)
+  }, [authenticated, socket])
 
   return authenticated === null ? null : (
     <ThemeProvider theme={appTheme}>
@@ -126,7 +136,6 @@ const AppContent = withAuth(function AppContent({ auth }) {
               onLogout={() => auth.logout('/')}
             />
           )}
-          {!!socket && <Button>Check identification</Button>}
         </StyledAppBar>
         <Route
           exact
@@ -162,10 +171,10 @@ const AppContent = withAuth(function AppContent({ auth }) {
 function App() {
   return (
     <BrowserRouter basename="/gonarrivi-sandbox">
-      <Security {...config}>
+      <Security {...authConfig}>
         <Switch>
           <Route path="/implicit/callback" exact component={ImplicitCallback} />
-          <Route component={AppContent}></Route>
+          <Route component={AppContent} />
         </Switch>
       </Security>
     </BrowserRouter>
