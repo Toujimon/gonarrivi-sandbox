@@ -18,10 +18,11 @@ const server = http.Server(app)
 const oktaClientId = '0oa249gcgj2McxEJn4x6'
 const oktaJwtVerifier = new OktaJwtVerifier({
   issuer: 'https://dev-341005.okta.com/oauth2/default',
-  clientId: oktaClientId
-  // assertClaims: {
-  //   aud: 'api://default'
-  // }
+  clientId: oktaClientId,
+  assertClaims: {
+    aud: 'api://default',
+    role: 'admin'
+  }
 })
 
 function verifyOktaAccessTokenBearer(headers) {
